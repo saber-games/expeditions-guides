@@ -665,7 +665,7 @@ plugins:
       enabled: false
   - redirects:
       redirect_maps:
-          'index.md': 'https://docs-dev-sr-exp.saber3d.net/about_these_docs/'
+          'index.md': 'https://expeditions-guides.saber.games/about_these_docs/'
   - glightbox
 
 extra_css:
