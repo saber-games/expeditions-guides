@@ -33,7 +33,6 @@ In short, to upload the mod in *Expeditions*, you will need to do the following:
     -   Click **Upload & next** to finish with the file for the particular platform.
     -   Then, come back to the same **File manager** step (by clicking its number at the top of the page) and repeat the same operations for the next `.zip` file of the platform. 
 
-For details, see the corresponding pages at the [Uploading Mods][uploading_mods] section of the portal.
 
 ## In SnowRunner
 In short, to upload the mod in *SnowRunner*, you will need to do the following:
@@ -59,14 +58,12 @@ In short, to upload the mod in *SnowRunner*, you will need to do the following:
     -   Click **Upload & next** to finish with the file for the particular platform.
     -   Then, come back to the same **File manager** step (by clicking its number at the top of the page) and repeat the same operations for the next `.zip` file of the platform. 
 
-For details, see the corresponding pages at the [Uploading Mods][uploading_mods] section of the portal.
 
 
 [packing]: ./packing_maps.md
 [zip_files]: ./packing_maps.md#generated-files
 [mod_io]: https://mod.io
 [expeditions_site_at_modio]: https://mod.io/g/expeditions
-[registration_and_authentication]: ./../../usage_and_uploading_of_mods/2___registration_and__authentication.md
-[uploading_mods]: ./../../usage_and_uploading_of_mods/4_1___initial__step.md
+[registration_and_authentication]: ./../../usage_and_uploading_of_mods/registration_and_authentication.md
 [local_testing]: ./testing_maps.md
 [downloading_map_mods]: ./downloading_map_mods.md
