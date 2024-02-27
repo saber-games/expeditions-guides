@@ -10,15 +10,15 @@ Tire Inflation System works with only **two** pressure modes: `<Low>` and `<Redu
 Attributes:
 
 -   `OnModelFriction="3.0"`  
-    *(Mandatory.)* The friction multiplier for friction with *map* models that have the `FrictionPreset` attribute of the `<Body>` tag configured in their XML class of the model. Typically, this preset is configured for models of rocks, stones, and other similar objects.  
+    *(Mandatory.)* The multiplier for friction of tires with the ground, clean terrain without mud, and other collision objects. I.e., the multiplier for `BodyFriction` in [`<WheelFriction>`](./../../wheelfriction/index.md) tag.
     Value range: `[0.1; 10]`.
 
 -   `BodyFrictionAsphalt="1.3"`  
-    *(Mandatory.)* The multiplier for friction of tires with the ground, clean terrain without mud, and other collision objects.  
+    *(Mandatory.)* The multiplier for friction with *map* models that have the `FrictionPreset` attribute of the `<Body>` tag configured in their XML class of the model. Typically, this preset is configured for models of rocks, stones, and other similar objects. I.e., the multiplier for `BodyFrictionAsphalt` in [`<WheelFriction>`](./../../wheelfriction/index.md) tag. 
     Default value: `1`. Value range: `[0.1; 10]`.
 
 -   `SubstanceFriction="1.3"`  
-    *(Mandatory.)* The multiplier for friction of tires with mud.  
+    *(Mandatory.)* The multiplier for friction of tires with mud. I.e., the multiplier for `SubstanceFriction` in [`<WheelFriction>`](./../../wheelfriction/index.md) tag. 
     Default value: `1`. Value range: `[0.1; 10]`.
 
 -   `FuelConsumptionModifier="1.5"`  
