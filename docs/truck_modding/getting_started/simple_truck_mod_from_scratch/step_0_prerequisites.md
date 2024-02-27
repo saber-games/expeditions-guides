@@ -41,6 +41,7 @@ In this mod folder, when passing this tutorial, you will create necessary subfol
 -   `classes\trucks` – where the XML file of the class of your mod will be located
 -   `meshes\trucks` – where the XML file of the mesh of your mod and the FBX file of the mod's model will be located
 -   `textures\trucks` – where the textures of the model of your mod will be located.
+-   `ui\textures` – where the images of the truck for the UI will be stored.
 
 **NOTE**: The location of the *source* Blender file of the truck model is up to you.
 

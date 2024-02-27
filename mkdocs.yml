@@ -294,8 +294,9 @@ nav:
                 - "Step 4: Creating XML File of Truck Mesh": truck_modding/getting_started/simple_truck_mod_from_scratch/step_4_creating_xml_file_of_truck_mesh.md
                 - "Step 5: Creating XML File of Truck Class": truck_modding/getting_started/simple_truck_mod_from_scratch/step_5_creating_xml_file_of_truck_class.md
                 - "Step 6: Creating XML Files of Truck Components": truck_modding/getting_started/simple_truck_mod_from_scratch/step_6_creating_xml_files_of_truck_components.md
-                - "Step 7: Testing and Publishing": truck_modding/getting_started/simple_truck_mod_from_scratch/step_7_testing_and_publishing.md
-                - "Step 8: Source Files and Further Exploration": truck_modding/getting_started/simple_truck_mod_from_scratch/step_8_source_files_and_further_exploration.md                
+                - "Step 7: Creating Truck Images": truck_modding/getting_started/simple_truck_mod_from_scratch/step_7_creating_truck_images.md 
+                - "Step 8: Testing and Publishing": truck_modding/getting_started/simple_truck_mod_from_scratch/step_8_testing_and_publishing.md
+                - "Step 9: Source Files": truck_modding/getting_started/simple_truck_mod_from_scratch/step_9_source_files.md                
             - Sample Mod by the Game:
                 - Overview: truck_modding/getting_started/sample_mod_by_the_game/overview.md
                 - Opening the Proving Ground: truck_modding/getting_started/sample_mod_by_the_game/opening_the_proving_ground.md

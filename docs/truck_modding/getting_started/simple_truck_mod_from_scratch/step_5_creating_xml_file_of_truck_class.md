@@ -46,7 +46,8 @@ However, along with child tags, the [`<TruckData>`](./../../tags_and_attributes_
 		Responsiveness="0.4"
 		SteerSpeed="0.04"
 		BackSteerSpeed="0.04"
-		TruckImage="interloadstarmchr"
+		TruckImage="mytruck_preview_pic"
+		TruckImageSmall="mytruck_small_pic"
 		TruckType="SCOUT"
     >
 		...
@@ -56,9 +57,7 @@ However, along with child tags, the [`<TruckData>`](./../../tags_and_attributes_
 ```
 As you can see, we have used a predefined mesh for the visualization of the semitransparent engine (`"env/engine_small"`).
 
-And, we have used a placeholder for `TruckImage`, since creating images for the truck is *not* covered by this guide. 
-
-**TIP**: Info on images is available in descriptions of attributes of the [`<TruckData>`](./../../tags_and_attributes_of_trucks/truck/truckdata/index.md) and [`<UiDesc>`](./../../tags_and_attributes_of_trucks/truck/gamedata/uidesc/index.md) tags, so you can create them too if you want.
+And, for `TruckImage` and `TruckImageSmall` attributes we have used names of images *that we have not created yet*. We will come back to the creation of images in [Step 7][step_7]. 
 
 Now, its time to add child-tags.
 
@@ -530,7 +529,7 @@ That's it for `<WinchSocket>` tags. After adding our mod to the game, we will be
 ### UiDesc
 The [`<UiDesc>`](./../../tags_and_attributes_of_trucks/truck/gamedata/uidesc/index.md) tag allows you to specify properties of your truck for the UI of the game.
 
-Particularly, it allows you to set the name of your truck (in the `UiName` attribute), its description (`UiDesc`) and various icons and imaginary to be used in the UI (`UiIcon30x30`, `UiIcon40x40`, `UiIcon576x640`).
+Particularly, it allows you to set the name of your truck (in the `UiName` attribute), its description (`UiDesc`) and various icons and imaginary to be used in the UI (`UiIcon30x30`, `UiIcon40x40`, `UiIcon576x640`, `UiIcon576x640Bw`).
 
 The name of the truck (`UiName`) and its textual description can be localized to different languages. That's why, in the XML classes of the original trucks you can see the UI placeholders that are the identifiers of the localization strings, e.g. `UI_VEHICLE_INTERNATIONAL_LOADSTAR_1700_DESC` as a value of `UiDesc`. If necessary, you can localize these fields too, however this is out of the scope of the current guide.
 
@@ -554,15 +553,9 @@ However, that's not all. You can also specify a small icon of _the type_ of your
 			UiIcon40x40="scoutVehicleImg"
 		/>
 ```
-Finally, the `UiIcon576x640` attribute of the `<UiDesc>` tag allows us to specify the large image of our truck in the **Truck Store**. 
+Finally, the `UiIcon576x640` and `UiIcon576x640Bw` attributes of the `<UiDesc>` tag allow us to specify the large images of our truck in the **Truck Store**. One image to be shown when the truck is available (`UiIcon576x640`), and another one to be displayed when the truck is locked (`UiIcon576x640Bw`).
 
-In general, the file of this image should be in the `.png` format, should have `576 x 640` dimensions, and should be located in the folder of the mod, within the `/ui/textures/` subfolder. 
-
-And, you can also create a black-and-white image that will be used if the truck will be locked.
-
-However, we will not create these images there. Instead, we will use the `"shopImgLoadStarExp"`placeholder for the `UiIcon576x640` attribute. The result, currently, will be *not* pretty, but our goal is to quickly create a simple mod that can be polished later.
-
-**TIP**: Info on images is available in descriptions of attributes of the [`<TruckData>`](./../../tags_and_attributes_of_trucks/truck/truckdata/index.md) and [`<UiDesc>`](./../../tags_and_attributes_of_trucks/truck/gamedata/uidesc/index.md) tags, so you can create them too if you want.
+We will not create these images now, we will do this in [Step 7][step_7]. However, now we will specify names of these images.
    
 So, our `<UiDesc>` tag will look like the following:
 
@@ -571,7 +564,8 @@ So, our `<UiDesc>` tag will look like the following:
 			UiDesc="Green Possum Van has enough space for people, animals, inventory, and a book by Gerald Durrell."
 			UiIcon30x30="scoutVehicleImg30"
 			UiIcon40x40="scoutVehicleImg"
-			UiIcon576x640="shopImgLoadStarExp"
+			UiIcon576x640="mytruck_store_pic"
+			UiIcon576x640Bw="mytruck_store_bw_pic"
 			UiName="Green Possum Van"
 		/>
 ```
@@ -626,6 +620,7 @@ However, we still need to create XML classes of the truck's components to create
 
 [truck_mod_folder]: ./step_0_prerequisites.md#mod-folder
 [step_6]: ./step_6_creating_xml_files_of_truck_components.md
+[step_7]: ./step_7_creating_truck_images.md
 [packable]: ./../sample_mod_by_the_game/packing_vehicle_mod.md
 [spawn]: ./../sample_mod_by_the_game/spawning_mod_vehicle.md
 [proving_grounds]: ./../sample_mod_by_the_game/opening_the_proving_ground.md

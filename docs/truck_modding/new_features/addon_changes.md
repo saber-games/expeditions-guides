@@ -134,7 +134,7 @@ This can be done by adding the `RequiredSuspension` tag to `<GameData>` in addon
 	</GameData>
 ```
 
-In some cases, this can be absolutely necessary, since some Track Replacements can modify the visual mesh of the truck or some of its parts and their installation may result in "clipping" of the addon.
+In some cases, this can be absolutely necessary, since some Truck Replacements can modify the visual mesh of the truck or some of its parts and their installation may result in "clipping" of the addon.
 
 
 ## Ability to Set up Groups of Required Addons
