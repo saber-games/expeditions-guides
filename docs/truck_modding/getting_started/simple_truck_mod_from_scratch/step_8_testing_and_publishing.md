@@ -76,6 +76,8 @@ For instructions on packing and the location of these `.zip` files, see [Packing
 
 If some errors occur during validation or packing, you can view log records of these errors. See [Viewing Error Log][viewing_error_log].
 
+**WARNING**: In the current version of *Expeditions*, there is an issue in packing. If your `Media\Mods` folder with local truck mods contains *multiple* truck mods of the same type (e.g `SCOUT`), the game will *not* be able to pack any of them – these mods will be trying to use addons of each other and will fail in that. This is a known issue that will be fixed. Currently, please pack mods one by one – with only one mod of the particular type existing in the mods folder during packing.
+
 
 ## Upload Your Mod to mod.io
 After packing, you can upload your mod to mod.io. 
