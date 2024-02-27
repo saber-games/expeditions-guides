@@ -1,5 +1,7 @@
 # Packing Vehicle Mod
 
+**WARNING**: In the current version of *Expeditions*, there is an issue in packing. If your `Media\Mods` folder with local truck mods contains *multiple* truck mods of the same type (e.g `SCOUT`), the game will *not* be able to pack any of them – these mods will be trying to use addons of each other and will fail in that. This is a known issue that will be fixed. Currently, please pack mods one by one – with only one mod of the particular type existing in the mods folder during packing.
+
 ## Overview
 After you have created your vehicle as a new mod and converted it, you can pack it.
 
