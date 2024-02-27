@@ -209,7 +209,7 @@ And so on.
 
 However, our mod is now packable and we are almost ready to drive it.
 
-Let's proceed to the next step – [Testing and Publishing][step_7].
+Let's proceed to the next step – [Creating Truck Pictures][step_7].
 
 
 [step_5_component_sockets]: ./step_5_creating_xml_file_of_truck_class.md#suspensionsocket-enginesocket-gearboxsocket-and-winchupgradesocket
@@ -217,7 +217,7 @@ Let's proceed to the next step – [Testing and Publishing][step_7].
 [packable]: ./../sample_mod_by_the_game/packing_vehicle_mod.md
 [truck_replacements]: ./../../new_features/truck_replacements.md
 [mod_folder]: ./step_0_prerequisites.md#mod-folder
-[step_7]: ./step_7_testing_and_publishing.md
+[step_7]: ./step_7_creating_truck_images.md
 [file_paths]: ./../../../map_modding/getting_started/file_paths_and_naming/file_paths.md#source-of-info-initialpak-archive
 [torque]: ./../../tags_and_attributes_of_trucks/enginevariants/engine/index.md
 [engine]: ./../../tags_and_attributes_of_trucks/enginevariants/engine/index.md

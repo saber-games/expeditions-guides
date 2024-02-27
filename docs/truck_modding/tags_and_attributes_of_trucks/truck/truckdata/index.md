@@ -46,7 +46,7 @@ Main attributes of the `<TruckData>` tag are the following:
 
 -   `TruckImage="mytruck_preview_pic"`  
     *For Expeditions:*  
-    The preview image of the truck. Used in the UI of the Headquarters and in other places in the UI where the small image of the truck is necessary (e.g., in the list of Trucks within the Navigational Map). Location: In the folder of the mod, in the `/ui/textures/` subfolder. Dimensions: `380 x 92`. Format: `PNG`.  
+    The preview image of the truck. Used in the UI of the Headquarters and in other places in the UI where the preview image of the truck is necessary (e.g., in the list of Trucks within the Navigational Map). Typically, this image contains the image of the truck on the left side and has the transparent background. Location: In the folder of the mod, in the `/ui/textures/` subfolder. Dimensions: `380 x 92`. Format: `PNG`.  
     *For SnowRunner:*  
     The preview image of the truck. Used in the UI of the Garage.
 
@@ -54,15 +54,15 @@ Main attributes of the `<TruckData>` tag are the following:
 
 -   `TruckImageTrade="mytruck_trade_pic"`  (NEW)  
     *(Valid for Expeditions only)*  
-    In *Expeditions*, this image is used for the Trade screen of the truck when it is located on the left side of the Trade UI. Location: In the folder of the mod, in the `/ui/textures/` subfolder. Dimensions: `760 x 90`. Format: `PNG`. Typically, these images have the truck displayed at the left side of the image. 
+    In *Expeditions*, this image is used for the Trade screen of the truck when it is located on the left side of the Trade UI. Location: In the folder of the mod, in the `/ui/textures/` subfolder. Dimensions: `760 x 90`. Format: `PNG`. Typically, these images have the transparent background and the truck displayed at the left side of the image. 
 
 -   `TruckImageTradeRight="mytruck_trade_pic_right"`  (NEW)  
     *(Valid for Expeditions only)*  
-    In *Expeditions*, this image is used for the Trade screen of the truck when it is located on the right side of the Trade UI. Location: In the folder of the mod, in the `/ui/textures/` subfolder. Dimensions: `760 x 90`. Format: `PNG`. Typically, these images have the truck displayed at the right side of the image.   
+    In *Expeditions*, this image is used for the Trade screen of the truck when it is located on the right side of the Trade UI. Location: In the folder of the mod, in the `/ui/textures/` subfolder. Dimensions: `760 x 90`. Format: `PNG`. Typically, these images have the transparent background and the truck displayed at the right side of the image.   
 
 -   `TruckImageSmall="mytruck_small_pic"`  (NEW)  
     *(Valid for Expeditions only)*  
-    In *Expeditions*, this small image of the truck is used for the small upper slots in the UI that show trucks selected for the Expedition. Location: In the folder of the mod, in the `/ui/textures/` subfolder. Dimensions: `124 x 52`. Format: `PNG`.
+    In *Expeditions*, this small image of the truck is used for the small upper slots in the UI that show trucks selected for the Expedition. Typically, this image has the transparent background. Location: In the folder of the mod, in the `/ui/textures/` subfolder. Dimensions: `124 x 52`. Format: `PNG`.
 
 -   `TruckType="SCOUT"`  
     Values: `HEAVY`, `HEAVY_DUTY`, `HIGHWAY`, `OFFROAD`, `SCOUT`, `SPECIAL`.

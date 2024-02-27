@@ -17,8 +17,9 @@ For convenience, we have splitted the process to Steps:
 -   [Step 4: Creating XML File of Truck Mesh](./step_4_creating_xml_file_of_truck_mesh.md)
 -   [Step 5: Creating XML File of Truck Class](./step_5_creating_xml_file_of_truck_class.md)
 -   [Step 6: Creating XML Files of Truck Components](./step_6_creating_xml_files_of_truck_components.md)
--   [Step 7: Testing and Publishing](./step_7_testing_and_publishing.md)
--   [Step 8: Source Files and Further Exploration](./step_8_source_files_and_further_exploration.md)
+-   [Step 7: Creating Truck Images](./step_7_creating_truck_images.md)
+-   [Step 8: Testing and Publishing](./step_8_testing_and_publishing.md)
+-   [Step 9: Source Files](./step_9_source_files.md)
 
 However, be prepared that some steps are harder than the other ones.
 
