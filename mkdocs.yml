@@ -11,9 +11,9 @@ theme:
 nav:
     - Home: 
         - About These Docs: about_these_docs.md
-        - Sources, Editing, and Collaboration: under_construction_home.md
-        - Content Policy: under_construction_home.md
-        - Other Sources of Info: under_construction_home.md
+        - Sources, Editing, and Collaboration: sources_editing_and_collaboration.md
+        - Content Policy: content_policy.md
+        - Other Sources of Info: other_sources_of_info.md
     - Map Modding:
         - Intro: map_modding/intro.md
         - Getting Started:
@@ -654,7 +654,7 @@ plugins:
       enabled: false
   - redirects:
       redirect_maps:
-          'index.md':  !!python/object/apply:os.getenv["SITE_URL"]
+          'index.md': 'https://expeditions-guides.saber.games/about_these_docs/'
   - glightbox
 
 extra_css:
