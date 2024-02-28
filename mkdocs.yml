@@ -11,7 +11,9 @@ theme:
 nav:
     - Home: 
         - About These Docs: about_these_docs.md
-        - Sources, Editing, and Collaboration: sources_editing_and_collaboration.md
+        - Sources, Editing, and Collaboration: under_construction_home.md
+        - Content Policy: under_construction_home.md
+        - Other Sources of Info: under_construction_home.md
     - Map Modding:
         - Intro: map_modding/intro.md
         - Getting Started:
