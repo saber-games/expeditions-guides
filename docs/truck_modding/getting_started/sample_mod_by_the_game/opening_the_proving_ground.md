@@ -37,5 +37,5 @@ To open it this way:
 2.  Select **Mods Region** \> **Proving Grounds** (at the top of the screen) \> **Proving Grounds map**. 
 
 
-[registration_and_authentication]: ./../../../usage_and_uploading_of_mods/2___registration_and__authentication.md
+[registration_and_authentication]: ./../../../usage_and_uploading_of_mods/registration_and_authentication.md
 [step_2]: ./creating_sample_mod.md

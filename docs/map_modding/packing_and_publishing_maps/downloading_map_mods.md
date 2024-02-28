@@ -17,4 +17,4 @@ After this subscription and activation, you will be able to [play][playing_on_ma
 
 
 [playing_on_map_mods]: ./playing_on_map_mods.md
-[registration_and_authentication]: ./../../usage_and_uploading_of_mods/2___registration_and__authentication.md
+[registration_and_authentication]: ./../../usage_and_uploading_of_mods/registration_and_authentication.md

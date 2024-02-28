@@ -8,9 +8,9 @@ Attributes:
 
 -   `BodyFriction="1.3"`  
     *In SnowRunner:*  
-    (Mandatory.) Friction with the ground, clean terrain without mud, and other collision objects. Default value: `1`, Value range: `[0.1; 10]`.  
+    *(Mandatory.)* Friction with the ground, clean terrain without mud, and other collision objects. Default value: `1`, Value range: `[0.1; 10]`.  
     *In Expeditions (NEW):*  
-    *(Mandatory.)* Friction with *map* models that have the `FrictionPreset` attribute of the `<Body>` tag configured in their XML class of the model. Typically, this preset is configured for models of rocks, stones, and other similar objects. Default value: `1`, Value range: `[0.1; 10]`.
+    *(Mandatory.)* Friction with the ground, clean terrain without mud, and other collision objects. Default value: `1`, Value range: `[0.1; 10]`.
 
     **NOTE**: In Expeditions, the value of this coefficient can be changed by the `OnModelFriction` attribute in the [decreased pessure modes](./../tiresinflationsystemsettings/low_reduced/index.md) of the [`<TiresInflationSystem>`](./../tiresinflationsystemsettings/index.md).
 
@@ -18,7 +18,7 @@ Attributes:
     *In SnowRunner:*  
     Friction with the road. Default value: `BodyFriction`, Value range: `[0.1; 10]`.  
     *In Expeditions (NEW):*  
-    Friction of tires with the ground, clean terrain without mud, and other collision objects. Default value: `1`. Value range: `[0.1; 10]`.
+    Friction with rocks. I.e., friction with *map* models that have the `FrictionPreset` attribute of the `<Body>` tag configured in their XML class of the model. Typically, this preset is configured for models of rocks, stones, and other similar objects. Default value: `1`. Value range: `[0.1; 10]`.
 
     **NOTE**: In Expeditions, the value of this coefficient can be changed by the `BodyFrictionAsphalt` attribute in the [decreased pessure modes](./../tiresinflationsystemsettings/low_reduced/index.md) of the [`<TiresInflationSystem>`](./../tiresinflationsystemsettings/index.md).
 

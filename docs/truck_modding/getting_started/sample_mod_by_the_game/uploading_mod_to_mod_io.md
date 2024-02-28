@@ -1,7 +1,7 @@
 # Uploading Mod to mod.io
 
 ## Overview
-After [packing][step_5], you can make the mod available in the main game (not only on the "Proving Ground" map). 
+After [packing][step_5], you can upload the mod to mod.io and test the *published* mod as any other player that will subscribe to it. 
 
 To do this, will you need to:
 
@@ -43,7 +43,6 @@ In short, the uploading process is the following:
     
     **NOTE**: Depending on the **Visibility** of your mod at mod.io, your mod can be made available to the public (`Public` mods) or remain hidden (`Hidden` mods).
 
-For details, see the corresponding pages at the [Uploading Mods][uploading_mods] section of the portal.
 
 After successful creation of the new mod.io mod, you can **Subscribe** to it and **Enable** it in the game – see [Enabling Mod in the Game][step_7] for details.
 
@@ -51,5 +50,4 @@ After successful creation of the new mod.io mod, you can **Subscribe** to it and
 [step_5]: ./packing_vehicle_mod.md
 [zip_files]: ./packing_vehicle_mod.md#generated-files
 [step_7]: ./enabling_mod_in_the_game.md
-[registration_and_authentication]: ./../../../usage_and_uploading_of_mods/2___registration_and__authentication.md
-[uploading_mods]: ./../../../usage_and_uploading_of_mods/4_1___initial__step.md
+[registration_and_authentication]: ./../../../usage_and_uploading_of_mods/registration_and_authentication.md
