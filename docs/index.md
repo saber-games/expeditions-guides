@@ -10,9 +10,9 @@ Here you can find a starter pack of modding documentation for such games as:
 ## Content Highlights
 The following can be highlighted in content of the portal:
 
--   [**Truck Modding**][trucks_modding_intro] section contains topics on truck modding for *Expeditions* and *SnowRunner*.
+-   [**Truck Modding**][trucks_modding_intro] section contains some old and new topics on the truck modding. However, *not all* topics are updated and refactored.
 
--   [**Map Modding**][map_modding_intro] section contains topics on map modding for *Expeditions* and *SnowRunner*.
+-   [**Map Modding**][map_modding_intro] section contains some old and new topics on the map modding. However, *not all* topics are updated and refactored.
 
 -   [**Custom Gameplay Entities**][custom_gameplay_entities] section contains descriptions of the following modding entities that are supported in *Expeditions* only: 
 
