@@ -1,5 +1,7 @@
 # Powered Constraints: Overview
 
+**NOTE**: In *Expeditions*, player-controlled powered constraints that are activated by custom powered groups currently do not work. (`TBD`) 
+
 Powered Constraints ([`<PoweredConstraints>`][poweredconstraints]) are [Constraints][physicsmodel_constraint] that can be activated by the player to reach a certain *position*. And, after deactivation, return to the initial position. 
 
 Powered Constraints can be used in the XML classes of Addons and, for SnowRunner, Trailers. They are *not* used for Trucks themselves.
@@ -146,7 +148,8 @@ However, as you can see, we have *not* displayed the attributes of the [`<Group>
 
 Scenarios for the activation and deactivation of Powered Constraints may vary, see below.
 
-#### Scenario 1: Activation of the Powered Group from Functions Menu *(SnowRunner only)*
+#### Scenario 1: Activation of the Powered Group from Functions Menu
+*(This scenario is valid for SnowRunner only.)*  
 If you look at the attributes of the [`<Group>`][group] that groups the [`<PoweredConstraints>`][poweredconstraints] → [`<Constraint>`][group_constraint] tags in the same `trailer_flatbed_ramps_4.xml` you will find the following:  
 
 ```xml
@@ -174,10 +177,11 @@ For example, we can modify the code above, use the separate groups for every pow
 ```
 ![two powered groups instead of one](./media/two_powered_groups_instead_of_one.png)
 
-**NOTE**: This scenario and Powered Groups with `ExternalUi="true"` will *not* work in Expeditions. See the next scenario, with `ExternalUi="false"` values – it will work.
+**NOTE**: This scenario and Powered Groups with `ExternalUi="true"` will *not* work in Expeditions. The next scenario, with `ExternalUi="false"` values, currently does not work too, but is planned to be supported in the future.
 
 
 #### Scenario 2: Activation of the Powered Group from the Regular UI
+*(Currently, this scenario is also valid for SnowRunner only. However, in the future, it is planned to be supported in Expeditions. (`TBD`))*  
 However, let's modify the code sample above even further and use the regular UI of Powered Constraints activation instead of the SnowRunner's Functions menu. In this case, we will need to:
 
 -   Set `ExternalUi` of the [`<Group>`][group] tags to `false`.
@@ -205,11 +209,13 @@ In the SnowRunner's Functions menu, there will be a standard option to **Use ...
 
 And, after execution of this command, the game will open the menu with Actions that activate/deactivate all Powered Groups as we have configured:
 
+*Actions of Powered Groups in SnowRunner:*  
 ![Actions of Powered Groups in the UI](./media/actions_of_powered_groups_in_the_ui.png)
 
-In Expeditions, the UI scheme will be similar, but the Radial menu will be used instead of the Functions menu. Actions for activation of Power Groups will also be similar:
+In *Expeditions*, this scenario currently does *not* work too, but is planned to be supported in the future. When it will be working, the UI scheme will be similar, but the Radial menu will be used instead of the Functions menu. Actions for activation of Power Groups will also be similar. 
 
-![Actions of Powered Groups in the UI in Expeditions](./media/actions_of_powered_groups_in_the_ui_expeditions.png)
+*Actions of Powered Groups in Expeditions (currently does not work):*  
+![Actions of Powered Groups in the UI in Expeditions (currently does not work)](./media/actions_of_powered_groups_in_the_ui_expeditions.png)
 
 ### Step 4 (Optional): Use Chains to Execute Multiple Powered Groups One by One
 
