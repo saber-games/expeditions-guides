@@ -53,10 +53,9 @@ For the map and the linked entity to work, you need:
 
 -   *For published mods (i.e., mods from mod.io)*: both mods should be downloaded and enabled.
 
--   *For local mods (i.e., mods loaded from local .pak files during mod development)*:
+-   *For local mods (i.e., mods loaded from local .pak files during mod development)*: local mods (local .pak files) should exist for both mods.
 
-    -   For all mod pairs, except ones with linked trucks/upgrades: local mods (local .pak files) should exist for both mods.
-    -   For mod pairs that link to trucks/upgrades: there should be a local mod of the map (the .pak file) and published (downloaded and enabled) mod of the truck.
+    **NOTE**: Local mods of trucks/upgrades do not have .pak files, however, they should be converted to work locally.
 
 If only one of the mods exists, then either the loading the map will result in an error, or the locked item will be locked forever.
 

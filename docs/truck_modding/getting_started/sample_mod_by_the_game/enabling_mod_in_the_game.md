@@ -23,4 +23,4 @@ In *Expeditions*, it will be available in the **Truck Store**, when preparing fo
 In *SnowRunner*, it will be available in the **Truck Store** section of the Garage.
 
 [uploading]: ./uploading_mod_to_mod_io.md
-[registration_and_authentication]: ./../../../usage_and_uploading_of_mods/2___registration_and__authentication.md
+[registration_and_authentication]: ./../../../usage_and_uploading_of_mods/registration_and_authentication.md

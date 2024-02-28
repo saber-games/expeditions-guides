@@ -642,21 +642,9 @@ nav:
             - 3D Models of FOB Modules: custom_gameplay_entities/fob_modules/3d_models_of_fob_modules.md
         - Cargo: custom_gameplay_entities/cargo/custom_cargo.md
     - Usage and Uploading of Mods:
-        - Registration and Authentication: usage_and_uploading_of_mods/2___registration_and__authentication.md
-        - Upload of a Mod to mod.io:
-            - Initial Step: usage_and_uploading_of_mods/4_1___initial__step.md
-            - Specifying Initial Info of the Mod: usage_and_uploading_of_mods/4_2___specifying__initial__info_of_the__mod.md
-            - Uploading Files of the Mod: usage_and_uploading_of_mods/4_3___uploading__files_of_the__mod.md
-            - Opening the Profile Page of Your Mod: usage_and_uploading_of_mods/4_4___opening_the__profile__page_of__your__mod_at_mod_io.md
-            - Making Your Mod Live: usage_and_uploading_of_mods/4_5___making__your__mod___live__at_mod_io.md       
-            - 'Optional: Dependencies and Media': usage_and_uploading_of_mods/4_6___optional__steps___dependencies_and__media.md
-            - 'Optional: Mod Team and Preview': usage_and_uploading_of_mods/4_7___optional__steps___mod__team_and__preview__feature.md
-            - Subscribing to Your Mod: usage_and_uploading_of_mods/4_8___subscribing_to__your__mod_from_mod_io__site.md
-        - Usage of Mods from mod.io:
-            - Overview: usage_and_uploading_of_mods/5___usage_of__mods_from_mod_io.md
-            - Subscribing to a Mod: usage_and_uploading_of_mods/5_1___subscribing_to_a__mod.md
-            - Activating a Mod: usage_and_uploading_of_mods/5_2___activating_a__mod.md
-            - Disabling a Mod and Other Operations: usage_and_uploading_of_mods/5_3___disabling_a__mod___unsubscribing_from_a__mod__and__other__operations.md  
+        - Registration and Authentication: usage_and_uploading_of_mods/registration_and_authentication.md
+        - Uploading Mods to mod.io: usage_and_uploading_of_mods/uploading_mods_to_mod_io.md
+        - Usage of Mods from mod.io: usage_and_uploading_of_mods/usage_of_mods_from_mod_io.md
         - Linking Mods: usage_and_uploading_of_mods/linking_mods.md 
      
 plugins:
