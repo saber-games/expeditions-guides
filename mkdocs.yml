@@ -654,7 +654,7 @@ plugins:
       enabled: false
   - redirects:
       redirect_maps:
-          'index.md':  !ENV SITE_URL
+          index.md:  !ENV SITE_URL
   - glightbox
 
 extra_css:
