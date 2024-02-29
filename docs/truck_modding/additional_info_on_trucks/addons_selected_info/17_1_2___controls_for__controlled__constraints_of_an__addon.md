@@ -1,4 +1,6 @@
-### 17.1.2. Controls for Controlled Constraints of an Addon
+# Controls for Controlled Constraints of an Addon
+
+*This section is not refactored yet. It will be checked and refactored later. Sorry for inconvenience. (`TBD`)*
 
 Controlled constraints (\<ControlledConstraints\>) of an addon work similarly to the controlled constraints of a truck (see [8.9. \<ControlledConstraints\>](#controlledconstraints)).
 
