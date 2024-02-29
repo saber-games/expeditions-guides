@@ -1,5 +1,7 @@
 # Adding Models
 
+**WARNING**: In *Expeditions*, the **Select Asset** window opened for models currently displays a lot of them as incorrect. They are shown with a red warning sign. Please do not use these models, they are broken and will be removed in the next versions of the game.
+
 The Editor allows you to add different models to the scene.
 
 To add a model, right-click the scene (or the **Models** section in the **Scene View**), and select **Add Model** from the context menu.

@@ -45,11 +45,11 @@ After selecting the appropriate settings type, the **objectConstruction** sectio
 
         -   **inventory** – *(Optional)* Settings of the [Inventory Item][inventory_item] that needs to be delivered. If necessary, can be left as `null`, in this case – the player will be delivering only *Repair parts* (**repairsNum**, see above) and/or *Fuel* (**fuelNum**, see above). If **inventory** is filled in, it contains the following settings:
 
-            -   **Inventory Type to bring** – The type of [Inventory Item][inventory_item] to be delivered. One of the predefined [types][inventory_item_list_of_types] of inventory items should be selected here. For the full list of these types, see [Appendix: Types of Inventory Items][inventory_item_list_of_types].
+            -   **Type** *(will be renamed to **Inventory Type to bring**)* – The type of [Inventory Item][inventory_item] to be delivered. One of the predefined [types][inventory_item_list_of_types] of inventory items should be selected here. For the full list of these types, see [Appendix: Types of Inventory Items][inventory_item_list_of_types].
 
-            -   **Inventory Id to bring** – *(Optional)* The identifier of the particular [Inventory Item][inventory_item] that needs to be delivered. For example, *Anchor* and *Removable Anchor* have the same **Inventory Type to bring** and can be distinguished only by their [identifiers](./../../../../../custom_gameplay_entities/inventory_items/appendix_types_of_inventory_items.md#identifiers). The identifier of the *custom* inventory item can be also specified here, if you want to use it as a [linked mod][linked_mods].
+            -   **Inventory Id to bring** *(Currently not added, will be added soon)* – *(Optional)* The identifier of the particular [Inventory Item][inventory_item] that needs to be delivered. For example, *Anchor* and *Removable Anchor* have the same **Inventory Type to bring** and can be distinguished only by their [identifiers](./../../../../../custom_gameplay_entities/inventory_items/appendix_types_of_inventory_items.md#identifiers). The identifier of the *custom* inventory item can be also specified here, if you want to use it as a [linked mod][linked_mods].
 
-                **NOTE**: For the system, the specified identifier (**Inventory Id to bring**) of the item has more priority than its type (**Inventory Type to bring**). However, if identifier is not specified, the necessary item will be selected based on the specified type.
+                **NOTE**: For the system, the specified identifier (**Inventory Id to bring**) of the item will have more priority than its type (**Inventory Type to bring**). However, if identifier will be not specified, the necessary item will be selected based on the specified type.
 
             -   **Amount** – The *amount* of the specified inventory item to be delivered.     
 
