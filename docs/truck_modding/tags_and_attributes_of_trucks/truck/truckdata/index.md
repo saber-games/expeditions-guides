@@ -65,7 +65,9 @@ Main attributes of the `<TruckData>` tag are the following:
     In *Expeditions*, this small image of the truck is used for the small upper slots in the UI that show trucks selected for the Expedition. Typically, this image has the transparent background. Location: In the folder of the mod, in the `/ui/textures/` subfolder. Dimensions: `124 x 52`. Format: `PNG`.
 
 -   `TruckType="SCOUT"`  
-    Values: `HEAVY`, `HEAVY_DUTY`, `HIGHWAY`, `OFFROAD`, `SCOUT`, `SPECIAL`.
+    Values: `SCOUT`, `HEAVY`, `HEAVY_DUTY`, `HIGHWAY`, `OFFROAD`, `SPECIAL`. In *Expeditions*, currently, only the `SCOUT` value is valid, see below.
+
+    **WARNING**: In the current version of *Expeditions*, the `TruckType` value in `<TruckData>` tag should be equal to `SCOUT`. If this type is `HEAVY`, `HEAVY_DUTY`, `HIGHWAY`, `OFFROAD`, or `SPECIAL` – packing will fail. So, currently, please use `SCOUT` for all types of vehicles.
 
 
 ## Addtional Attributes for Status Markers
