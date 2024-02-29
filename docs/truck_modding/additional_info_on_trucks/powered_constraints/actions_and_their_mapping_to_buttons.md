@@ -12,12 +12,12 @@ Particularly, this attribute exists within the following tags:
 
 Every `Action` is identified by its number (from `1` to `14`) and corresponds to the button or a pair of buttons that are used by the player for controlling/activating the constraint:
 
--   Actions from `1` to `8` – correspond to a *single button*. They can be used for [**Powered Constraints**](./powered_constraints_overview.md) or for selecting ActionCategories in the UI.
+-   Actions from `1` to `8` – correspond to a *single button*. They can be used for [**Powered Constraints**][powered_constaints_overview] or for selecting ActionCategories in the UI.
 -   Actions from `9` to `14` – correspond to a pair of buttons. They can be used for **Controlled Constraints**.
 
-In SnowRunner, the particular buttons that are assigned to these Actions can be changed in the **SETTINGS** of the game, in **SETTINGS > CONTROLS > CUSTOM ADDON ACTIONS**.
+In *SnowRunner*, the particular buttons that are assigned to these Actions can be changed in the **SETTINGS** of the game, in **SETTINGS > CONTROLS > CUSTOM ADDON ACTIONS**.
 
-In Expeditions, ... TBD.
+In *Expeditions*, settings of the game currently do not have this section. Seee **NOTE** at the top of the [Powered Constraints: Overview][powered_constaints_overview] for details.
 
 **NOTE**: Actions from `9` to `14` correspond to the button pairs. And, for every Action of such type, there are two buttons: so-called *forward* and *backward*. However, these names (*forward* and *backward*) are conventional, they do not necessarily correspond to these types of movement, their particular meaning is defined by the Controlled Constraint this Action is used for.
 
@@ -45,3 +45,5 @@ The *default* buttons assigned to Actions are listed in the table below.
 | Action `13`   | backward   | G  | D-pad Right      | Left Stick Right  | D-pad Right      |
 | Action `14`   | forward    | Z  | Left Bumper      | L1 button         | L button         |
 | Action `14`   | backward   | X  | Right Bumper     | R1 button         | R button         |
+
+[powered_constaints_overview]: ./powered_constraints_overview.md
