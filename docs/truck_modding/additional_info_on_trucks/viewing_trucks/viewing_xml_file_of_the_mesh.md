@@ -1,6 +1,6 @@
-## 11.2. Viewing XML file of the Mesh
+# Viewing XML file of the Mesh
 
-If you open the XML file of the mesh of the truck, you will see the contents of the Fbx file with applied textures.
+If you open the XML file of the mesh of the truck, you will see the contents of the FBX file with applied textures.
 
 ![](./media/image396.png)
 
@@ -12,5 +12,7 @@ Next to the name of the collision object, you can see how the form of this colli
 
 ![](./media/image397.png)
 
-The best such form is the "box"; however, "convex" is also suitable; the "mopp" value here means memory optimized partial polytope ([[Havok]](https://cgl.ethz.ch/teaching/former/seminar02/papers/Havok_Overview.pdf) term), which seems to be better than "convex"; if the object is marked as "non-convex", it may cause some issues. For details, see "*2.6.1.1. Collision meshes*" of the **Integration of Trucks and Addons** guide (it is available as **Integration_of_Trucks_and_Addons.pdf** in the same documentation package).
+The best such form is the "box"; however, "convex" is also suitable; the "mopp" value here means memory optimized partial polytope ([[Havok]](https://cgl.ethz.ch/teaching/former/seminar02/papers/Havok_Overview.pdf) term), which seems to be better than "convex". 
+
+If the object is marked as "non-convex", it may cause some issues. For details, see [Physical Bones and Collision Meshes](./../../general_info/fbx_file_structure/physical_bones_and_collision_meshes.md#collision-meshes).
 

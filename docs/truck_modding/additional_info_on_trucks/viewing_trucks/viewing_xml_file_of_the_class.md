@@ -1,4 +1,4 @@
-## 11.3. Viewing XML file of the Class
+# Viewing XML file of the Class
 
 When you open the XML file of the class of the truck, it is opened in the new **Truck** tab in the Editor:
 
@@ -14,9 +14,7 @@ The panel on the left side displays some options that can be useful while workin
 
 The **Scene View** panel on the right displays the whole hierarchy of the truck skeleton with the CDT objects. It works the same way as when viewing the XML-mesh of the truck (see above).
 
-Using this preview of the truck, you can also enable its Havok simulation. To do this, click the ![](./media/image399.png) button on the toolbar of the editor:
-
-![](./media/image400.png)
+Using this preview of the truck, you can also enable its Havok simulation. To do this, click the ![](./media/image399.png) button on the toolbar of the editor.
 
 After doing this, the truck will be displayed as if it is placed on the ground.
 
