@@ -76,7 +76,7 @@ For instructions on packing and the location of these `.zip` files, see [Packing
 
 If some errors occur during validation or packing, you can view log records of these errors. See [Viewing Error Log][viewing_error_log].
 
-**WARNING**: In the current version of *Expeditions*, there is an issue in packing. If your `Media\Mods` folder with local truck mods contains *multiple* truck mods of the same type (e.g `SCOUT`), the game will *not* be able to pack any of them – these mods will be trying to use addons of each other and will fail in that. This is a known issue that will be fixed. Currently, please pack mods one by one – with only one mod of the particular type existing in the mods folder during packing.
+**WARNING**: In the current version of *Expeditions*, there is an issue in packing. If your `Media\Mods` folder with local truck mods contains *multiple* truck mods of the same type (e.g `SCOUT`), the game will *not* be able to pack any of them – these mods will be trying to use addons of each other and will fail in that. This is a known issue that will be fixed. Currently, please pack mods one by one – with only one mod of the particular type existing in the mods folder during packing. And, in the current version of the game, the `TruckType` value in `<TruckData>` tag should be equal to `SCOUT`. If this type is `HEAVY`, `HEAVY_DUTY`, `HIGHWAY`, `OFFROAD`, or `SPECIAL` – packing will fail. So, currently, please use `SCOUT` for all types of vehicles.
 
 
 ## Upload Your Mod to mod.io
