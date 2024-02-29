@@ -1,4 +1,6 @@
-### 17.1.4. Different Scenarios of Usage for the \<ActionCategory\> Fields 
+# Different Scenarios of Usage for ActionCategory Fields
+
+*This section is not refactored yet. It will be checked and refactored later. Sorry for inconvenience. (`TBD`)*
 
 As we stated above (see [17.1.2](#controls-for-controlled-constraints-of-an-addon)), the particular behavior of attributes of the \<ActionCategory\> tag may vary. I.e., the game will use the values of these attributes differently depending on the number of action categories used for the addon and whether or not are they working in FastMode.
 

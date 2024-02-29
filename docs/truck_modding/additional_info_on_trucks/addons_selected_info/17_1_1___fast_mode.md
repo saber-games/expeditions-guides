@@ -1,4 +1,6 @@
-### 17.1.1. FastMode
+# FastMode
+
+*This section is not refactored yet. It will be checked and refactored later. Sorry for inconvenience. (`TBD`)*
 
 FastMode is a UI/Controls feature that allows the player to switch between the controls of the addon and the movement of the truck more efficiently, without entering the Functions menu every time when this switching is necessary.
 
