@@ -72,7 +72,7 @@ Attributes:
     The attribute exists, but it is not used.  
     *For SnowRunner:*  
     Manufacturer logo. It is used only in the Truck Store, for cards of vehicles. This icon must be in a white color and have the transparent background.  
-    Dimensions: `80 x 458`.  
+    Dimensions: `80 x 80`.  
     Format: `PNG`.
 
 

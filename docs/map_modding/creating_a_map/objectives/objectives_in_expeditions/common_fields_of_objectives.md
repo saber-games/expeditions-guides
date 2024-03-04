@@ -18,32 +18,17 @@ They are the following:
 
 -   **Ui Desc** – The description of your objective that will be displayed in the UI of the game.
 
--   **Sandbox Objective** – *(Optional; Should not be used in Expeditions)* This field should not be used and will be removed. (`TBD`)
-
--   **Blocked By Map** – *(Optional; Should not be used in Expeditions)* In *Expeditions*, this field should not be used and will be removed. (`TBD`) 
-
 -   **Reward Description** – *(Optional)* The *description* of the reward that will be given to the player after accomplishing this objective. This descriptiion will be displayed in the UI. For details on rewards, see [Rewards][rewards].
 
--   **Don't show reward pop-up** – *(Optional; Should not be used in Expeditions)* In *Expeditions*, this field should not be used and will be removed. In *SnowRunner*, it defines whether or not the game should display the reward pop-up to the player. (`TBD`)
-
--   **Don't show markers ingame and on minimap** – *(Optional; Should not be used in Expeditions)* In *Expeditions*, this field should not be used and will be removed. In *SnowRunner*, this option can be used specifically for maps that will be played in Hard Mode. If you enable it, the precise markers for some objects that are shown in the game and on minimap will not be shown to the player. (`TBD`)
-
--   **minimapList** – *(Optional; Should not be used in Expeditions)* In *Expeditions*, this field should not be used and will be removed. In *SnowRunner*, this drop-down is used for tweaking the UI of an objective (shown to the player on the minimap) a bit. (`TBD`)
-
--   **isNeedRaceMusic** – *(Optional; Should not be used in Expeditions)* In *Expeditions*, this field should not be used and will be removed. This option was made specifically for *SnowRunner*'s DLC 7 ("Season 7: Compete & Conquer"). It allows you to switch regular music that is played on your map to the predefined racing music used in DLC 7. (`TBD`)
-
--   **isCoop** – *(Optional; Should not be used in Expeditions)* In *Expeditions*, this field should not be used and will be removed. In *SnowRunner*, when enabled, this option will enable the cooperative game logic for this objective and will hide it in the single player game. This option was developed specifically for such cooperative objectives as racing Contests of the SnowRunner's DLC 7 ("Season 7: Compete & Conquer"). This option is not intended to work with objectives of different types and will have unpredicted behavior for them (use at your own risk). (`TBD`)
-
--   **Can’t be canceled or skipped** – *(Optional; Should not be used in Expeditions)* This field should not be used and will be removed. (`TBD`)
--   **Expedition for tutorial** – *(Optional; Should not be used in Expeditions)* This field should not be used and will be removed. (`TBD`)
-
 -   **isRepeatable** – *(Optional; Should not be used in Expeditions)* In *Expeditions*, this field should not be used and will be removed. In *SnowRunner*, this option allows you to mark this objective as a repeatable one. If this option is enabled, the player becomes able to repeat the execution of the objective after finishing it. In *Expeditions*, it can be used only for [Tasks][tasks]. (`TBD`)
+
+-   *For Expeditions and Contracts*, here goes the [set of specific fields][expeditions_and_contracts_fields], see [Expeditions and Contracts][expeditions_and_contracts] for details.
 
 -   **Stages** – Settings of assignments given to the player during the objective. Every *Stage* corresponds to a group of assignments of particular types that the player needs to accomplish. These assignments within a *Stage* are called *Substages*. For details on Stages and Substages, see [Stages in Expeditions][stages_and_substages].
 
 -   **Model Building Setting (Depend On Stages)** – *(Optional)* Settings of the model that will change its visual state (will be "built", will appear/disappear, etc.) when the player accomplishes certain stages of the objective. See [Model Building Settings][model_building_settings] for details.
 
--   **Blocker Objectives** – *(Optional)* The list with the ***names*** (see *Name* above) of objectives you need to accomplish to unlock the current objective.
+-   **Blocker Objectives** – *(Optional, currently this field is absent.)* The list with the ***names*** (see *Name* above) of objectives you need to accomplish to unlock the current objective.
 
 -   **Required inventory** – *(Optional, Should be used for Expeditions only.)* The list of [Inventory Items][inventory_items] that are required for the execution of this objective. If this list is filled for an [Expedition][expeditions_and_contracts], the player will *not* be able to start it without this inventory. 
 
@@ -89,6 +74,8 @@ They are the following:
 
     **NOTE**: **bonusRewards** are valid for [Expeditions][expeditions_and_contracts] only. They are *not* valid for [Contacts][expeditions_and_contracts] and [Tasks][tasks].
 
+-   *For Tasks*, here goes the [set of specific fields][tasks_fields], see [Tasks][tasks] for details.
+
 
 ## Fields that Are Specific for Particular Types of Objectives
 However, along with common fields, there are fields that are specific for particular types of objectives and are available only for them.
@@ -101,7 +88,9 @@ For fields specific for *Tasks*, see [Tasks][tasks].
 
 [common_fields_of_objectives_snowrunner]: ./../objectives_in_snowrunner/common_fields_of_objectives.md
 [expeditions_and_contracts]: ./expeditions_and_contracts.md
+[expeditions_and_contracts_fields]: ./expeditions_and_contracts.md#expeditioncontract-specific-fields
 [tasks]: ./tasks.md
+[tasks_fields]: ./tasks.md#task-specific-fields
 [localization]: ./../../../additional_info_on_maps/localization/localization.md
 [stages_and_substages]: ./stages/stages_in_expeditions.md
 [model_building_settings]: ./../model_building_settings/model_building_settings.md

@@ -609,14 +609,14 @@ nav:
             - "Addons: Selected Info":
                 - Overview: truck_modding/additional_info_on_trucks/addons_selected_info/index.md
                 - FastMode. Controlled Constraints of Addon:
-                    - FastMode: truck_modding/additional_info_on_trucks/addons_selected_info/17_1_1___fast_mode.md
-                    - Controls for Controlled Constraints of Addon: truck_modding/additional_info_on_trucks/addons_selected_info/17_1_2___controls_for__controlled__constraints_of_an__addon.md
-                    - Actions. Buttons for Controlled Constraints: truck_modding/additional_info_on_trucks/addons_selected_info/17_1_3___actions___buttons_for__controlled__constraints.md
-                    - Usage of the ActionCategory fields: truck_modding/additional_info_on_trucks/addons_selected_info/17_1_4___different__scenarios_of__usage_for_the____action_category____fields.md
+                    - FastMode: truck_modding/additional_info_on_trucks/addons_selected_info/fast_mode.md
+                    - Controls for Controlled Constraints of Addon: truck_modding/additional_info_on_trucks/addons_selected_info/controls_for_controlled_constraints.md
+                    - Actions. Buttons for Controlled Constraints: truck_modding/additional_info_on_trucks/addons_selected_info/actions_buttons_for_controlled_constraints.md
+                    - Usage of the ActionCategory fields: truck_modding/additional_info_on_trucks/addons_selected_info/usage_for_actioncategory_fields.md
             - Farming Trailers:
                 - Farming Trailers: truck_modding/additional_info_on_trucks/farming_trailers/farming_trailers.md
-                - Auto-Activation of Constraints of Farming Trailer: truck_modding/additional_info_on_trucks/farming_trailers/18_1___auto__activation_of__constraints_of_a__farming__trailer.md
-                - Powered Constraints used for Farming Trailers: truck_modding/additional_info_on_trucks/farming_trailers/18_2___powered__constraints_used_for__farming__trailers.md
+                - Auto-Activation of Constraints of Farming Trailer: truck_modding/additional_info_on_trucks/farming_trailers/auto_activation_of_constraints_of_farming_trailer.md
+                - Powered Constraints used for Farming Trailers: truck_modding/additional_info_on_trucks/farming_trailers/powered_constraints_used_for_farming_trailers.md
             - Water as Cargo: truck_modding/additional_info_on_trucks/water_as_cargo/water_as_cargo.md
             - Powered Constraints:
                 - Overview: truck_modding/additional_info_on_trucks/powered_constraints/powered_constraints_overview.md

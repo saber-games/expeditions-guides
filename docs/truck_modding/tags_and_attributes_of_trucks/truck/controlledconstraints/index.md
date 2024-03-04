@@ -8,6 +8,6 @@ For trucks – within the XML class of the **truck**, *not* an add-on and (for S
 
 ![controlled constraint attached to steering](./media/controlled_constraint_attached_to_steering.png)
 
-**NOTE**: For information of Conrolled Constraints of Addons, see [FastMode. Controlled Constraints of Addon](./../../../additional_info_on_trucks/addons_selected_info/17_1_1___fast_mode.md) and its subsections.
+**NOTE**: For information of Conrolled Constraints of Addons, see [FastMode. Controlled Constraints of Addon](./../../../additional_info_on_trucks/addons_selected_info/fast_mode.md) and its subsections.
 
 

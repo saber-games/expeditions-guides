@@ -61,4 +61,4 @@ After adding these properties, you can repack your trailer and test it on one of
 
 [farming]: ./../../../map_modding/creating_a_map/farming/farming_overview.md
 [initial_pak]: ./../../../map_modding/getting_started/file_paths_and_naming/file_paths.md#source-of-info-initialpak-archive
-[auto_activation_of_constraints_farming_trailer]: ./18_1___auto__activation_of__constraints_of_a__farming__trailer.md
+[auto_activation_of_constraints_farming_trailer]: ./auto_activation_of_constraints_of_farming_trailer.md

@@ -15,7 +15,7 @@ Attributes:
     -   `Spring` - a spring.  
     -   `Position` - a position that can be controlled by pressing certain buttons when this constraint is a Powered Constraint or Controlled Constraint.  
         For details on Powered Constraints, see [Powered Constraints: Overview](./../../../../../../additional_info_on_trucks/powered_constraints/powered_constraints_overview.md) and [`<PoweredConstraints>`](./../../../../poweredconstraints/index.md).  
-        For details on Controlled Constraints, see [`<ControlledConstraints>`](./../../../../controlledconstraints/index.md) and [Controls for Controlled Constraints of an Addon](./../../../../../../additional_info_on_trucks/addons_selected_info/17_1_2___controls_for__controlled__constraints_of_an__addon.md).
+        For details on Controlled Constraints, see [`<ControlledConstraints>`](./../../../../controlledconstraints/index.md) and [Controls for Controlled Constraints of Addon](./../../../../../../additional_info_on_trucks/addons_selected_info/controls_for_controlled_constraints.md).
 
 -   `Spring="0.5"`
     This attribute is used for the `Spring` type of the motor. Its value is the stiffness of the spring.   

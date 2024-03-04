@@ -66,29 +66,33 @@ Types of rewards that can be added to this list are the following:
 -   **ObjectiveRewardUnlock** – The particular truck or truck upgrade that will unlocked for the player as a reward.    
     Has only one setting:
 
-    -   **itemToUnlock** – The identifier of the item to be unlocked. For example, `khan_39_marshall`.
+    -   **itemToUnlock** – The identifier of the item to be unlocked.
 
-        **NOTE**: Identifiers of trucks can be seen in the XML classes of the trucks in the `initial.pak` and while adding truck in the Editor. Identifiers of truck upgrades can be seen in the XML classes of the trucks in the `initial.pak` and after the debug **Garage** UI is opened from the **TOOLS** menu of the "Proving Ground" map.
+        **NOTE**: Identifiers of trucks can be seen in XML classes of the trucks in the `initial.pak` and while adding truck in the Editor. Identifiers of truck upgrades can be seen in the XML classes of the trucks and components in the `initial.pak` and after the debug **Garage** UI is opened from the **TOOLS** menu of the "Proving Ground" map. See [How to Identify IDs of Truck Parts][truck_parts] for details.
 
 -   **ObjectiveSingleRewardUnlockOnce** – *(Technical class; Should not be used; Should be hidden)* This a technical internal class of reward used a parent of other classes. It should not be used and should be hidden. (`TBD`)  
     Has only one setting:
 
-    -   **Unlockable stuff Id** – The identifier of the item to be unlocked. For example, `khan_39_marshall`. 
+    -   **Unlockable stuff Id** – The identifier of the item to be unlocked. 
 
 -   **ObjectiveRewardBaseUpgrade** – The particular *FOB Module* that will unlocked for the player as a reward. Has only one setting:
 
-    -   **Unlockable stuff Id** – The identifier of the FOB Module to be unlocked. For example, `ANTENNA`. Or, `EXTRA_STORAGE`. Or, `TOW_TRUCK`. See [Zones of FOB Modules: Overview][zones_of_fob_modules_overview] for the full list of identifiers of FOB Modules. Or, for details on custom FOB Modules, see [Custom FOB Modules: Overview][custom_fob_modules_overview]
+    -   **Unlockable stuff Id** – The identifier of the FOB Module to be unlocked. 
+    
+        **NOTE**: See [Zones of FOB Modules: Overview][zones_of_fob_modules_overview] for the full list of identifiers of FOB Modules. Or, for details on custom FOB Modules, see [Custom FOB Modules: Overview][custom_fob_modules_overview]
 
 -   **ObjectiveRewardItem** – The particular upgrade of the truck or the truck itself that will be given as a reward.  
     Has only one setting:
 
-    -   **Unlockable stuff Id** – The identifier of the upgrade of the truck or the truck. For example, `khan_39_marshall_rear_bumper_02`. Or, `g_truck_ank_mk38_finetune`. Or, `khan_39_marshall`.  
+    -   **Unlockable stuff Id** – The identifier of the upgrade of the truck or the truck.  
         
-        **NOTE**: Identifiers of trucks can be seen in the XML classes of the trucks in the `initial.pak` and while adding truck in the Editor. Identifiers of truck upgrades can be seen in the XML classes of the trucks in the `initial.pak` and after the debug **Garage** UI is opened from the **TOOLS** menu of the "Proving Ground" map.
+        **NOTE**: Identifiers of trucks can be seen in the XML classes of the trucks in the `initial.pak` and while adding truck in the Editor. Identifiers of truck upgrades can be seen in the XML classes of the trucks in the `initial.pak` and after the debug **Garage** UI is opened from the **TOOLS** menu of the "Proving Ground" map. See [How to Identify IDs of Truck Parts][truck_parts] for details.
 
 -   **ObjectiveRewardSticker** – The particular sticker for the truck that will be given as a reward. Has only one setting:
 
-    -   **Unlockable stuff Id** – The identifier of the sticker. For exmaple, `UI_STUFF_STICKER_FOREST_CONQUEROR_NAME`. Or, `UI_STUFF_STICKER_OFFROAD_VIBES_NAME`. The full list of identifiers of original stickers is available (along with other localization strings) in the `strings_english.str` file, located in the `initial.pak` archive within the `[strings]` subfolder.  
+    -   **Unlockable stuff Id** – The identifier of the sticker. 
+        
+        **NOTE**: The full list of identifiers of original stickers is available (along with other localization strings) in the `strings_english.str` file, located in the `initial.pak` archive within the `[strings]` subfolder.  
 
 -   **ObjectiveRewardSpecialist** – The particular *Specialist* who will become available for the player as a reward. Has only one setting:
 
@@ -140,4 +144,5 @@ The types of bonus rewards themselves are the following:
 [expeditions_and_contracts]: ./expeditions_and_contracts.md
 [tasks]: ./tasks.md
 [custom_fob_modules_overview]: ./../../../../custom_gameplay_entities/fob_modules/custom_fob_modules_overview.md
+[truck_parts]: ./../../trucks/how_to_identify_ids_of_truck_parts.md
         

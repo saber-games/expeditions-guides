@@ -97,7 +97,7 @@ Attributes:
 -   `Name="ConstraintExampleName"`  
     The name of the constraint of the specific bone. It is used to control bone behavior of the constraint by pressing certain buttons when this constraint is a Powered Constraint or Controlled Constraint.   
     For details on Powered Constraints, see [Powered Constraints: Overview](./../../../../../additional_info_on_trucks/powered_constraints/powered_constraints_overview.md) and [`<PoweredConstraints>`](./../../../poweredconstraints/index.md).  
-    For details on Controlled Constraints, see [`<ControlledConstraints>`](./../../../controlledconstraints/index.md) and [Controls for Controlled Constraints of an Addon](./../../../../../additional_info_on_trucks/addons_selected_info/17_1_2___controls_for__controlled__constraints_of_an__addon.md).
+    For details on Controlled Constraints, see [`<ControlledConstraints>`](./../../../controlledconstraints/index.md) and [Controls for Controlled Constraints of Addon](./../../../../../additional_info_on_trucks/addons_selected_info/controls_for_controlled_constraints.md).
 
 -   `ExplicitParentFrame="0"`  
     This attribute is used only in addons (not in trucks and not in trailers). It indicates that the bone is attached not to its parent, but to the bone of the physical model of the truck (on which this addon is installed).   
