@@ -36,7 +36,7 @@ The full list of parameters is the following:
 
 -   **Mutator** – allows you to specify the ID of the mutator that will be applied to all references imported to this map (to meet its settings). For more details, see [Usage of Mutators](./../references/usage_of_mutators.md).
 
--   **Overlays in 16-bit format** – `TBD` 
+-   **Overlays in 16-bit format** – *(Option used in SnowRunner.)* This option was added to fix some issues in overlays of asphalt roads. Enabling this option will make these overlays more smooth and their texture will be processed more correctly.   
 
 -   **Use upgradeable garage** – *(Valid for SnowRunner only.)* In *SnowRunner*, enables the usage of upgradeable Garage. For details, see [Upgradeable Garage](./../zones/snowrunner_zones/garageentrance_and_garageexit_zones/upgradeable_garage.md).  
 

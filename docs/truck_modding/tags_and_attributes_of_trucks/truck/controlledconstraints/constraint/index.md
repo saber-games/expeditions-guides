@@ -4,7 +4,7 @@ The description of the Controlled Constraint of the Truck. I.e., the description
 
 **NOTE 1**: For general information on Controlled Constraints *of a Truck*, see [ControlledConstraints](./../index.md).
 
-**NOTE 2**: For information on Controlled Constraints *for Addons*, see [FastMode. Controls for Controlled Constraints of an Addon](./../../../../additional_info_on_trucks/addons_selected_info/17_1_1___fast_mode.md) and its subsections.
+**NOTE 2**: For information on Controlled Constraints *for Addons*, see [FastMode. Controlled Constraints of Addon](./../../../../additional_info_on_trucks/addons_selected_info/fast_mode.md) and its subsections.
 
 
 Attributes:
@@ -20,4 +20,4 @@ Attributes:
 -   `Name="TieRodSteer"`  
     *(Mandatory.)* The name of the constraint of the physical model for which the control is assigned. See the `Name` attribute of the [`<Constraint>`](./../../physicsmodel/body/constraint/index.md) tag of the [`<PhysicsModel>`](./../../physicsmodel/index.md).
 
-**NOTE**: Attributes of the Controlled Constraints of an Addon are different, for details, see [Controls for Controlled Constraints of an Addon](./../../../../additional_info_on_trucks/addons_selected_info/17_1_2___controls_for__controlled__constraints_of_an__addon.md).
+**NOTE**: Attributes of the Controlled Constraints of an Addon are different, for details, see [Controls for Controlled Constraints of Addon](./../../../../additional_info_on_trucks/addons_selected_info/controls_for_controlled_constraints.md).

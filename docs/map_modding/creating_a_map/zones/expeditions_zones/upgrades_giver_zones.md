@@ -27,7 +27,6 @@ Settings of the *ZonePropertyUpgradesGiver* prop are the following:
 
 -   **zoneDiscoverability** – settings related to the zone discovery. See [Discoverability of Zones](./discoverability_of_zones.md). 
 
--   **upgrades** – the list with IDs of ugrades that will be given to the player by this zone.  
-    For example, to open the *IMZ 425-M* engine of the *KHAN 39 Marshall*, you need to add the record with the `ru_scout_khan_39_engine_1` identifier to this list. 
+-   **upgrades** – the list with IDs of upgrades that will be given to the player by this zone. See [How to Identify IDs of Truck Parts](./../../trucks/how_to_identify_ids_of_truck_parts.md) for details.  
 
     **NOTE**: Currently, only the 1-st item from the **upgrades** list is given to the player. All other items from this list are not given by the zone. This is a known issue that will be fixed.

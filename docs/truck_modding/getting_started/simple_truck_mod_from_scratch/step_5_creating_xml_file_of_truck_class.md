@@ -334,8 +334,7 @@ The same approach can be used to set up the size and position of the damage area
 		</Damage>
 ```
 
-### Inventory and DeployCost
-
+### Inventory
 Since our truck mod is targeted at Expeditions, it is a good idea to add some Inventory Slots to it.
 
 This can be done by specifying their maximum number in the `MaxLimit` attribute of the [`<Inventory>`](./../../tags_and_attributes_of_trucks/truck/truckdata/inventory/index.md) tag within [`<TruckData>`](./../../tags_and_attributes_of_trucks/truck/truckdata/index.md). We have a middle-sized van with a lots of space, so let's make `7` slots in it:  
@@ -346,15 +345,33 @@ This can be done by specifying their maximum number in the `MaxLimit` attribute 
 
 **NOTE**: Along with these Inventory Slots, we can also create various Addons and Consumables to add them to your mod. This process of out of the scope of this guide, but you can start with [Addon Changes](./../../new_features/addon_changes.md) article in the **New Features** section if you want to do this.
 
-And, let's also specify the cost of deploying our truck to the base during an Expedition. This can be done using the [`<DeployCost>`](./../../tags_and_attributes_of_trucks/truck/truckdata/deploycost/index.md) tag. `100` credits will do as the `Cost` value:
+
+### DeployCost
+The [`<DeployCost>`](./../../tags_and_attributes_of_trucks/truck/truckdata/deploycost/index.md) was meant to specify the cost of deploying our truck to the base during an Expedition. 
+
+However, this feature is currently in the development and is not actually used yet. Regardless of this fact, XML classes of trucks in Expeditions typically have this configuration. 
+
+Let's have this configuration specified the same way as it's done for original trucks in the [`initial.pak`][initial_pak] archive:
 
 ```xml
-		<DeployCost Cost = "100"/>
+		<DeployCost Cost = "1"/>
 ```
 
-**NOTE**: The [`<DeployCost>`](./../../tags_and_attributes_of_trucks/truck/truckdata/deploycost/index.md) feature is currently in the development and is not actually used yet. Regardless of this fact, the XML classes of trucks for Expeditions typically have this configuration. Already used new features that are specific to Expeditions are observed in the **New Features** section of **Truck Modding**.
 
-At this stage, we have finished with child-tags of the `<TruckData>` (don't forget to close the `<TruckData>` tag).
+### Driver
+The windshield of our truck is not configured correctly, since we are creating a simple truck. 
+
+However, we still need to add a driver to our truck, otherwise the *Echo Sounder* will not work for it.
+
+I.e., we need to add the [`<Driver>`][driver] tag to `<TruckData>`. 
+
+However, we will not carefully configure it, since our driver will be inside our truck and will not be visible anyway.
+
+```xml
+        <Driver Pos="(0.866; 1.304; 0.442)" SteeringWheelPos="(1.261; 1.626; 0.439)" LegsOffset="(0.15; 0.12; 0.0)"/>
+```
+
+At this stage, we have finished with child tags of the `<TruckData>`. Don't forget to close the `<TruckData>` tag.
 
 
 ## PhysicsModel
@@ -624,3 +641,5 @@ However, we still need to create XML classes of the truck's components to create
 [packable]: ./../sample_mod_by_the_game/packing_vehicle_mod.md
 [spawn]: ./../sample_mod_by_the_game/spawning_mod_vehicle.md
 [proving_grounds]: ./../sample_mod_by_the_game/opening_the_proving_ground.md
+[driver]: ./../../tags_and_attributes_of_trucks/truck/truckdata/driver/index.md
+[initial_pak]: ./../../../map_modding/getting_started/file_paths_and_naming/file_paths.md#source-of-info-initialpak-archive
