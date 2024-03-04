@@ -1,7 +1,7 @@
 # Rewards
 
 *(NEW) This topic is valid for Expeditions only.*  
-*For Rewards in SnowRunner, see [Rewards](./../objectives_in_snowrunner/rewards.md).
+*For Rewards in SnowRunner, see [Rewards](./../objectives_in_snowrunner/rewards.md).*  
 
 ## Reward Description
 The decription of the reward for the [objective][objectives_overview] is specified in the **Reward Description** field in its properties.
