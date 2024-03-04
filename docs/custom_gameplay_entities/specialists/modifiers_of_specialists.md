@@ -22,7 +22,7 @@ Negative values also work for parameters of modifiers and will decrease the valu
 
 For example, you can try to specify [**anchorRadiusIncreasedPercent**](#anchorradius) = `-50`. And it will *decrease* the value of radius, by `50` percents.
 
-However, this scheme is not valid for all parameters **Reduced** suffixes in their names.
+However, this scheme does not work for all parameters with **...Reduced** suffixes in their names.
 
 
 ## List of Possible Modifiers
