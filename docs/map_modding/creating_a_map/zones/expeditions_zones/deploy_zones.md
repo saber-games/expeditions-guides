@@ -59,6 +59,7 @@ Typical dimensions of the regular *Placement Zone* for FOB modules do vary also:
 -   For *Main Base*, they are `10 х 10` meters.
 -   For *secondary Outposts*, they are `7 х 7` meters.
 
+**NOTE**: [Custom FOB Modules][custom_fob_modules] appear at the same zones as the original ones. 
 
 ## Recovery
 The Recovery feature of the base is *not* provided by default.
@@ -98,3 +99,5 @@ Settings of the *ZonePropertyDeploy* prop are the following:
         -   **modulePlacementZone** – the link to the *Placement Zone* of this module where the visual model of the module will appear after building. This zone itself does not require any properties – i.e., it can have empty **props**. See [FOB Modules](#fob-modules) above.
 
         -   **modulelnteractionZone** – the link to the *Interaction Zone* of this module zone where the player will be able to interact with it. This zone requires the [*ZonePropertyBaseBuilding*](./base_building_zones.md) prop to be assigned and, in the **modelPlacementZone** field of this prop, should link to the *Placement Zone* of this module. See [FOB Modules](#fob-modules) above.
+
+[custom_fob_modules]: ./../../../../custom_gameplay_entities/fob_modules/custom_fob_modules_overview.md
