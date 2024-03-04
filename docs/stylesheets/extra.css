@@ -1,0 +1,42 @@
+.md-grid {
+  max-width: 80%;
+}
+
+.md-header__button.md-logo img {
+  fill: currentcolor;
+  display: block;
+  height: 2.2rem;
+  width: auto;
+}
+
+.md-header__button.md-logo {
+  margin: 0.2rem;
+  padding: 0.1rem;
+}
+
+@media screen and (max-width: 76.234375em) {
+  .md-nav--primary .md-nav__title[for="__drawer"] {
+    background-color: #000;
+  }
+}
+
+:root {
+  --md-primary-fg-color: #e37f0a;
+  --md-primary-fg-color--light: #e37f0a;
+  --md-primary-fg-color--dark: #e37f0a;
+  --md-accent-fg-color: #e37f0a;
+  --md-accent-fg-color--transparent: #e37e0a4c;
+}
+
+.md-tabs,
+.md-header {
+  background: #000;
+}
+
+.md-search__form {
+  background-color: #313131;
+}
+
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form {
+  background-color: var(--md-default-bg-color);
+}

@@ -1,0 +1,670 @@
+site_name: Modding Docs for Expeditions & SnowRunner 
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/logo.png
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.tracking
+
+nav:
+    - Home: 
+        - About These Docs: about_these_docs.md
+        - Sources, Editing, and Collaboration: sources_editing_and_collaboration.md
+        - Content Policy: content_policy.md
+        - Other Sources of Info: other_sources_of_info.md
+    - Map Modding:
+        - Intro: map_modding/intro.md
+        - Getting Started:
+            - Installation and First Launch: map_modding/getting_started/installation_and_first_launch.md
+            - UI Overview:
+                - UI Overview: map_modding/getting_started/ui_overview/ui_overview.md
+                - Toolbar Buttons: map_modding/getting_started/ui_overview/toolbar_buttons.md
+                - Camera Controls: map_modding/getting_started/ui_overview/camera_controls.md
+                - Typical Brush Dialog: map_modding/getting_started/ui_overview/typical_brush_dialog.md
+                - Selection of Multiple Objects: map_modding/getting_started/ui_overview/selection_of_multiple_objects.md
+                - Groups: map_modding/getting_started/ui_overview/groups.md
+                - Typical Context Menu: map_modding/getting_started/ui_overview/typical_context_menu.md
+                - Main Menu: map_modding/getting_started/ui_overview/main_menu.md
+                - Snapping Panel: map_modding/getting_started/ui_overview/snapping_panel.md
+            - File Paths and Naming: 
+                - File Paths: map_modding/getting_started/file_paths_and_naming/file_paths.md
+                - Naming Conventions: map_modding/getting_started/file_paths_and_naming/naming_conventions.md                                        
+        - Creating a Map:
+            - Overview: map_modding/creating_a_map/creation_of_maps_overview.md
+            - Terrain:
+                - Creation of Terrain: map_modding/creating_a_map/terrain/creation_of_terrain.md
+                - Terrain Properties: map_modding/creating_a_map/terrain/terrain_properties.md
+                - Scene Properties: map_modding/creating_a_map/terrain/scene_properties.md
+                - Geometry Brushes for Terrain:       
+                    - Overview. Main Geometry Brush: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/overview_main_geometry_brush.md
+                    - Context Menu:
+                        - Overview of Context Menu: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/context_menu/overview_of_context_menu.md
+                        - Copy Source Heightmap: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/context_menu/copy_source_heightmap.md
+                        - Create Water Heightmap: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/context_menu/create_water_heightmap.md
+                        - Create Default Flowmap: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/context_menu/create_default_flowmap.md
+                        - Restoring Mud Data: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/context_menu/restoring_mud_data.md
+                        - Create Ref Merge Map: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/context_menu/create_ref_merge_map.md
+                    - Colorization: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/colorization.md
+                    - Wetness: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/wetness.md
+                    - Mud: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/mud.md
+                    - Quick Mud: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/quick_mud.md
+                    - Water: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/water.md
+                    - Water Mud: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/water_mud.md
+                    - Snow: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/snow.md
+                    - RefMergeMask: map_modding/creating_a_map/terrain/geometry_brushes_for_terrain/ref_merge_mask.md
+            - PBR Materials:
+                - Assigning PBR Materials to Terrain: map_modding/creating_a_map/pbr_materials/assigning_pbr_materials_to_terrain.md
+                - Material Properties: map_modding/creating_a_map/pbr_materials/material_properties.md
+                - Custom Materials: map_modding/creating_a_map/pbr_materials/custom_materials.md
+            - Snow and Ice:
+                - Adding Snow and Ice: map_modding/creating_a_map/snow_and_ice/adding_snow_and_ice.md
+                - Breakable Ice: map_modding/creating_a_map/snow_and_ice/breakable_ice.md
+            - Models:
+                - Adding Models: map_modding/creating_a_map/models/adding_models.md
+                - Types of models. Collisions: map_modding/creating_a_map/models/types_of_models_collisions.md
+                - Interesting Models: map_modding/creating_a_map/models/interesting_models.md                                                                                    
+            - Plants: map_modding/creating_a_map/plants/adding_plants.md
+            - Distributions:
+                - Adding Multiple Objects via Distribution: map_modding/creating_a_map/distributions/adding_multiple_objects_via_distribution.md
+                - Recommendations for Distributions: map_modding/creating_a_map/distributions/recommendations_for_distributions.md
+                - Density Subgroup mode: map_modding/creating_a_map/distributions/density_subgroup_mode.md
+            - Overlays:
+                - Adding Overlays: map_modding/creating_a_map/overlays/adding_overlays.md
+                - One Road Type per Terrain Block: map_modding/creating_a_map/overlays/one_road_type_per_terrain_block.md
+                - Flattening Roads: map_modding/creating_a_map/overlays/flattening_roads.md
+                - Ruts and Bumps: map_modding/creating_a_map/overlays/ruts_and_bumps.md
+                - Brushes for Overlays: map_modding/creating_a_map/overlays/brushes_for_overlays.md
+                - Wires: map_modding/creating_a_map/overlays/wires.md
+                - Recommendations: map_modding/creating_a_map/overlays/recommendations.md
+                - Custom Overlays: map_modding/creating_a_map/overlays/custom_overlays.md
+                - Invisible Overlays: map_modding/creating_a_map/overlays/invisible_overlays.md
+            - Rivers and Water Objects:
+                - Adding Rivers and Water Objects: map_modding/creating_a_map/rivers_and_water_objects/adding_rivers_and_water_objects.md
+                - Limitations and Recommendations: map_modding/creating_a_map/rivers_and_water_objects/limitations_and_recommendations.md
+                - Adding River Sounds via RiverMarkup: map_modding/creating_a_map/rivers_and_water_objects/adding_river_sounds_via_river_markup.md
+                - Background Water on Map Edges: map_modding/creating_a_map/rivers_and_water_objects/background_water_on_map_edges.md
+            - References:
+                - Adding References: map_modding/creating_a_map/references/adding_references.md
+                - Reference Properties: map_modding/creating_a_map/references/reference_properties.md
+                - RefMergeMask Brush: map_modding/creating_a_map/references/ref_merge_mask_brush.md
+                - Usage of Mutators: map_modding/creating_a_map/references/usage_of_mutators.md
+                - Recommendations: map_modding/creating_a_map/references/recommendations.md
+                - Set of In-Game References: map_modding/creating_a_map/references/set_of_ingame_references.md
+            - Trucks:
+                - Adding Trucks: map_modding/creating_a_map/trucks/adding_trucks.md
+                - How to Identify IDs of Truck Parts: map_modding/creating_a_map/trucks/how_to_identify_ids_of_truck_parts.md
+                - Purchasing Trucks from All Countries: map_modding/creating_a_map/trucks/purchasing_trucks_from_all_countries.md
+                - Custom Trucks: map_modding/creating_a_map/trucks/custom_trucks.md
+            - Sounds and Music:
+                - Sounds:        
+                    - Adding Sounds: map_modding/creating_a_map/sounds_and_music/sounds/adding_sounds.md
+                    - Series of Sounds: map_modding/creating_a_map/sounds_and_music/sounds/series_of_sounds.md
+                    - Custom Sound Files: map_modding/creating_a_map/sounds_and_music/sounds/custom_sound_files.md
+                - Sound Domains:
+                    - Adding Sound Domains: map_modding/creating_a_map/sounds_and_music/sound_domains/adding_sound_domains.md
+                    - SoundDomain Properties: map_modding/creating_a_map/sounds_and_music/sound_domains/sound_domain_properties.md
+                    - OneShotSoundDomain Properties: map_modding/creating_a_map/sounds_and_music/sound_domains/one_shot_sound_domain_properties.md
+                    - NoMusicSoundDomain Properties: map_modding/creating_a_map/sounds_and_music/sound_domains/no_music_sound_domain_properties.md
+                - Music: map_modding/creating_a_map/sounds_and_music/music/adding_music.md
+                - Ambient Sounds:
+                    - Adding Ambient Sounds: map_modding/creating_a_map/sounds_and_music/ambient_sounds/adding_ambient_sounds.md
+                    - Ambient Preset XML file: map_modding/creating_a_map/sounds_and_music/ambient_sounds/ambient_preset_xml_file.md
+                    - Custom Ambient Sounds: map_modding/creating_a_map/sounds_and_music/ambient_sounds/custom_ambient_sounds.md
+            - Zones:
+                - "Zones: Overview": map_modding/creating_a_map/zones/zones_overview.md
+                - Zone Types Overview: map_modding/creating_a_map/zones/zone_types_overview.md
+                - Expeditions Zones:
+                    - Zone Types in Expeditions: map_modding/creating_a_map/zones/expeditions_zones/zone_types_in_expeditions.md
+                    - Deploy zones: map_modding/creating_a_map/zones/expeditions_zones/deploy_zones.md
+                    - Inventory Storage zones: map_modding/creating_a_map/zones/expeditions_zones/inventory_storage_zones.md
+                    - Object Construction In Zone zones: map_modding/creating_a_map/zones/expeditions_zones/object_construction_in_zone_zones.md
+                    - Notification zones: map_modding/creating_a_map/zones/expeditions_zones/notification_zones.md
+                    - Upgrades Giver zones: map_modding/creating_a_map/zones/expeditions_zones/upgrades_giver_zones.md
+                    - Recovery zones: map_modding/creating_a_map/zones/expeditions_zones/recovery_zones.md
+                    - Base Building zones: map_modding/creating_a_map/zones/expeditions_zones/base_building_zones.md
+                    - Hidden Hint zones: map_modding/creating_a_map/zones/expeditions_zones/hidden_hint_zones.md
+                    - Gateway zones: map_modding/creating_a_map/zones/expeditions_zones/gateway_zones.md
+                    - Minigame zones: map_modding/creating_a_map/zones/expeditions_zones/minigame_zones.md
+                    - Zones of FOB Modules: 
+                        - Overview: map_modding/creating_a_map/zones/expeditions_zones/zones_of_fob_modules/zones_of_fob_modules_overview.md
+                        - Drone Delivery zones: map_modding/creating_a_map/zones/expeditions_zones/zones_of_fob_modules/drone_delivery_zones.md
+                        - FOB Module Storage zones: map_modding/creating_a_map/zones/expeditions_zones/zones_of_fob_modules/fob_module_storage_zones.md
+                        - Parking zones: map_modding/creating_a_map/zones/expeditions_zones/zones_of_fob_modules/parking_zones.md
+                        - Service Station zones: map_modding/creating_a_map/zones/expeditions_zones/zones_of_fob_modules/service_station_zones.md
+                        - Supply Shop zones: map_modding/creating_a_map/zones/expeditions_zones/zones_of_fob_modules/supply_shop_zones.md
+                        - Tow Truck zones: map_modding/creating_a_map/zones/expeditions_zones/zones_of_fob_modules/tow_truck_zones.md
+                        - Workshop zones: map_modding/creating_a_map/zones/expeditions_zones/zones_of_fob_modules/workshop_zones.md
+                    - Internal Technical Props: map_modding/creating_a_map/zones/expeditions_zones/internal_technical_props.md
+                    - Discoverability of Zones: map_modding/creating_a_map/zones/expeditions_zones/discoverability_of_zones.md
+                - SnowRunner Zones:                 
+                    - Zone Types in SnowRunner: map_modding/creating_a_map/zones/snowrunner_zones/zone_types_in_snowrunner.md
+                    - CargoLoading and ManualLoading zones:
+                        - CargoLoading and ManualLoading zones: map_modding/creating_a_map/zones/snowrunner_zones/cargoloading_and_manualloading_zones/cargo_loading_and_manual_loading_zones.md
+                        - Model Building Settings for CargoLoading zones: map_modding/creating_a_map/zones/snowrunner_zones/cargoloading_and_manualloading_zones/model_building_settings_for_cargo_loading_zones.md
+                        - Loading Logs as Cargo: map_modding/creating_a_map/zones/snowrunner_zones/cargoloading_and_manualloading_zones/loading_logs_as_cargo.md
+                    - Manual Unloading Zones: map_modding/creating_a_map/zones/snowrunner_zones/manual_unloading_zones.md
+                    - FuelStation zones: map_modding/creating_a_map/zones/snowrunner_zones/fuel_station_zones.md
+                    - GarageEntrance and GarageExit zones:
+                        - GarageEntrance and GarageExit zones: map_modding/creating_a_map/zones/snowrunner_zones/garageentrance_and_garageexit_zones/garage_entrance_and_garage_exit_zones.md
+                        - Upgradeable Garage : map_modding/creating_a_map/zones/snowrunner_zones/garageentrance_and_garageexit_zones/upgradeable_garage.md
+                    - TrailerAttach zones: map_modding/creating_a_map/zones/snowrunner_zones/trailer_attach_zones.md                  
+                    - UpgradesGiver zones: map_modding/creating_a_map/zones/snowrunner_zones/upgrades_giver_zones.md
+                    - Watchpoint zones: map_modding/creating_a_map/zones/snowrunner_zones/watchpoint_zones.md
+                    - Recovery zones: map_modding/creating_a_map/zones/snowrunner_zones/recovery_zones.md
+                    - StorehouseCraft and Energy zones: map_modding/creating_a_map/zones/snowrunner_zones/storehouse_craft_and_energy_zones.md
+                    - LivingArea zones: map_modding/creating_a_map/zones/snowrunner_zones/living_area_zones.md 
+                    - ResupplyRepairParts zones: map_modding/creating_a_map/zones/snowrunner_zones/resupply_repair_parts_zones.md
+                    - AutoRepairAndRestore zones: map_modding/creating_a_map/zones/snowrunner_zones/auto_repair_and_restore_zones.md
+                    - AutoRefuel zones: map_modding/creating_a_map/zones/snowrunner_zones/auto_refuel_zones.md
+                    - FarmingArea zones: map_modding/creating_a_map/zones/snowrunner_zones/farming_area_zones.md 
+                    - WaterStation zones: map_modding/creating_a_map/zones/snowrunner_zones/water_station_zones.md
+                    - Gateway zones: map_modding/creating_a_map/zones/snowrunner_zones/gateway_zones.md
+                - Zone Locator Properties: map_modding/creating_a_map/zones/zone_locator_properties.md
+                - Zone Icons:
+                    - Zone Icons in Expeditions: map_modding/creating_a_map/zones/zone_icons/zone_icons_expeditions.md
+                    - Zone Icons in SnowRunner: map_modding/creating_a_map/zones/zone_icons/zone_icons_snowrunner.md
+            - Other Map Settings: 
+                - Fog of War: map_modding/creating_a_map/other_map_settings/fog_of_war.md
+                - TOOLS Menu: map_modding/creating_a_map/other_map_settings/tools_menu.md
+                - Introductory Info and Initial Objectives: map_modding/creating_a_map/other_map_settings/introductory_info_and_initial_objectives.md
+                - Content Settings: 
+                    - Content Settings: map_modding/creating_a_map/other_map_settings/content_settings/content_settings.md
+                    - Locking and Unlocking Trucks and Upgrades: map_modding/creating_a_map/other_map_settings/content_settings/locking_and_unlocking_trucks_and_upgrades.md
+                    - Starting Parameters: map_modding/creating_a_map/other_map_settings/content_settings/starting_parameters.md
+                    - Custom Prices for Trucks and Upgrades: map_modding/creating_a_map/other_map_settings/content_settings/custom_prices_for_trucks_and_upgrades.md
+            - Objectives:
+                - "Objectives: Overview": map_modding/creating_a_map/objectives/objectives_overview.md
+                - Objectives in Expeditions:
+                    - Stages:
+                        - Stages in Expeditions: map_modding/creating_a_map/objectives/objectives_in_expeditions/stages/stages_in_expeditions.md
+                        - objectConstruction: map_modding/creating_a_map/objectives/objectives_in_expeditions/stages/objectconstruction.md
+                        - takeInventory: map_modding/creating_a_map/objectives/objectives_in_expeditions/stages/takeinventory.md
+                        - truckDelivery: map_modding/creating_a_map/objectives/objectives_in_expeditions/stages/truckdelivery.md
+                        - visitAllZones: map_modding/creating_a_map/objectives/objectives_in_expeditions/stages/visitallzones.md
+                        - minigameInfo: map_modding/creating_a_map/objectives/objectives_in_expeditions/stages/minigameinfo.md
+                        - scoutingInfo: map_modding/creating_a_map/objectives/objectives_in_expeditions/stages/scoutinginfo.md
+                        - Seismograph Settings: map_modding/creating_a_map/objectives/objectives_in_expeditions/stages/seismograph_settings.md
+                        - freeRoamInfo: map_modding/creating_a_map/objectives/objectives_in_expeditions/stages/freeroaminfo.md
+                    - Common Fields of Objectives: map_modding/creating_a_map/objectives/objectives_in_expeditions/common_fields_of_objectives.md
+                    - Expeditions and Contracts: map_modding/creating_a_map/objectives/objectives_in_expeditions/expeditions_and_contracts.md
+                    - Tasks: map_modding/creating_a_map/objectives/objectives_in_expeditions/tasks.md
+                    - Rewards: map_modding/creating_a_map/objectives/objectives_in_expeditions/rewards.md
+                    - Fake Zones: map_modding/creating_a_map/objectives/objectives_in_expeditions/fake_zones.md
+                    - Optional Substages: map_modding/creating_a_map/objectives/objectives_in_expeditions/optional_substages.md
+                    - Zone Search Area: map_modding/creating_a_map/objectives/objectives_in_expeditions/zone_search_area.md
+                    - Notifications: map_modding/creating_a_map/objectives/objectives_in_expeditions/notifications.md
+                    - Inventory Settings: map_modding/creating_a_map/objectives/objectives_in_expeditions/inventory_settings.md
+                - Objectives in SnowRunner:
+                    - Stages:
+                        - Stages in SnowRunner: map_modding/creating_a_map/objectives/objectives_in_snowrunner/stages/stages_in_snowrunner.md
+                        - Delivery of Goods:
+                            - Goods Delivery: map_modding/creating_a_map/objectives/objectives_in_snowrunner/stages/delivery_of_goods/goods_delivery.md
+                            - Water Delivery: map_modding/creating_a_map/objectives/objectives_in_snowrunner/stages/delivery_of_goods/water_delivery.md
+                            - Manual Unloading of Cargo: map_modding/creating_a_map/objectives/objectives_in_snowrunner/stages/delivery_of_goods/manual_unloading_of_cargo.md
+                        - Truck Delivery: map_modding/creating_a_map/objectives/objectives_in_snowrunner/stages/truck_delivery.md
+                        - Repairing Truck: map_modding/creating_a_map/objectives/objectives_in_snowrunner/stages/repairing_truck.md
+                        - Changing Truck: map_modding/creating_a_map/objectives/objectives_in_snowrunner/stages/changing_truck.md
+                        - Visiting Zones: map_modding/creating_a_map/objectives/objectives_in_snowrunner/stages/visiting_zones.md
+                        - Seismograph Usage: map_modding/creating_a_map/objectives/objectives_in_snowrunner/stages/seismograph_usage.md
+                        - Spawning Cargo: map_modding/creating_a_map/objectives/objectives_in_snowrunner/stages/spawning_cargo.md
+                        - Metal Detector: map_modding/creating_a_map/objectives/objectives_in_snowrunner/stages/metal_detector.md                
+                        - Delivery of Cabins: map_modding/creating_a_map/objectives/objectives_in_snowrunner/stages/delivery_of_cabins.md
+                        - Farming Assignment: map_modding/creating_a_map/objectives/objectives_in_snowrunner/stages/farming_assignment.md
+                    - Common Fields of Objectives: map_modding/creating_a_map/objectives/objectives_in_snowrunner/common_fields_of_objectives.md
+                    - Contracts: map_modding/creating_a_map/objectives/objectives_in_snowrunner/contracts.md
+                    - Tasks: map_modding/creating_a_map/objectives/objectives_in_snowrunner/tasks.md
+                    - Contests: map_modding/creating_a_map/objectives/objectives_in_snowrunner/contests.md
+                    - Rewards: map_modding/creating_a_map/objectives/objectives_in_snowrunner/rewards.md
+                    - Freezing Trailers: map_modding/creating_a_map/objectives/objectives_in_snowrunner/freezing_trailers.md
+                - Model Building Settings:
+                    - Model Building Settings: map_modding/creating_a_map/objectives/model_building_settings/model_building_settings.md
+                    - Adding Smoke: map_modding/creating_a_map/objectives/model_building_settings/adding_smoke.md
+                - Custom Employers: map_modding/creating_a_map/objectives/custom_employers.md
+            - Minigames:
+                - "Minigames: Overview": map_modding/creating_a_map/minigames/minigames_overview.md
+                - Visual Inspection: map_modding/creating_a_map/minigames/visual_inspection.md
+                - Taking Photos: map_modding/creating_a_map/minigames/taking_photos.md
+                - Echo Sounder: map_modding/creating_a_map/minigames/echo_sounder.md
+                - Scanning with Drone: map_modding/creating_a_map/minigames/scanning_with_drone.md
+            - Farming:
+                - Farming: map_modding/creating_a_map/farming/farming_overview.md
+                - Zone for Farming Area: map_modding/creating_a_map/farming/zone_for_farming_area.md
+                - Distributions for Farming Area: map_modding/creating_a_map/farming/distributions_for_farming_area.md
+                - Objective for Farming Area: map_modding/creating_a_map/farming/objective_for_farming_area.md
+                - Custom Trailers for Farming: map_modding/creating_a_map/farming/custom_trailers_for_farming.md
+                - 'Appendix: Sample Stages of Farming Contract': map_modding/creating_a_map/farming/appendix_sample_stages_of_farming_contract.md       
+            - Water as Resource:
+                - Water as Resource: map_modding/creating_a_map/water_as_resource/water_as_resource.md
+                - PICK_UP Water Stations: map_modding/creating_a_map/water_as_resource/pick_up_water_stations.md
+                - DROP Water Stations: map_modding/creating_a_map/water_as_resource/drop_water_stations.md
+                - TRANSIT Water Stations: map_modding/creating_a_map/water_as_resource/transit_water_stations.md
+                - Water Delivery Objectives: map_modding/creating_a_map/water_as_resource/water_delivery_objectives.md
+                - Custom Addons and Trailers for Water: map_modding/creating_a_map/water_as_resource/custom_addons_and_trailers_for_water.md
+            - Regions:
+                - Regions with Multiple Maps: map_modding/creating_a_map/regions/regions_with_multiple_maps.md
+                - Settings of Gateway zone: map_modding/creating_a_map/regions/settings_of_gateway_zone.md
+                - Gateway Rules. Extra zone: map_modding/creating_a_map/regions/gateway_rules_extra_zone.md
+                - '"Regional" Contracts': map_modding/creating_a_map/regions/regional_contracts.md
+                - Locking Objectives based on Exploration: map_modding/creating_a_map/regions/locking_objectives_based_on_exploration.md
+        - Packing and Publishing Maps:
+            - Packing Maps: map_modding/packing_and_publishing_maps/packing_maps.md
+            - Testing Maps: map_modding/packing_and_publishing_maps/testing_maps.md
+            - Publishing Maps: map_modding/packing_and_publishing_maps/publishing_maps.md
+            - Downloading Map Mods: map_modding/packing_and_publishing_maps/downloading_map_mods.md
+            - Playing on Map Mods: map_modding/packing_and_publishing_maps/playing_on_map_mods.md
+        - Additional Info on Maps:
+            - Localization: map_modding/additional_info_on_maps/localization/localization.md
+            - Camera Values:
+                - Tip on cameraPos and cameraDir values: map_modding/additional_info_on_maps/camera_values/tip_on_camera_pos_and_camera_dir_values.md
+            - Collaborative Work on Maps:
+                - Overview: map_modding/additional_info_on_maps/collaborative_work_on_maps/collaborative_work_on_maps_overview.md
+                - Map Pieces. Their Subfolders: map_modding/additional_info_on_maps/collaborative_work_on_maps/map_pieces_their_subfolders.md
+                - Chunks. Selection of Chunk: map_modding/additional_info_on_maps/collaborative_work_on_maps/chunks_selection_of_chunk.md
+                - Process of Collaboration:             
+                    - Overview: map_modding/additional_info_on_maps/collaborative_work_on_maps/process_of_collaboration/process_of_collaboration_overview.md
+                    - 'Collaboration: Distributions': map_modding/additional_info_on_maps/collaborative_work_on_maps/process_of_collaboration/collaboration_distributions.md
+                    - 'Collaboration: PBR Materials': map_modding/additional_info_on_maps/collaborative_work_on_maps/process_of_collaboration/collaboration_pbr_materials.md
+                    - 'Collaboration: Rivers and Overlays': map_modding/additional_info_on_maps/collaborative_work_on_maps/process_of_collaboration/collaboration_rivers_and_overlays.md
+                    - 'Collaboration: Sounds and SoundDomains': map_modding/additional_info_on_maps/collaborative_work_on_maps/process_of_collaboration/collaboration_sounds_and_sound_domains.md
+                    - 'Collaboration: Zones': map_modding/additional_info_on_maps/collaborative_work_on_maps/process_of_collaboration/collaboration_zones.md
+                    - 'Collaboration: Objectives': map_modding/additional_info_on_maps/collaborative_work_on_maps/process_of_collaboration/collaboration_objectives.md
+                    - 'Collaboration: Content Settings': map_modding/additional_info_on_maps/collaborative_work_on_maps/process_of_collaboration/collaboration_content_settings.md
+                    - 'Collaboration: References': map_modding/additional_info_on_maps/collaborative_work_on_maps/process_of_collaboration/collaboration_references.md
+                - External Tools for Textures:             
+                    - Overview: map_modding/additional_info_on_maps/collaborative_work_on_maps/external_tools_for_textures/external_tools_for_textures_overview.md
+                    - Combine chunks in directory: map_modding/additional_info_on_maps/collaborative_work_on_maps/external_tools_for_textures/combine_chunks_in_directory.md
+                    - Separate chunks from directory: map_modding/additional_info_on_maps/collaborative_work_on_maps/external_tools_for_textures/separate_chunks_from_directory.md
+                - Version Control Systems: map_modding/additional_info_on_maps/collaborative_work_on_maps/version_control_systems.md
+            - COOP Mode: map_modding/additional_info_on_maps/coop_mode/coop_mode.md
+            - Custom Cargo: map_modding/additional_info_on_maps/custom_cargo/custom_cargo.md 
+            - Custom Images for Regions and Maps: map_modding/additional_info_on_maps/custom_images_for_regions_and_maps/custom_images_for_regions_and_maps.md
+
+    - Truck Modding:
+        - Getting Started:
+            - Intro: truck_modding/getting_started/intro.md
+            - Simple Truck Mod from Scratch:
+                - Overview: truck_modding/getting_started/simple_truck_mod_from_scratch/overview.md
+                - "Step 0: Prerequisites": truck_modding/getting_started/simple_truck_mod_from_scratch/step_0_prerequisites.md
+                - "Step 1: Creating 3D Model": truck_modding/getting_started/simple_truck_mod_from_scratch/step_1_creating_3d_model.md
+                - "Step 2: Exporting to FBX": truck_modding/getting_started/simple_truck_mod_from_scratch/step_2_exporting_to_fbx.md
+                - "Step 3: Creating Textures": truck_modding/getting_started/simple_truck_mod_from_scratch/step_3_creating_textures.md
+                - "Step 4: Creating XML File of Truck Mesh": truck_modding/getting_started/simple_truck_mod_from_scratch/step_4_creating_xml_file_of_truck_mesh.md
+                - "Step 5: Creating XML File of Truck Class": truck_modding/getting_started/simple_truck_mod_from_scratch/step_5_creating_xml_file_of_truck_class.md
+                - "Step 6: Creating XML Files of Truck Components": truck_modding/getting_started/simple_truck_mod_from_scratch/step_6_creating_xml_files_of_truck_components.md
+                - "Step 7: Creating Truck Images": truck_modding/getting_started/simple_truck_mod_from_scratch/step_7_creating_truck_images.md 
+                - "Step 8: Testing and Publishing": truck_modding/getting_started/simple_truck_mod_from_scratch/step_8_testing_and_publishing.md
+                - "Step 9: Source Files": truck_modding/getting_started/simple_truck_mod_from_scratch/step_9_source_files.md                
+            - Sample Mod by the Game:
+                - Overview: truck_modding/getting_started/sample_mod_by_the_game/overview.md
+                - Opening the Proving Ground: truck_modding/getting_started/sample_mod_by_the_game/opening_the_proving_ground.md
+                - Creating Sample Mod: truck_modding/getting_started/sample_mod_by_the_game/creating_sample_mod.md
+                - Conversion of Resources: truck_modding/getting_started/sample_mod_by_the_game/conversion_of_resources.md
+                - Spawning Mod Vehicle: truck_modding/getting_started/sample_mod_by_the_game/spawning_mod_vehicle.md
+                - Testing Unpacked Mod in the Game: truck_modding/getting_started/sample_mod_by_the_game/testing_unpacked_mod_in_the_game.md
+                - Calculating Memory Resources: truck_modding/getting_started/sample_mod_by_the_game/calculating_memory_resources.md
+                - Packing Vehicle Mod: truck_modding/getting_started/sample_mod_by_the_game/packing_vehicle_mod.md
+                - Viewing Error Log: truck_modding/getting_started/sample_mod_by_the_game/viewing_error_log.md
+                - Uploading Mop to mod.io: truck_modding/getting_started/sample_mod_by_the_game/uploading_mod_to_mod_io.md
+                - Enabling Mod in the Game: truck_modding/getting_started/sample_mod_by_the_game/enabling_mod_in_the_game.md
+        - New Features:
+            - Truck Replacements: truck_modding/new_features/truck_replacements.md
+            - Tire Inflation System: truck_modding/new_features/tire_inflation_system.md
+            - Wheel Friction Changes: truck_modding/new_features/wheel_friction_changes.md
+            - Addon Changes: truck_modding/new_features/addon_changes.md
+            - Consumables: truck_modding/new_features/consumables.md
+            - Inventory Slots: truck_modding/new_features/inventory_slots.md
+            - Cargo Slots: truck_modding/new_features/cargo_slots.md
+        - General Info:
+            - Organization of Files:
+                - File Naming: truck_modding/general_info/organization_of_files/file_naming.md
+                - Files of a Truck: truck_modding/general_info/organization_of_files/files_of_a_truck.md
+                - Files of Wheels: truck_modding/general_info/organization_of_files/files_of_wheels.md
+                - Files of Truck Addons: truck_modding/general_info/organization_of_files/files_of_truck_addons.md
+                - Log Files: truck_modding/general_info/organization_of_files/log_files.md                                                
+            - FBX File Structure:
+                - Overview: truck_modding/general_info/fbx_file_structure/fbx_file_structure_overview.md
+                - Coordinate Axes: truck_modding/general_info/fbx_file_structure/coordinate_axes.md
+                - Requirements for Objects: truck_modding/general_info/fbx_file_structure/requirements_for_objects.md
+                - Truck Meshes: truck_modding/general_info/fbx_file_structure/truck_meshes.md
+                - Special Meshes: truck_modding/general_info/fbx_file_structure/special_meshes.md
+                - Textures: truck_modding/general_info/fbx_file_structure/textures.md
+                - Required Bones and Rigging: truck_modding/general_info/fbx_file_structure/required_bones_and_rigging.md
+                - Physical Bones and Collision Meshes: truck_modding/general_info/fbx_file_structure/physical_bones_and_collision_meshes.md                        
+                - Non-Physical Bones: truck_modding/general_info/fbx_file_structure/non_physical_bones.md
+            - XML Description of Truck:
+                - XML of Truck Mesh: truck_modding/general_info/xml_description_of_truck/xml_of_truck_mesh.md
+                - XML of Truck Class: truck_modding/general_info/xml_description_of_truck/xml_of_truck_class.md
+                - XML of Truck Replacement: truck_modding/general_info/xml_description_of_truck/xml_of_truck_replacement.md
+                - XML of Suspension Class: truck_modding/general_info/xml_description_of_truck/xml_of_suspension_class.md
+                - XML of Engine Class: truck_modding/general_info/xml_description_of_truck/xml_of_engine_class.md
+                - XML of Gearbox Class: truck_modding/general_info/xml_description_of_truck/xml_of_gearbox_class.md                     
+                - XML of Material Customization Preset: truck_modding/general_info/xml_description_of_truck/xml_of_material_customization_preset.md
+            - Wheels Description:
+                - Overview: truck_modding/general_info/wheels_description/wheels_overview.md
+                - Wheel as Single Entity: truck_modding/general_info/wheels_description/wheel_as_single_entity.md
+                - Wheel as Set of Tires and Rims: truck_modding/general_info/wheels_description/wheel_as_set_of_tires_and_rims.md
+            - XML Structure:
+                - Main Principles: truck_modding/general_info/xml_structure/main_principles.md
+                - Hierarchy of Tags:
+                    - XML of Truck Mesh: truck_modding/general_info/xml_structure/hierarchy_of_tags/xml_of_truck_mesh.md
+                    - XML of Wheel Mesh: truck_modding/general_info/xml_structure/hierarchy_of_tags/xml_of_wheel_mesh.md
+                    - XML of Truck Class: truck_modding/general_info/xml_structure/hierarchy_of_tags/xml_of_truck_class.md
+                    - XML of Suspension Class: truck_modding/general_info/xml_structure/hierarchy_of_tags/xml_of_suspension_class.md                     
+                    - XML of Engine Class: truck_modding/general_info/xml_structure/hierarchy_of_tags/xml_of_engine_class.md
+                    - XML of Gearbox Class: truck_modding/general_info/xml_structure/hierarchy_of_tags/xml_of_gearbox_class.md                  
+                    - XML of Addon Class: truck_modding/general_info/xml_structure/hierarchy_of_tags/xml_of_addon_class.md
+                    - XML of Trailer Class: truck_modding/general_info/xml_structure/hierarchy_of_tags/xml_of_trailer_class.md
+                    - XML of Wheel Class: truck_modding/general_info/xml_structure/hierarchy_of_tags/xml_of_wheel_class.md
+                - Templates: 
+                    - Overview: truck_modding/general_info/xml_structure/templates/templates.md
+                    - Sample Template and Its Usage: truck_modding/general_info/xml_structure/templates/sample_template_and_its_usage.md 
+                    - Repeated Usage: truck_modding/general_info/xml_structure/templates/repeated_usage.md
+                    - Templates for Multiple Tags: truck_modding/general_info/xml_structure/templates/templates_for_multiple_tags.md
+                    - Template for Hierarchy of Tags: truck_modding/general_info/xml_structure/templates/template_for_hierarchy_of_tags.md
+                    - Overrides for Attribute Values: truck_modding/general_info/xml_structure/templates/overrides_for_attribute_values.md
+                    - Extension of Hierarchy: truck_modding/general_info/xml_structure/templates/extension_of_hierarchy.md
+                    - Removal of Inherited Attributes and Tags: truck_modding/general_info/xml_structure/templates/removal_of_inherited_attributes_and_tags.md
+                - Inheritance: truck_modding/general_info/xml_structure/inheritance.md
+        - Tags and Attributes of Trucks:
+            - truck_modding/tags_and_attributes_of_trucks/index.md
+            - CombineXMesh:
+                - truck_modding/tags_and_attributes_of_trucks/combinexmesh/index.md
+                - SocketPoints:
+                    - truck_modding/tags_and_attributes_of_trucks/combinexmesh/socketpoints/index.md
+                    - SocketPoint: truck_modding/tags_and_attributes_of_trucks/combinexmesh/socketpoints/socketpoint/index.md
+                - Material: truck_modding/tags_and_attributes_of_trucks/combinexmesh/material/index.md
+                - MaterialOverrides:
+                        - truck_modding/tags_and_attributes_of_trucks/combinexmesh/materialoverrides/index.md
+                        - MaterialOverride: truck_modding/tags_and_attributes_of_trucks/combinexmesh/materialoverrides/materialoverride/index.md
+            - Truck:
+                - truck_modding/tags_and_attributes_of_trucks/truck/index.md
+                - TruckData:
+                    - truck_modding/tags_and_attributes_of_trucks/truck/truckdata/index.md
+                    - Wheels:
+                        - truck_modding/tags_and_attributes_of_trucks/truck/truckdata/wheels/index.md
+                        - Wheel: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/wheels/wheel/index.md                        
+                    - SuspensionSocket: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/suspensionsocket/index.md
+                    - SteeringWheel: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/steeringwheel/index.md
+                    - SteeringRack: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/steeringrack/index.md
+                    - Steam: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/steam/index.md
+                    - SoundsWheels: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/soundswheels/index.md
+                    - SoundsDamage: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/soundsdamage/index.md
+                    - Sounds: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/sounds/index.md
+                    - Shakers: 
+                        - truck_modding/tags_and_attributes_of_trucks/truck/truckdata/shakers/index.md
+                        - Shaker: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/shakers/shaker/index.md
+                    - Shafts:
+                        - truck_modding/tags_and_attributes_of_trucks/truck/truckdata/shafts/index.md
+                        - Shaft: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/shafts/shaft/index.md
+                    - OcclusionMap: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/occlusionmap/index.md
+                    - Messages: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/messages/index.md
+                    - LimitedFluid: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/limitedfluid/index.md
+                    - Intake: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/intake/index.md
+                    - GearboxSocket: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/gearboxsocket/index.md
+                    - FuelTank: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/fueltank/index.md
+                    - Exhaust: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/exhaust/index.md
+                    - EngineSocket: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/enginesocket/index.md
+                    - WinchUpgradeSocket: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/winchupgradesocket/index.md
+                    - Driver: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/driver/index.md
+                    - Dashboard:
+                        - truck_modding/tags_and_attributes_of_trucks/truck/truckdata/dashboard/index.md
+                        - Gauge: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/dashboard/gauge/index.md
+                    - Damage:
+                        - truck_modding/tags_and_attributes_of_trucks/truck/truckdata/damage/index.md
+                        - DamageArea: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/damage/damagearea/index.md
+                    - CompatibleWheels: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/compatiblewheels/index.md
+                    - Camera:
+                        - truck_modding/tags_and_attributes_of_trucks/truck/truckdata/camera/index.md
+                        - Cockpit: 
+                            - truck_modding/tags_and_attributes_of_trucks/truck/truckdata/camera/cockpit/index.md
+                            - Rear: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/camera/cockpit/rear/index.md
+                            - Mirror: 
+                                - truck_modding/tags_and_attributes_of_trucks/truck/truckdata/camera/cockpit/mirror/index.md
+                                - SecondaryView: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/camera/cockpit/mirror/secondaryview/index.md
+                    - Axles:
+                        - truck_modding/tags_and_attributes_of_trucks/truck/truckdata/axles/index.md
+                        - Axle: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/axles/axle/index.md
+                    - Foot: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/foot/index.md
+                    - DeployCost: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/deploycost/index.md
+                    - Inventory: truck_modding/tags_and_attributes_of_trucks/truck/truckdata/inventory/index.md                        
+                - Snorkel: truck_modding/tags_and_attributes_of_trucks/truck/snorkel/index.md
+                - Rotator: truck_modding/tags_and_attributes_of_trucks/truck/rotator/index.md
+                - PhysicsModel: 
+                    - truck_modding/tags_and_attributes_of_trucks/truck/physicsmodel/index.md
+                    - NetSync: truck_modding/tags_and_attributes_of_trucks/truck/physicsmodel/netsync/index.md
+                    - Body:
+                        - truck_modding/tags_and_attributes_of_trucks/truck/physicsmodel/body/index.md
+                        - Constraint: 
+                            - truck_modding/tags_and_attributes_of_trucks/truck/physicsmodel/body/constraint/index.md
+                            - Motor: truck_modding/tags_and_attributes_of_trucks/truck/physicsmodel/body/constraint/motor/index.md
+                            - PlaneMotor: truck_modding/tags_and_attributes_of_trucks/truck/physicsmodel/body/constraint/planemotor/index.md
+                            - ConeMotor: truck_modding/tags_and_attributes_of_trucks/truck/physicsmodel/body/constraint/conemotor/index.md
+                            - TwistMotor: truck_modding/tags_and_attributes_of_trucks/truck/physicsmodel/body/constraint/twistmotor/index.md
+                            - PlaneConeMotor: truck_modding/tags_and_attributes_of_trucks/truck/physicsmodel/body/constraint/planeconemotor/index.md
+                            - AllMotor: truck_modding/tags_and_attributes_of_trucks/truck/physicsmodel/body/constraint/allmotor/index.md                                                   
+                    - FarmingBoundingBoxN: truck_modding/tags_and_attributes_of_trucks/truck/physicsmodel/farmingboundingboxn/index.md
+                - ModelAttachments: 
+                    - truck_modding/tags_and_attributes_of_trucks/truck/modelattachments/index.md
+                    - StopSignals:
+                        - truck_modding/tags_and_attributes_of_trucks/truck/modelattachments/stopsignals/index.md
+                        - Model: truck_modding/tags_and_attributes_of_trucks/truck/modelattachments/stopsignals/model/index.md
+                        - Light: truck_modding/tags_and_attributes_of_trucks/truck/modelattachments/stopsignals/light/index.md
+                        - Flare: truck_modding/tags_and_attributes_of_trucks/truck/modelattachments/stopsignals/flare/index.md                       
+                    - ReverseSignals: truck_modding/tags_and_attributes_of_trucks/truck/modelattachments/reversesignals/index.md
+                    - Ignition: truck_modding/tags_and_attributes_of_trucks/truck/modelattachments/ignition/index.md
+                    - HeadLight: truck_modding/tags_and_attributes_of_trucks/truck/modelattachments/headlight/index.md
+                - Landmark: truck_modding/tags_and_attributes_of_trucks/truck/landmark/index.md
+                - HeadLight: truck_modding/tags_and_attributes_of_trucks/truck/headlight/index.md 
+                - GameData: 
+                    - truck_modding/tags_and_attributes_of_trucks/truck/gamedata/index.md
+                    - WinchSocket: truck_modding/tags_and_attributes_of_trucks/truck/gamedata/winchsocket/index.md
+                    - UiDesc: truck_modding/tags_and_attributes_of_trucks/truck/gamedata/uidesc/index.md
+                    - CustomizationCameras:
+                        - truck_modding/tags_and_attributes_of_trucks/truck/gamedata/customizationcameras/index.md
+                        - CameraPos: truck_modding/tags_and_attributes_of_trucks/truck/gamedata/customizationcameras/camerapos/index.md
+                    - CraneSocket: truck_modding/tags_and_attributes_of_trucks/truck/gamedata/cranesocket/index.md
+                    - AddonSockets: 
+                        - truck_modding/tags_and_attributes_of_trucks/truck/gamedata/addonsockets/index.md
+                        - Socket: 
+                            - truck_modding/tags_and_attributes_of_trucks/truck/gamedata/addonsockets/socket/index.md
+                            - ExtraParent: truck_modding/tags_and_attributes_of_trucks/truck/gamedata/addonsockets/socket/extraparent/index.md
+                            - AddonsShift: truck_modding/tags_and_attributes_of_trucks/truck/gamedata/addonsockets/socket/addonsshift/index.md                             
+                - ControlledConstraints: 
+                    - truck_modding/tags_and_attributes_of_trucks/truck/controlledconstraints/index.md                     
+                    - Constraint: truck_modding/tags_and_attributes_of_trucks/truck/controlledconstraints/constraint/index.md
+                - AutomaticIK: 
+                    - truck_modding/tags_and_attributes_of_trucks/truck/automaticik/index.md                     
+                    - IKBone: 
+                        - truck_modding/tags_and_attributes_of_trucks/truck/automaticik/ikbone/index.md
+                        - IKJoint: truck_modding/tags_and_attributes_of_trucks/truck/automaticik/ikbone/ikjoint/index.md
+                - PoweredConstraints: 
+                    - truck_modding/tags_and_attributes_of_trucks/truck/poweredconstraints/index.md                     
+                    - Chain: truck_modding/tags_and_attributes_of_trucks/truck/poweredconstraints/chain/index.md
+                    - Group: 
+                        - truck_modding/tags_and_attributes_of_trucks/truck/poweredconstraints/group/index.md
+                        - Constraint: truck_modding/tags_and_attributes_of_trucks/truck/poweredconstraints/group/constraint/index.md
+            - SuspensionSetVariants:
+                - truck_modding/tags_and_attributes_of_trucks/suspensionsetvariants/index.md
+                - SuspensionSet:
+                    - truck_modding/tags_and_attributes_of_trucks/suspensionsetvariants/suspensionset/index.md
+                    - Suspension: 
+                        - truck_modding/tags_and_attributes_of_trucks/suspensionsetvariants/suspensionset/suspension/index.md
+                        - GameData: 
+                            - truck_modding/tags_and_attributes_of_trucks/suspensionsetvariants/suspensionset/suspension/gamedata/index.md
+                            - UiDesc: truck_modding/tags_and_attributes_of_trucks/suspensionsetvariants/suspensionset/suspension/gamedata/uidesc/index.md
+            - EngineVariants:
+                - truck_modding/tags_and_attributes_of_trucks/enginevariants/index.md
+                - Engine:
+                    - truck_modding/tags_and_attributes_of_trucks/enginevariants/engine/index.md
+                    - GameData: 
+                        - truck_modding/tags_and_attributes_of_trucks/enginevariants/engine/gamedata/index.md
+                        - UiDesc: truck_modding/tags_and_attributes_of_trucks/enginevariants/engine/gamedata/uidesc/index.md
+            - GearboxVariants:
+                - truck_modding/tags_and_attributes_of_trucks/gearboxvariants/index.md
+                - Gearbox:
+                    - truck_modding/tags_and_attributes_of_trucks/gearboxvariants/gearbox/index.md
+                    - ReverseGear: truck_modding/tags_and_attributes_of_trucks/gearboxvariants/gearbox/reversegear/index.md
+                    - HighGear: truck_modding/tags_and_attributes_of_trucks/gearboxvariants/gearbox/highgear/index.md
+                    - Gear: truck_modding/tags_and_attributes_of_trucks/gearboxvariants/gearbox/gear/index.md
+                    - GameData: 
+                        - truck_modding/tags_and_attributes_of_trucks/gearboxvariants/gearbox/gamedata/index.md
+                        - GearboxParams: truck_modding/tags_and_attributes_of_trucks/gearboxvariants/gearbox/gamedata/gearboxparams/index.md
+                        - UiDesc: truck_modding/tags_and_attributes_of_trucks/gearboxvariants/gearbox/gamedata/uidesc/index.md                        
+            - WinchVariants:
+                - truck_modding/tags_and_attributes_of_trucks/winchvariants/index.md
+                - Winch:
+                    - truck_modding/tags_and_attributes_of_trucks/winchvariants/winch/index.md
+                    - GameData: 
+                        - truck_modding/tags_and_attributes_of_trucks/winchvariants/winch/gamedata/index.md
+                        - UiDesc: truck_modding/tags_and_attributes_of_trucks/winchvariants/winch/gamedata/uidesc/index.md
+            
+            - TruckWheel:
+                - truck_modding/tags_and_attributes_of_trucks/truckwheel/index.md
+                - WheelTracks: truck_modding/tags_and_attributes_of_trucks/truckwheel/wheeltracks/index.md
+                - WheelSoftness: truck_modding/tags_and_attributes_of_trucks/truckwheel/wheelsoftness/index.md
+                - WheelFriction: truck_modding/tags_and_attributes_of_trucks/truckwheel/wheelfriction/index.md
+            - TruckWheels:
+                - truck_modding/tags_and_attributes_of_trucks/truckwheels/index.md
+                - TruckTires:
+                    - truck_modding/tags_and_attributes_of_trucks/truckwheels/trucktires/index.md
+                    - TruckTire:
+                        - truck_modding/tags_and_attributes_of_trucks/truckwheels/trucktires/trucktire/index.md
+                        - WheelTracks: truck_modding/tags_and_attributes_of_trucks/truckwheels/trucktires/trucktire/wheeltracks/index.md
+                        - WheelSoftness: truck_modding/tags_and_attributes_of_trucks/truckwheels/trucktires/trucktire/wheelsoftness/index.md
+                        - WheelFriction: truck_modding/tags_and_attributes_of_trucks/truckwheels/trucktires/trucktire/wheelfriction/index.md
+                        - GameData: 
+                            - truck_modding/tags_and_attributes_of_trucks/truckwheels/trucktires/trucktire/gamedata/index.md
+                            - UiDesc: truck_modding/tags_and_attributes_of_trucks/truckwheels/trucktires/trucktire/gamedata/uidesc/index.md
+                        - TiresInflationSystemSettings: 
+                            - truck_modding/tags_and_attributes_of_trucks/truckwheels/trucktires/trucktire/tiresinflationsystemsettings/index.md
+                            - Low and Reduced: 
+                                - truck_modding/tags_and_attributes_of_trucks/truckwheels/trucktires/trucktire/tiresinflationsystemsettings/low_reduced/index.md
+                                - TickDamageParams: truck_modding/tags_and_attributes_of_trucks/truckwheels/trucktires/trucktire/tiresinflationsystemsettings/low_reduced/tickdamageparams/index.md                
+                - TruckRims:
+                    - truck_modding/tags_and_attributes_of_trucks/truckwheels/truckrims/index.md
+                    - TruckRim:
+                        - truck_modding/tags_and_attributes_of_trucks/truckwheels/truckrims/truckrim/index.md
+                        - GameData: 
+                            - truck_modding/tags_and_attributes_of_trucks/truckwheels/truckrims/truckrim/gamedata/index.md
+                            - UiDesc: truck_modding/tags_and_attributes_of_trucks/truckwheels/truckrims/truckrim/gamedata/uidesc/index.md
+            - TruckAddon:
+                - truck_modding/tags_and_attributes_of_trucks/truckaddon/index.md
+                - PhysicsModel: truck_modding/tags_and_attributes_of_trucks/truckaddon/physicsmodel/index.md
+                - GameData:
+                    - truck_modding/tags_and_attributes_of_trucks/truckaddon/gamedata/index.md
+                    - AddonSlots: truck_modding/tags_and_attributes_of_trucks/truckaddon/gamedata/addonslots/index.md
+                    - InstallSlot: truck_modding/tags_and_attributes_of_trucks/truckaddon/gamedata/installslot/index.md
+                    - InstallSocket: truck_modding/tags_and_attributes_of_trucks/truckaddon/gamedata/installsocket/index.md
+                    - RequiredAddon: truck_modding/tags_and_attributes_of_trucks/truckaddon/gamedata/requiredaddon/index.md                    
+                    - RequiredSuspension: truck_modding/tags_and_attributes_of_trucks/truckaddon/gamedata/requiredsuspension/index.md
+                    - SideboardSlots: truck_modding/tags_and_attributes_of_trucks/truckaddon/gamedata/sideboardslots/index.md
+                    - UiDesc: truck_modding/tags_and_attributes_of_trucks/truckaddon/gamedata/uidesc/index.md
+                - WheelRepairsHide:
+                    - truck_modding/tags_and_attributes_of_trucks/truckaddon/wheelrepairshide/index.md
+                    - Mesh: truck_modding/tags_and_attributes_of_trucks/truckaddon/wheelrepairshide/mesh/index.md
+                - RepairsHide:
+                    - truck_modding/tags_and_attributes_of_trucks/truckaddon/repairshide/index.md
+                    - Mesh: truck_modding/tags_and_attributes_of_trucks/truckaddon/repairshide/mesh/index.md                      
+                - FuelHide:
+                    - truck_modding/tags_and_attributes_of_trucks/truckaddon/fuelhide/index.md
+                    - Mesh: truck_modding/tags_and_attributes_of_trucks/truckaddon/fuelhide/mesh/index.md
+                - TruckData:
+                    - truck_modding/tags_and_attributes_of_trucks/truckaddon/truckdata/index.md
+                    - Shakers: truck_modding/tags_and_attributes_of_trucks/truckaddon/truckdata/shakers/index.md
+                    - Intake: truck_modding/tags_and_attributes_of_trucks/truckaddon/truckdata/intake/index.md
+                    - LimitedFluid: truck_modding/tags_and_attributes_of_trucks/truckaddon/truckdata/limitedfluid/index.md
+                    - Damage: 
+                        - truck_modding/tags_and_attributes_of_trucks/truckaddon/truckdata/damage/index.md
+                        - Multiplier: truck_modding/tags_and_attributes_of_trucks/truckaddon/truckdata/damage/multiplier/index.md
+                - Snorkel: truck_modding/tags_and_attributes_of_trucks/truckaddon/snorkel/index.md
+                - Rotator: truck_modding/tags_and_attributes_of_trucks/truckaddon/rotator/index.md
+                - PoweredConstraints: truck_modding/tags_and_attributes_of_trucks/truckaddon/poweredconstraints/index.md
+                - HeavyInventorySlotsMeshes:
+                    - truck_modding/tags_and_attributes_of_trucks/truckaddon/heavyinventoryslotsmeshes/index.md
+                    - Mesh: truck_modding/tags_and_attributes_of_trucks/truckaddon/heavyinventoryslotsmeshes/mesh/index.md 
+            - TruckSet:
+                - truck_modding/tags_and_attributes_of_trucks/truckset/index.md
+                - Truck: 
+                    - truck_modding/tags_and_attributes_of_trucks/truckset/truck/index.md
+                    - CustomizationPreset: truck_modding/tags_and_attributes_of_trucks/truckset/truck/customizationpreset/index.md                                                             
+        - Additional Info on Trucks:
+            - Viewing Trucks in SnowRunner Editor:
+                - Viewing Trucks: truck_modding/additional_info_on_trucks/viewing_trucks/index.md
+                - Opening XML files of Truck: truck_modding/additional_info_on_trucks/viewing_trucks/opening_xml_files_of_truck.md
+                - Viewing XML file of the Mesh: truck_modding/additional_info_on_trucks/viewing_trucks/viewing_xml_file_of_the_mesh.md
+                - Viewing XML file of the Class: truck_modding/additional_info_on_trucks/viewing_trucks/viewing_xml_file_of_the_class.md
+                - Viewing Errors: truck_modding/additional_info_on_trucks/viewing_trucks/viewing_errors.md
+                - Viewing Other Objects: truck_modding/additional_info_on_trucks/viewing_trucks/viewing_other_objects.md
+                - Snow Cover Effect for Truck: truck_modding/additional_info_on_trucks/viewing_trucks/snow_cover_effect_for_truck.md
+            - Color Customization: truck_modding/additional_info_on_trucks/color_customization/color_customization.md
+            - Modding of DLC Trucks:
+                - Modding of DLC Trucks: truck_modding/additional_info_on_trucks/modding_of_dlc_trucks/modding_of_dlc_trucks.md
+                - Policy on Using Parts of DLC Trucks: truck_modding/additional_info_on_trucks/modding_of_dlc_trucks/policy_on_using_parts_of_dlc_trucks.md
+                - Policy on Using DLCs with Tires and Rims: truck_modding/additional_info_on_trucks/modding_of_dlc_trucks/policy_on_using_dlcs_with_tires_and_rims.md
+            - "Addons: Selected Info":
+                - Overview: truck_modding/additional_info_on_trucks/addons_selected_info/index.md
+                - FastMode. Controlled Constraints of Addon:
+                    - FastMode: truck_modding/additional_info_on_trucks/addons_selected_info/fast_mode.md
+                    - Controls for Controlled Constraints of Addon: truck_modding/additional_info_on_trucks/addons_selected_info/controls_for_controlled_constraints.md
+                    - Actions. Buttons for Controlled Constraints: truck_modding/additional_info_on_trucks/addons_selected_info/actions_buttons_for_controlled_constraints.md
+                    - Usage of the ActionCategory fields: truck_modding/additional_info_on_trucks/addons_selected_info/usage_for_actioncategory_fields.md
+            - Farming Trailers:
+                - Farming Trailers: truck_modding/additional_info_on_trucks/farming_trailers/farming_trailers.md
+                - Auto-Activation of Constraints of Farming Trailer: truck_modding/additional_info_on_trucks/farming_trailers/auto_activation_of_constraints_of_farming_trailer.md
+                - Powered Constraints used for Farming Trailers: truck_modding/additional_info_on_trucks/farming_trailers/powered_constraints_used_for_farming_trailers.md
+            - Water as Cargo: truck_modding/additional_info_on_trucks/water_as_cargo/water_as_cargo.md
+            - Powered Constraints:
+                - Overview: truck_modding/additional_info_on_trucks/powered_constraints/powered_constraints_overview.md
+                - Actions. Their Mapping to Buttons: truck_modding/additional_info_on_trucks/powered_constraints/actions_and_their_mapping_to_buttons.md
+    - Custom Level Entities: custom_level_entities/custom_level_entities.md                                          
+    - Custom Gameplay Entities:
+        - Intro: custom_gameplay_entities/custom_gameplay_entities_intro.md
+        - Inventory Items: 
+            - Overview: custom_gameplay_entities/inventory_items/custom_inventory_items_overview.md
+            - Creation of Custom Inventory Item: custom_gameplay_entities/inventory_items/creation_of_custom_inventory_item.md
+            - General Properties: custom_gameplay_entities/inventory_items/general_properties_of_inventory_items.md
+            - Ability-Specific Properties: custom_gameplay_entities/inventory_items/ability_specific_properties_of_inventory_items.md
+            - Custom Slots for Inventory Items: custom_gameplay_entities/inventory_items/custom_slots_for_inventory_items.md        
+            - "Appendix: Types of Inventory Items": custom_gameplay_entities/inventory_items/appendix_types_of_inventory_items.md
+            - "Appendix: Icons of Inventory Items and Consumables": custom_gameplay_entities/inventory_items/appendix_icons_of_inventory_items_and_consumables.md 
+        - Specialists:
+            - Overview: custom_gameplay_entities/specialists/custom_specialists_overview.md
+            - Creation of Custom Specialist: custom_gameplay_entities/specialists/creation_of_custom_specialist.md
+            - General Properties: custom_gameplay_entities/specialists/general_properties_of_specialists.md
+            - Modifiers: custom_gameplay_entities/specialists/modifiers_of_specialists.md        
+        - FOB Modules:
+            - Overview: custom_gameplay_entities/fob_modules/custom_fob_modules_overview.md
+            - Creation of Custom FOB Module: custom_gameplay_entities/fob_modules/creation_of_custom_fob_module.md                   
+            - General Properties: custom_gameplay_entities/fob_modules/general_properties_of_fob_modules.md
+            - 3D Models of FOB Modules: custom_gameplay_entities/fob_modules/3d_models_of_fob_modules.md
+        - Cargo: custom_gameplay_entities/cargo/custom_cargo.md
+    - Usage and Uploading of Mods:
+        - Registration and Authentication: usage_and_uploading_of_mods/registration_and_authentication.md
+        - Uploading Mods to mod.io: usage_and_uploading_of_mods/uploading_mods_to_mod_io.md
+        - Usage of Mods from mod.io: usage_and_uploading_of_mods/usage_of_mods_from_mod_io.md
+        - Linking Mods: usage_and_uploading_of_mods/linking_mods.md
+        - Console Mods Approval Process: usage_and_uploading_of_mods/console_mods_approval_process.md 
+     
+plugins:
+  - search:
+      lang: en 
+  - offline:
+      enabled: false
+  - redirects:
+      redirect_maps:
+          index.md:  !ENV SITE_URL
+  - glightbox
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: false
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  
