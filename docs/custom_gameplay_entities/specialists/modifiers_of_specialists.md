@@ -8,7 +8,7 @@ For clarity, `SpecialistModifier...` prefixes in headings are omitted for modifi
 
 Mechanics of **...UiDesc** and **group** fields within a modifier, are described in anther section of [Custom Specialists: Overview][overview_uidesc_and_group]. These fields work the same way for all modifiers and are also omitted here. Only the actual parameters of modifiers are described.
 
-### Note On Naming of Parameters
+### Naming of Parameters
 Parameters of modifiers typically have suffixes corresponding to types of their values:
 
 -   **...Count** – the quantitative value. Typically, corresponds to the numerical amount of something.
@@ -16,6 +16,14 @@ Parameters of modifiers typically have suffixes corresponding to types of their 
 -   **...Meters** – the value in meters. Typically, used for values that are measured in the in-game meters.
 
 In other cases, checkboxes or other non-typical types of parameters are used. 
+
+### Negative Values
+Negative values also work for parameters of modifiers and will decrease the value of the corresponding parameter. 
+
+For example, you can try to specify [**anchorRadiusIncreasedPercent**](#anchorradius) = `-50`. And it will *decrease* the value of radius, by `50` percents.
+
+However, this scheme is not valid for all parameters **Reduced** suffixes in their names.
+
 
 ## List of Possible Modifiers
 
@@ -27,19 +35,19 @@ Increases the amount of [Treasure Items][treasure_items] in the resource zones.
 
 When a single Treasure Item is spawned in this zone, this modifier will add an additional specified amount of these items. However, these additional item will not be added, if there are no free slots in the zone.
 
--   **additionalTreasureItemsCount** – The amount of additional [Treasure Items][treasure_items] to be added. Positive integer value.
+-   **additionalTreasureItemsCount** – The amount of additional [Treasure Items][treasure_items] to be added. 
 
 ### AnchorRadius
 Increases the radius of all specified *Anchors*.
 
 -   **anchorRadiusID** – [identifiers][inv_items_idemtifiers_list] of all *Anchors* that this modifier will be applied to.
--   **anchorRadiusIncreasedPercent** – the increase of the radius, in percents. Positive integer value.
+-   **anchorRadiusIncreasedPercent** – the increase of the radius, in percents. 
 
 ### AnchorSupplies
 Increases the amount of charges of all specified *Anchors* that are available for purchasing in Headquarters or within the Expedition.
 
 -   **anchorRadiusID** – [identifiers][inv_items_idemtifiers_list] of all *Anchors* that this modifier will be applied to.
--   **anchorMaxLimitCount** – the number of additional charges that will be added to both current number of charges and maximum possible amount of charges. Positive integer value.
+-   **anchorMaxLimitCount** – the number of additional charges that will be added to both current number of charges and maximum possible amount of charges. 
 
 ### ArmorRestoreEverywhere
 Allows to perform reinforcement (restore the armor) in any location.
@@ -61,49 +69,49 @@ Different base class of modifiers that will be be hidden. (`TBD`)
 ### AdditionalReward
 Increases the amount of [reward] of particular type.
 
--   **additionalRewardExpeditionIncreasedPercent** – the increase of the reward for an Expedition, in percents. Positive integer value.
--   **additionalRewardSideQuestsIncreasedPercent** – the increase of the reward for a Contract, in percents. Positive integer value.
--   **additionalRewardTasksIncreasedPercent** – the increase of the reward for a Task, in percents. Positive integer value.
+-   **additionalRewardExpeditionIncreasedPercent** – the increase of the reward for an Expedition, in percents. 
+-   **additionalRewardSideQuestsIncreasedPercent** – the increase of the reward for a Contract, in percents. 
+-   **additionalRewardTasksIncreasedPercent** – the increase of the reward for a Task, in percents. 
 
 ### ArmorCapacity
 Increases the amount of armor of the particular component of the truck.
 
--   **armorEngineIncreasedPercent** – the increase of the *Engine* armor, in percents. Positive integer value.
--   **armorGearboxIncreasedPercent** – the increase of the *Gearbox* armor, in percents. Positive integer value.
--   **armorGasTankIncreasedPercent** – the increase of the *Gas Tank* armor, in percents. Positive integer value.
--   **armorSuspencionIncreasedPercent** – the increase of the *Suspension* armor, in percents. Positive integer value.
+-   **armorEngineIncreasedPercent** – the increase of the *Engine* armor, in percents. 
+-   **armorGearboxIncreasedPercent** – the increase of the *Gearbox* armor, in percents. 
+-   **armorGasTankIncreasedPercent** – the increase of the *Gas Tank* armor, in percents. 
+-   **armorSuspencionIncreasedPercent** – the increase of the *Suspension* armor, in percents. 
 
 See also: [ArmorRestoreEverywhere](#armorrestoreeverywhere).
 
 ### BinocularRadius
 Increases the radius of vision for *Binoculars*.
 
--   **binocularPartRadiusIncreasedMeters** – the increase of the radius of *partial* exploration for *Binoculars*, in meters. Partial exploration locates new POI, but does not identify them (shows them as "question" marks). Positive integer value. 
+-   **binocularPartRadiusIncreasedMeters** – the increase of the radius of *partial* exploration for *Binoculars*, in meters. Partial exploration locates new POI, but does not identify them (shows them as "question" marks).  
 
--   **binocularFullRadiusIncreasedMeters** – the increase of the radius of *full* exploration for *Binoculars*, in meters. Full exploration fully identifies POI. Positive integer value. 
+-   **binocularFullRadiusIncreasedMeters** – the increase of the radius of *full* exploration for *Binoculars*, in meters. Full exploration fully identifies POI.  
 
 ### DroneAcceleration
 Increases the speed of the *Drone*.
 
--   **droneAccelerationIncreasedPercent** – the increase of the acceleration and speed of the *Drone*, in percents. Positive integer value. 
+-   **droneAccelerationIncreasedPercent** – the increase of the acceleration and speed of the *Drone*, in percents.  
 
--   **droneAccelerationHeightIncreasedPercent** – the increase of the height and vertical accelartion of the *Drone*, in percents. Positive integer value.
+-   **droneAccelerationHeightIncreasedPercent** – the increase of the height and vertical accelartion of the *Drone*, in percents. 
 
 ### DroneControllability
 Increases the controllability of the *Drone*.
 
--   **droneControllabilityResForceIncreasedPercent** – the increase of the parameter responsible for the resistance force applied to the *Drone*, in percents. The higher this value is, the faster the *Drone* will stop. Positive integer value. 
+-   **droneControllabilityResForceIncreasedPercent** – the increase of the parameter responsible for the resistance force applied to the *Drone*, in percents. The higher this value is, the faster the *Drone* will stop.  
 
--   **droneControllabilityResForceRotationIncreasedPercent** – the increase of the parameter responsible for the resistance force applied to the *Drone* when it rotates, in percents. The higher this value is, the faster the *Drone* will stop after rotation. Positive integer value.
+-   **droneControllabilityResForceRotationIncreasedPercent** – the increase of the parameter responsible for the resistance force applied to the *Drone* when it rotates, in percents. The higher this value is, the faster the *Drone* will stop after rotation. 
 
--   **droneControllabilityForceRotationIncreasedPercent** – the increase of the rotation speed of the *Drone*, in percents. Positive integer value.
+-   **droneControllabilityForceRotationIncreasedPercent** – the increase of the rotation speed of the *Drone*, in percents. 
 
 ### DroneScoutRadius
 Increases the exploration radius of the *Drone*. (`TBD`)
 
--   **droneFullScoutRadiusIncreasedMeters** – the increase of the radius of *full* exploration for the *Drone*, in meters. Full exploration fully identifies POI. Positive integer value. (`TBD`)
+-   **droneFullScoutRadiusIncreasedMeters** – the increase of the radius of *full* exploration for the *Drone*, in meters. Full exploration fully identifies POI.  (`TBD`)
 
--   **dronePartScoutRadiusIncreasedMeters** – the increase of the radius of *partial* exploration for the *Drone*, in meters. Partial exploration locates new POI, but does not identify them (shows them as "question" marks). Positive integer value. (`TBD`)
+-   **dronePartScoutRadiusIncreasedMeters** – the increase of the radius of *partial* exploration for the *Drone*, in meters. Partial exploration locates new POI, but does not identify them (shows them as "question" marks).  (`TBD`)
 
 ### EcholotModeAura
 Changes the mechanics of the *Echo Sounder* operation.
@@ -120,15 +128,15 @@ If this modifier is active, the zone of the *Echo Sounder* operation becomes per
 ### EmergencyStockSupplies
 Increases the amount of resources in *Essentials Storage* (`DOUBLE_STOCK`) FOB Module. (`TBD`)
 
--   **emergencyStockFuel** – the increase of the *Fuel* in this FOB Module. Positive integer value.
--   **emergencyStockRepairs** – the increase of the *Repair parts* in this FOB Module. Positive integer value.
--   **emergencyStockWheels** – the increase of the *Wheels* in this FOB Module. Positive integer value.
+-   **emergencyStockFuel** – the increase of the *Fuel* in this FOB Module. 
+-   **emergencyStockRepairs** – the increase of the *Repair parts* in this FOB Module. 
+-   **emergencyStockWheels** – the increase of the *Wheels* in this FOB Module. 
 
 ### FogOfWarTranspRadius
 Increases the radius of full exploration around the truck.
 
 -   **fogOfWarRadiusInceasedMeters** – (`TBD`).
--   **fogOfWarTranspRadiusInceasedMeters** – the increase of the full exploration radius around the truck, in meters. Positive integer value.
+-   **fogOfWarTranspRadiusInceasedMeters** – the increase of the full exploration radius around the truck, in meters. 
 
 ### MayDiscoverZones
 Allows the player to discover zones (POI) marked as [discoverable][discoverable] for this [class][class] of the Specialist.
@@ -158,18 +166,18 @@ Different base class of modifiers that will be hidden. (`TBD`)
 ### AdditionalAddonSupplies
 Increases the amount of resources in [Consumable][consumable] addons to the truck.
 
--   **additionalAddonFuelCount** – the increase of the amount of *Fuel* in [Consumable][consumable] addons. Positive integer value.
--   **additionalAddonRepairsCount** – the increase of the amount of *Repair parts* in [Consumable][consumable] addons. Positive integer value.
--   **additionalAddonWheelsCount** – the increase of the amount of *Wheels* in [Consumable][consumable] addons. Positive integer value.
+-   **additionalAddonFuelCount** – the increase of the amount of *Fuel* in [Consumable][consumable] addons. 
+-   **additionalAddonRepairsCount** – the increase of the amount of *Repair parts* in [Consumable][consumable] addons. 
+-   **additionalAddonWheelsCount** – the increase of the amount of *Wheels* in [Consumable][consumable] addons. 
 
 ### AdditionalDeployResources
 Increases the amount of *Fuel*, *Repair parts*, and *Wheels* resources in all opened [Deploy zones][deploy_zones], including the main FOB. 
 
 Additional resources are not stored after leaving the map.
 
--   **additionalDeployFuelCount** – the amount of extra *Fuel* to be added to [Deploy zones][deploy_zones] resources. Positive integer value.
--   **additionalDeployRepairsCount** – the amount of extra *Repair parts* to be added to [Deploy zones][deploy_zones] resources. Positive integer value.
--   **additionalDeployWheelsCount** – the amount of extra *Wheels* to be added to [Deploy zones][deploy_zones] resources. Positive integer value.
+-   **additionalDeployFuelCount** – the amount of extra *Fuel* to be added to [Deploy zones][deploy_zones] resources. 
+-   **additionalDeployRepairsCount** – the amount of extra *Repair parts* to be added to [Deploy zones][deploy_zones] resources. 
+-   **additionalDeployWheelsCount** – the amount of extra *Wheels* to be added to [Deploy zones][deploy_zones] resources. 
 
 ### EcholotModeCone
 Changes the mechanics of the *Echo Sounder* operation.
@@ -180,11 +188,11 @@ The *Echo Sounder* itself is activated in the standard way.
 **NOTE**: When multiple active specialists have modifiers of *Echo Sounder* operation, the game will use modifier parameters of the first active specialist.
 I.e., the values of these parameters will *not* be summarized. 
 
--   **echolotRadiusOverrideMeters** – the length of the "cone" before the truck, in meters. Positive integer value.
+-   **echolotRadiusOverrideMeters** – the length of the "cone" before the truck, in meters. 
 
--   **echolotStepCountOverride** – the density of *Echo Sounder* visualization marks on the surface of water in the "cone" mode. Positive integer value.
+-   **echolotStepCountOverride** – the density of *Echo Sounder* visualization marks on the surface of water in the "cone" mode. 
 
--   **echolotConeAngle** – the angle of the displayed "cone". Positive integer value.
+-   **echolotConeAngle** – the angle of the displayed "cone". 
 
 -   **echolotApplicationAdditionalTime** – `TBD`
 

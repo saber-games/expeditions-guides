@@ -2,6 +2,7 @@
 
 *(NEW) This feature is valid for Expeditions only.*
 
+**NOTE**: In the current version of the game, Inventory Storage zones are not shown, even when **alwaysSpawn** option is set to `true`. This is a known issue that will be fixed.
 
 ## Main Function: Storage of Inventory
 The *ZonePropertyInventoryStorage* zones work as a storage for various [inventory items](./../../../../custom_gameplay_entities/inventory_items/custom_inventory_items_overview.md), fuel, repair parts, and spare wheels on the map. All these items can be spawned within these zones.
