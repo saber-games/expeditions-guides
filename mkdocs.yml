@@ -282,7 +282,6 @@ nav:
             - COOP Mode: map_modding/additional_info_on_maps/coop_mode/coop_mode.md
             - Custom Cargo: map_modding/additional_info_on_maps/custom_cargo/custom_cargo.md 
             - Custom Images for Regions and Maps: map_modding/additional_info_on_maps/custom_images_for_regions_and_maps/custom_images_for_regions_and_maps.md
-            - Console Mods Requirements: map_modding/additional_info_on_maps/console_mods_requirements/console_mods_requirements.md
 
     - Truck Modding:
         - Getting Started:
@@ -647,7 +646,8 @@ nav:
         - Registration and Authentication: usage_and_uploading_of_mods/registration_and_authentication.md
         - Uploading Mods to mod.io: usage_and_uploading_of_mods/uploading_mods_to_mod_io.md
         - Usage of Mods from mod.io: usage_and_uploading_of_mods/usage_of_mods_from_mod_io.md
-        - Linking Mods: usage_and_uploading_of_mods/linking_mods.md 
+        - Linking Mods: usage_and_uploading_of_mods/linking_mods.md
+        - Console Mods Approval Process: usage_and_uploading_of_mods/console_mods_approval_process.md 
      
 plugins:
   - search:
