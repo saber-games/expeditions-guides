@@ -1,6 +1,11 @@
 # Creation of Custom FOB Module
 
+*(NEW) This feature is valid for Expeditions only.*
+
+**NOTE**: In the current version of Expeditions, there is an issue that saving a custom FOB module may not work when the module is created *for the first time*. As the result of this issue, you will see the "*Can’t open file: ...*" message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
+
 ## Overview
+
 Custom FOB Modules are created similarly to custom Inventory Items and Specialists.
 
 This process is initiated in by clicking the **EXP MODs creation** (![](./../../map_modding/creating_a_map/media/exp_mods_creation_button.png)) button on the toolbar of the Editor.
@@ -38,6 +43,8 @@ To create a new custom FOB Module, do the following:
 6.  Specify [properties][properties] of this FOB Module.
 
 7.  To save your changes, select **File** \> **Save** from the main menu.
+
+**NOTE**: In the current version of Expeditions, there is an issue that saving a custom FOB module may not work when the module is created *for the first time*. As the result of this issue, you will see the "*Can’t open file: ...*" message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
 
 After the creation, you can pack this FOB module to make it available in the game and to be able to upload it to mod.io later on.
 

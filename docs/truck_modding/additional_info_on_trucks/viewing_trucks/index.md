@@ -2,7 +2,7 @@
 
 Along with working with maps, the Editor also allows you to view mods of your trucks.
 
-This feature can be useful due to the following:
+Benefits or this are the following:
 
 -   The Editor loads the truck faster than the game. You do not need to load the level to view the truck.
 

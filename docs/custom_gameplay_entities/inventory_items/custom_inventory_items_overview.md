@@ -2,6 +2,8 @@
 
 *(NEW) This feature is valid for Expeditions only.*
 
+**NOTE**: In the current version of Expeditions, there is an issue that saving a custom inventory item may not work when the item is created *for the first time*. As the result of this issue, you will see the "*Can’t open file: ...*" message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
+
 ## What is an Inventory Item?
 Inventory items are various tools, equipment and other items that can be either stored in the truck's Inventory or are available from the Radial menu. You can transfer inventory items from other zones or trucks to the Inventory. 
 

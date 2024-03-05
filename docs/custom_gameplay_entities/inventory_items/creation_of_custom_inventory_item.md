@@ -2,6 +2,8 @@
 
 *(NEW) This feature is valid for Expeditions only.*
 
+**NOTE**: In the current version of Expeditions, there is an issue that saving a custom inventory item may not work when the item is created *for the first time*. As the result of this issue, you will see the "*Can’t open file: ...*" message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
+
 ## Overview
 Custom Inventory Items are created similarly to custom FOB Modules and Specialists – in the dialog window that is opened by clicking the **EXP MODs creation** (![](./../../map_modding/creating_a_map/media/exp_mods_creation_button.png)) button on the toolbar of the Editor.
 
@@ -92,6 +94,8 @@ To create a new custom inventory item, do the following:
 7.  If your inventory item uses an ability, specify its [ability-specific properties][ability_specific_properties] below them.
 
 8.  To save your changes, select **File** \> **Save** from the main menu.
+
+**NOTE**: In the current version of Expeditions, there is an issue that saving a custom inventory item may not work when the item is created *for the first time*. As the result of this issue, you will see the "*Can’t open file: ...*" message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
 
 After the creation, you can pack this inventory item to make it available in the game and to be able to upload it to mod.io later on.
 

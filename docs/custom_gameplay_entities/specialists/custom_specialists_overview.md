@@ -2,6 +2,8 @@
 
 *(NEW) This feature is valid for Expeditions only.*
 
+**NOTE**: In the current version of Expeditions, there is an issue that saving a custom specialist may not work when this specialist is created *for the first time*. As the result of this issue, you will see the "*Can’t open file: ...*" message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.   
+
 ## Overview
 Specialists modify certain parameters of gameplay.
 

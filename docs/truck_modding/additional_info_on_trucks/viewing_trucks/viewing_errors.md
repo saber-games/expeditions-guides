@@ -1,8 +1,17 @@
 # Viewing Errors
 
-If the **Settings \> Ignore warnings** option is not selected in the main menu of the Editor, errors will be displayed to the user as pop-up windows.
+Log of system operations of the Editor is displayed within the **Output** panel. Errors are highlighted in this log.
 
-Along with that, errors are displayed to the user in the log within the **Output** panel.
+**TIP**: The `CTRL + C` hot key will allow you to copy selected log records to Clipboard.
 
-You can select errors there and copy them to buffer by pressing CTRL + C, then paste where necessary by pressing CTRL + V.
+Along with that, errors and warnings that occur are displayed as message boxes.
+
+However, if necessary, they can be turned off by enabling the **Settings \> Ignore Warnings** option.
+
+Errors during saving files can be disabled by enabling **Settings \> Ignore Save Warnings**.  
+However, usage of this option is not recommended.
+
+
+
+
 

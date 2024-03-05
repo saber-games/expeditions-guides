@@ -1,5 +1,7 @@
 # Creation of Custom Specialist
 
+**NOTE**: In the current version of Expeditions, there is an issue that saving a custom specialist may not work when this specialist is created *for the first time*. As the result of this issue, you will see the "*Can’t open file: ...*" message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
+
 ## Overview
 Custom Specialists are created similarly to custom Inventory Items and FOB Modules.
 
@@ -31,6 +33,8 @@ To create a new custom Specialist, do the following:
 6.  In the **modifiers** list, add and configure necessary [modifiers][modifiers] of this Specialist.
 
 7.  To save your changes, select **File** \> **Save** from the main menu.
+
+**NOTE**: In the current version of Expeditions, there is an issue that saving a custom specialist may not work when this specialist is created *for the first time*. As the result of this issue, you will see the "*Can’t open file: ...*" message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
 
 After the creation, you can pack this Specialist to make it available in the game and to be able to upload it to mod.io later on.
 
