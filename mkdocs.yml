@@ -592,7 +592,7 @@ nav:
                     - truck_modding/tags_and_attributes_of_trucks/truckset/truck/index.md
                     - CustomizationPreset: truck_modding/tags_and_attributes_of_trucks/truckset/truck/customizationpreset/index.md                                                             
         - Additional Info on Trucks:
-            - Viewing Trucks in SnowRunner Editor:
+            - Viewing Trucks in Editor:
                 - Viewing Trucks: truck_modding/additional_info_on_trucks/viewing_trucks/index.md
                 - Opening XML files of Truck: truck_modding/additional_info_on_trucks/viewing_trucks/opening_xml_files_of_truck.md
                 - Viewing XML file of the Mesh: truck_modding/additional_info_on_trucks/viewing_trucks/viewing_xml_file_of_the_mesh.md
