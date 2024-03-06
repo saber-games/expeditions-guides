@@ -1,0 +1,23 @@
+Welcome to the Expeditions: A Mudrunner Game community! We're very excited that you're interested in contributing to the Expeditions modding documentation (this “Documentation”) contained in this repository (the “Repository”). 
+
+This document is designed to ensure a clear understanding of the rights and responsibilities of both you, the Contributors to this Documentation and Saber Interactive Inc., regarding the Documentation hosted on this Repository.
+
+By contributing to the Expeditions modding Documentation, you agree to the terms outlined in this License Agreement.
+
+1. Ownership of Contributions
+1.1 Your Contributions: As a Contributor, you retain ownership of all copyright and intellectual property rights in your Contributions to the modding Documentation. Your “Contributions” include, but are not limited to, any written documentation, images, code snippets, and any other material you submit to the repository.
+
+2. Grant of License
+2.1 License to Saber: By contributing to the Documentation, you hereby grant Saber Interactive Inc. (“Saber”) a non-exclusive, worldwide, royalty-free, perpetual, irrevocable, sublicensable, and transferable license to use, copy, modify, adapt, publish, translate, create derivative works from, distribute, perform, and display your contributions in any manner and for any purpose, including without limitation, for promoting and redistributing part or all of Saber’s Expeditions modding Documentation (and derivative works thereof), the Expeditions game, and related materials, in any media formats and through any media channels.
+2.2 Community Use: Additionally, you grant each user of the Documentation a non-exclusive license to access, use, copy, modify, and distribute your contributions as permitted through the functionality of the Repository and under this License Agreement.
+
+3. Contributor Representations
+3.1 You represent and warrant that you have the legal right and authority to grant the license stated above and that your contributions do not infringe the intellectual property rights of any third party.
+
+4. No Obligation
+4.1 Saber is under no obligation to use, publish, or distribute any Contribution. The decision to include or reference your Contribution in the Documentation is at Saber’s sole discretion.
+
+5. Miscellaneous Terms
+5.1 Modification of Agreement: Saber reserves the right to modify this License Agreement at any time. Your continued contribution to the Documentation following any such modification constitutes your acceptance of the modified Agreement.
+5.2 Governing Law: This License Agreement is governed by and construed in accordance with the laws of the state of Florida, USA, without regard to its conflict of law principles.
+5.3 Entire Agreement: This License Agreement constitutes the entire agreement between you and Saber regarding your Contributions to the Documentation and supersedes all prior agreements and understandings, whether written or oral, concerning its subject matter.
