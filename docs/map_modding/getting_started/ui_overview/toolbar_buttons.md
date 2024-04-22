@@ -82,7 +82,7 @@ camera position, camera direction vector, amount of Draw Indexed Primitives (DIP
 </tr>
 <tr class="odd">
 <td><img src="../media/image15.png" style="width:0.21875in;height:0.19792in" /></td>
-<td></td>
+<td><strong>Pause</strong></td>
 <td></td>
 <td>Pauses/enables the default animations that may exist for the models in the Editor. For example, if you add the windmill model, and then disable and enable this option and Rebuild the level, you will see the animated windmill:<br />
 <img src="../media/image16.gif" style="width:1.9375in;height:2.03125in" /><br />
