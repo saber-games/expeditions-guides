@@ -10,6 +10,7 @@ The main goal of groups is to help you organize objects.
 ## Process
 
 ### Adding Groups
+
 To add a group:
 
 1.  Right-click the necessary section in the **Scene View** hierarchy (e.g. **Models**) and select **Add Group** from the context menu.
