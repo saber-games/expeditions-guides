@@ -1,6 +1,6 @@
 # Wheel as Set of Tires and Rims
 
-If a wheel is set up as a set of tyres and then the setup of the wheels should be performed as follows:
+If a wheel is set up as a set of tyres, the setup of the wheels must be performed as follows.
 
 A single FBX file contains either one or two tires, or one or two rims. When geometry is created for the wheels that are single for all axes of the truck (as on most scouts), then the FBX file will contain only one tire (named "tire") or only one rim (named "rim"). In the case of twin wheels (typically, rear wheels of a truck), the FBX file will contain two tires or two rims.
 
