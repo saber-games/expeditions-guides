@@ -1,6 +1,6 @@
 # Toolbar Buttons
 
-Toolbars are almost the same for both editiors.
+Toolbars are almost the same for both editors.
 
 *For Expeditions:*  
 ![](./media/image5_expeditions.png)
