@@ -253,6 +253,24 @@ It can be also used when viewing Trucks (see <a href="./../../../../truck_moddin
 <td></td>
 <td>Allows you to hide water pools in the scene.</td>
 </tr>
+<tr class="even">
+<td><img src="../media/image54.png" style="width:0.21872in;height:0.21872in" /></td>
+<td><strong>Hide Model</strong></td>
+<td></td>
+<td>Allows you to hide models in the scene. If a model is selected, it will not be hidden.</td>
+</tr>
+<tr class="odd">
+<td><img src="../media/image55.png" style="width:0.21872in;height:0.21872in" /></td>
+<td><strong>Hide Overlays</strong></td>
+<td></td>
+<td>Allows you to hide overlays in the scene. For details, see <a href="./../../../creating_a_map/overlays/adding_overlays/">Adding Overlays</a>.</td>
+</tr>
+<tr class="even">
+<td><img src="../media/image56.png" style="width:0.21872in;height:0.21872in" /></td>
+<td><strong>Hide Grass</strong></td>
+<td></td>
+<td>Allows you to hide the grass in the scene.</td>
+</tr>
 <tr class="odd">
 <td><img src="../media/image34.png" style="width:0.21875in;height:0.19792in" /></td>
 <td><strong>Zone settings</strong> <br /> <i>(in Expeditions, this button is located here)</i></td>
