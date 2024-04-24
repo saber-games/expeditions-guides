@@ -170,13 +170,13 @@ It can be also used when viewing Trucks (see <a href="./../../../../truck_moddin
 </tr>
 <tr class="odd">
 <td><img src="../media/image30.png" style="width:0.20833in;height:0.1875in" /></td>
-<td></td>
+<td><strong>Use Ruler</strong></td>
 <td></td>
 <td>Enables/disables the <strong>Ruler</strong> tool, which allows you to create splines and measure distances. After enabling the tool, you can add points to the ruler spline by right-clicking and selecting <strong>Add before</strong> and <strong>Add after</strong> in the context menu. The spline works similarly to the mechanism of overlays (see <a href="./../../../creating_a_map/overlays/adding_overlays/"><u>Adding Overlays</u></a>).</td>
 </tr>
 <tr class="even">
 <td><img src="../media/image31.png" style="width:0.19792in;height:0.1875in" /></td>
-<td></td>
+<td><strong>Terrain brightness</strong></td>
 <td></td>
 <td>It allows you to increase or decrease the brightness of the preview of the level in the appearing dialog. It is used for previewing the level in the Editor only. Particularly, it is useful to decrease brightness when working with snowy levels.</td>
 </tr>
@@ -246,6 +246,12 @@ It can be also used when viewing Trucks (see <a href="./../../../../truck_moddin
 <td><strong>Hide Plants</strong></td>
 <td></td>
 <td>Allows you to hide all plants (both single ones and planted via a Distribution). Other objects, shadows, and grass remain the same.</td>
+</tr>
+<tr class="odd">
+<td><img src="../media/image53.png" style="width:0.21872in;height:0.21872in" /></td>
+<td><strong>Hide WaterPool</strong></td>
+<td></td>
+<td>Allows you to hide water pools in the scene.</td>
 </tr>
 <tr class="odd">
 <td><img src="../media/image34.png" style="width:0.21875in;height:0.19792in" /></td>
