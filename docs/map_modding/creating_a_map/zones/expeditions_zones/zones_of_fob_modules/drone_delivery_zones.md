@@ -4,6 +4,8 @@
 
 The *ZonePropertyDroneDelivery* prop is used for setting up the *Cargo drone* (DRONE_BASE) [FOB module zone](./zones_of_fob_modules_overview.md).
 
+**NOTE**: Use this prop only to [configure custom FOB Modules][creation_of_custom_fob_module]. Do not assign this props to common standalone zones. If you do it, this might cause a crash.
+
 This prop is a wrapper over the [*ZonePropertyInventoryStorage*](./../inventory_storage_zones.md) prop that allows you to configure a storage for fuel, repair parts, spare wheels and various inventory items.
 
 However, the *ZonePropertyDroneDelivery* zone typically uses only the following settings from its parent:
@@ -18,4 +20,6 @@ Along with regular *ZonePropertyInventoryStorage* fields, there are two addition
 
 -   **fuelLevel** – *not used.* You should use **fuelSlotSettings** instead.
 
--   **deliveryCost** – the cost of one *Cargo drone* delivery, in Fuel units.
+-   **deliveryCost** – the cost of one *Cargo drone* delivery, in Fuel units.   
+
+[creation_of_custom_fob_module]: ./../../../../../custom_gameplay_entities/fob_modules/creation_of_custom_fob_module.md
