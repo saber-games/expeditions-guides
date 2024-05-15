@@ -10,7 +10,7 @@ Each FOB Module Zone requires a *Placement Zone* and an *Interaction Zone*. They
 
 ![](./media/fob_module_1.png)
 
-Custom module zones allow you to set specific parameters of this zone: for example, you can define the items in storage and their amount. A custom module also requires a *Placement Zone* and an *Interaction Zone*. In addition, you need to prepare a custom MOD for players to build in one of the FOB Module Zones. To do so, you must [create a MOD][creation_of_custom_fob_module] from the **EXP MODs creation** menu. The properties of the FOB Modules are assigned in `zoneProperty` of the MOD.
+Custom module zones allow you to set specific parameters of this zone: for example, you can define the items in stock and their amount. A custom module also requires a *Placement Zone* and an *Interaction Zone*. In addition, you need to prepare a custom MOD for players to build in one of the FOB Module Zones. To do so, you must [create a MOD][creation_of_custom_fob_module] from the **EXP MODs creation** menu. The properties of the FOB Modules are assigned in `zoneProperty` of the MOD.
 
 ![](./media/fob_module_2.png) 
 
