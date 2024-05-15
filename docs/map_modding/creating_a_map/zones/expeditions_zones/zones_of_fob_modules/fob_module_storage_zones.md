@@ -1,6 +1,6 @@
 # FOB Module Storage zones
 
-*(NEW) This feature is valid for Expeditions only.*
+*This feature is valid for Expeditions only.*
 
 The *ZonePropertyFobModuleStorage* prop is used for setting up such [FOB module zones](./zones_of_fob_modules_overview.md) as:
 
@@ -9,6 +9,8 @@ The *ZonePropertyFobModuleStorage* prop is used for setting up such [FOB module 
 -   *Repair station* (REPAIR_ZONE)
 -   *Warehouse* (EXTRA_STORAGE)
 -   *Essentials storage* (DOUBLE_STOCK)
+
+**NOTE**: Use this prop only to [configure custom FOB Modules][creation_of_custom_fob_module]. Do not assign this prop to common standalone zones. If you do it, this might cause a crash.
 
 This prop is a wrapper over the [*ZonePropertyInventoryStorage*](./../inventory_storage_zones.md) prop that allows you to configure a storage for fuel, repair parts, spare wheels and various inventory items. 
 
@@ -24,3 +26,4 @@ The **isAtDeployZone** option of this prop should be enabled for all types of FO
 
 
 [fob_module_identifier]: ./../../../../../custom_gameplay_entities/fob_modules/general_properties_of_fob_modules.md
+[creation_of_custom_fob_module]: ./../../../../../custom_gameplay_entities/fob_modules/creation_of_custom_fob_module.md

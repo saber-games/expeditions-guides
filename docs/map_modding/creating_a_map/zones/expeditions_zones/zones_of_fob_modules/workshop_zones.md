@@ -1,8 +1,10 @@
 # Workshop zones
 
-*(NEW) This feature is valid for Expeditions only.*
+*This feature is valid for Expeditions only.*
 
 The *ZonePropertyWorkshop* prop is used for setting up the *Workshop* (WORKSHOP) [FOB module zone](./zones_of_fob_modules_overview.md).
+
+**NOTE**: Use this prop only to [configure custom FOB Modules][creation_of_custom_fob_module]. Do not assign this prop to common standalone zones. If you do it, this might cause a crash.
 
 Lists of inventory items that can be crafted and/or recycled within the *Workshop* are determined automatically, based on properties of inventory items. 
 
@@ -25,3 +27,4 @@ Settings:
 
 
 [fob_module_identifier]: ./../../../../../custom_gameplay_entities/fob_modules/general_properties_of_fob_modules.md
+[creation_of_custom_fob_module]: ./../../../../../custom_gameplay_entities/fob_modules/creation_of_custom_fob_module.md

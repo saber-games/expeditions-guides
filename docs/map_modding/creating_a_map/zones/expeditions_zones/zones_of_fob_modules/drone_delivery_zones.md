@@ -1,10 +1,10 @@
 # Drone Delivery zones
 
-*(NEW) This feature is valid for Expeditions only.*
+*This feature is valid for Expeditions only.*
 
 The *ZonePropertyDroneDelivery* prop is used for setting up the *Cargo drone* (DRONE_BASE) [FOB module zone](./zones_of_fob_modules_overview.md).
 
-**NOTE**: Use this prop only to [configure custom FOB Modules][creation_of_custom_fob_module]. Do not assign this props to common standalone zones. If you do it, this might cause a crash.
+**NOTE**: Use this prop only to [configure custom FOB Modules][creation_of_custom_fob_module]. Do not assign this prop to common standalone zones. If you do it, this might cause a crash.
 
 This prop is a wrapper over the [*ZonePropertyInventoryStorage*](./../inventory_storage_zones.md) prop that allows you to configure a storage for fuel, repair parts, spare wheels and various inventory items.
 
