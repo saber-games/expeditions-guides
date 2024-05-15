@@ -1,12 +1,20 @@
 # Zones of FOB Modules: Overview
 
-*(NEW) This feature is valid for Expeditions only.*
+*This feature is valid for Expeditions only.*
 
 ## Overview
-Some zones – more precisely, the *props* of these zones – are used when configuring [custom FOB Modules][custom_fob_modules].
 
-They should be used ***only for creation of custom FOB Modules*** and should not be used during manual configuration of regular standalone zones.
+**FOB Module Zones** are the areas where players can build modules. Add zones to the scene, so players are able to build any kind of modules: *common* modules (parking zones, service stations, etc.), or *custom* modules with unique parameters.
 
+Each FOB Module Zone requires a *Placement Zone* and an *Interaction Zone*. They are mapped to a [Deploy zone][deploy] in this zone's `ZonePropertyDeploy > fobModulesZones`. This configuration is set in the **Zone settings** menu.
+
+![](./media/fob_module_1.png)
+
+Custom module zones allow you to set specific parameters of this zone: for example, you can define the items in stock and their amount. A custom module also requires a *Placement Zone* and an *Interaction Zone*. In addition, you need to prepare a custom MOD for players to build in one of the FOB Module Zones. To do so, you must [create a MOD][creation_of_custom_fob_module] from the **EXP MODs creation** menu. The properties of the FOB Modules are assigned in `zoneProperty` of the MOD.
+
+![](./media/fob_module_2.png) 
+
+**NOTE**: The props of FOB Module Zones (listed below) must be used only for configuring custom FOB Modules. Do not assign these props to common standalone zones. If you do it, this might cause a crash.
 
 ## moduleId field
 Some zones of FOB modules have an addittional field – **moduleId**. In this field, you need to specify the [*identifier*][fob_module_identifier] of the *custom FOB module* to link this zone to this FOB module. 
@@ -53,3 +61,5 @@ As you can see, the internal types of zones within FOB modules are limited to th
 [fob_module_identifier]: ./../../../../../custom_gameplay_entities/fob_modules/general_properties_of_fob_modules.md
 [rewards]: ./../../../objectives/objectives_in_expeditions/rewards.md
 [objectives_overview]: ./../../../objectives/objectives_overview.md
+[deploy]: ./../../../../creating_a_map/zones/expeditions_zones/deploy_zones.md
+[creation_of_custom_fob_module]: ./../../../../../custom_gameplay_entities/fob_modules/creation_of_custom_fob_module.md

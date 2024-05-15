@@ -1,8 +1,10 @@
 # Parking zones
 
-*(NEW) This feature is valid for Expeditions only.*
+*This feature is valid for Expeditions only.*
 
 The *ZonePropertyParking* prop is used for setting up the *Expanded parking* (PARKING) [FOB module zone](./zones_of_fob_modules_overview.md).
+
+**NOTE**: Use this prop only to [configure custom FOB Modules][creation_of_custom_fob_module]. Do not assign this prop to common standalone zones. If you do it, this might cause a crash.
 
 This prop is a wrapper over the [*ZonePropertyInventoryStorage*](./../inventory_storage_zones.md) prop that allows you to configure a storage for fuel, repair parts, spare wheels and various inventory items. More precisely, it is a wrapper over its child – the [*ZonePropertyFobModuleStorage*](./fob_module_storage_zones.md) prop.
 
@@ -21,3 +23,4 @@ Settings of this prop are the following:
     -   **recoveryDiscount** – the discount on the price of recovery of the truck. Possible values: from `0` to `1`. For example, `0.2` corrsponds to `20%` discount.
 
 [fob_module_identifier]: ./../../../../../custom_gameplay_entities/fob_modules/general_properties_of_fob_modules.md
+[creation_of_custom_fob_module]: ./../../../../../custom_gameplay_entities/fob_modules/creation_of_custom_fob_module.md
