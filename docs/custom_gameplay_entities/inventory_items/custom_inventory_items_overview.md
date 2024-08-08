@@ -9,7 +9,7 @@ Inventory items are various tools, equipment and other items that can be either 
 
 Some of these items are directly usable – i.e., the player can press a button to "use" them from the Inventory. By doing this, the player will execute a certain predefined game logic with the parameters that can be tuned. For example, you can "use" such items as a *Drone* or an *Anchor* and, during modding, you can tune their parameters. 
 
-Other items are not directly "used", but are used in objectives. For example, you can set up aт **objectConstruction** stage to deliver a *Camera Trap* item to some zone and, upon its delivery, change the **_objective** model on the scene using **Model Building Settings** to show the deployed camera. Or, you can set up a task to simply deliver some inventory item to a certain zone, without any visual changes.
+Other items are not directly "used", but are used in objectives. For example, you can set up an **objectConstruction** stage to deliver a *Camera Trap* item to some zone and, upon its delivery, change the **_objective** model on the scene using **Model Building Settings** to show the deployed camera. Or, you can set up a task to simply deliver some inventory item to a certain zone, without any visual changes.
 
 The list of possible custom inventory items includes custom Drones, Binoculars, Anchors, Quest Items, Treasure Items, and so on.
 
