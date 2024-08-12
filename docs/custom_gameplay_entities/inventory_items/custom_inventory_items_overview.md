@@ -22,17 +22,15 @@ Some of these slots are used for the in-game (pre-built) items, and some slots c
 
 The limits on *simultaneously* enabled mods with **canTakeInHq** = `true` are the following:
 
--   *For inventory items*: `9` *simultaneously* enabled mods.
--   *For [sideboard](#heavy-inventory-items) items*: `9` enabled mods.
-
-Note that the total number of mod items will decrease if new in-game (not custom) items are added to the game, as these in-game items will occupy more slots.
+-   *For inventory items*: `4` *simultaneously* enabled mods.
+-   *For [sideboard](#heavy-inventory-items) items*: `4` enabled mods.
 
 These limits are for the *total* number of such mods, i.e. – for both:
 
 -   *local mods* that are available from [local `.pak` files][local_pak_files];
--   *published mods* that have been downloaded from mod.io and enabled after that.  
+-   *published mods* that have been downloaded from mod.io and enabled after that.
 
-For example, if you have `4` enabled mods of items that are available in Headquarters from mod.io and `4` local mods of the similar items, creating one more local mod with **canTakeInHq** = `true` or enabling one more such mod from mod.io will break this limit. If the limit is broken and the total amount of simultaneously enabled mods of this type exceeds it, some of these mods will not be displayed in lists of inventory items in HQ.
+For example, if you have `2` enabled mods of items that are available in Headquarters from mod.io and `2` local mods of the similar items, creating one more local mod with **canTakeInHq** = `true` or enabling one more such mod from mod.io will break this limit. If the limit is broken and the total amount of simultaneously enabled mods of this type exceeds it, some of these mods will not be displayed in lists of inventory items in HQ.
 
 To fit in this limit, you can either disable some of such mods in Mod Browser, or, if you are intensively working with local mods of such items, delete their generated `.pak` files after local testing.
 
