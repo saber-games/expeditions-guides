@@ -1,41 +1,38 @@
 # Custom Inventory Items: Overview
 
-*(NEW) This feature is valid for Expeditions only.*
+*This feature is valid for Expeditions only.*
 
 **NOTE**: In the current version of Expeditions, there is an issue that saving a custom inventory item may not work when the item is created *for the first time*. As the result of this issue, you will see the "*Can’t open file: ...*" message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
 
 ## What is an Inventory Item?
-Inventory items are various tools, equipment and other items that can be either stored in the truck's Inventory or are available from the Radial menu. You can transfer inventory items from other zones or trucks to the Inventory. 
+Inventory items are various tools, equipment and other items that can be either stored in the truck's Inventory or are available from the Radial menu. You can transfer inventory items from other zones or trucks to the Inventory.
 
 Some of these items are directly usable – i.e., the player can press a button to "use" them from the Inventory. By doing this, the player will execute a certain predefined game logic with the parameters that can be tuned. For example, you can "use" such items as a *Drone* or an *Anchor* and, during modding, you can tune their parameters. 
 
-Other items are not directly "used", but are used in objectives. For example, you can set up a **objectConstruction** stage to deliver an *Camera Trap* item to some zone and, upon its delivery, change the **_objective** model on the scene using **Model Building Settings** to show the deployed camera. Or, you can set up a task to simply deliver some inventory item to a certain zone, without any visual changes.
+Other items are not directly "used", but are used in objectives. For example, you can set up an **objectConstruction** stage to deliver a *Camera Trap* item to some zone and, upon its delivery, change the **_objective** model on the scene using **Model Building Settings** to show the deployed camera. Or, you can set up a task to simply deliver some inventory item to a certain zone, without any visual changes.
 
 The list of possible custom inventory items includes custom Drones, Binoculars, Anchors, Quest Items, Treasure Items, and so on.
 
-**WARNING**: The creation of custom *Drone*, *Echo Sounder*, and *Binoculars* items is currently not supported. Please do not create the mods of these items since currently they lead to errors. This issue is known and these items will be supported for sure in the future releases of the game. 
+**WARNING**: The creation of custom *Drone*, *Echo Sounder*, and *Binoculars* items is currently not supported. Please do not create the mods of these items since currently they lead to errors. This issue is known and these items will be supported for sure in the future releases of the game.
 
 ## Limit on Number of Enabled "canTakeInHq" Mods
-In the current version of the game, the number of slots for items that are available in Headquarters when preparing for the Expedition is limited.
+In the current version of the game, there are 16 slots for inventory items and 16 slots for sideboard items available in Headquarters. Players can take various items from these slots when preparing for the Expedition.
 
-Due to this, there are limits on number of *simultaneously* enabled mods of Inventory Items that are available in Headquarters (i.e., on mods that have the [**canTakeInHq**][properties] option enabled). 
+Some of these slots are used for the in-game (pre-built) items, and some slots can be used for the custom items, created in the Editor. Thus, there are limits on the number of *simultaneously* enabled mods of items that are available in Headquarters (i.e., on mods that have the [**canTakeInHq**][properties] option enabled).
 
-Particularly, current limits on *simultaneously* enabled mods with **canTakeInHq** = `true` are the following:
+The limits on *simultaneously* enabled mods with **canTakeInHq** = `true` are the following:
 
--   *For regular items*: `2` *simultaneously* enabled mods only.
--   *For [heavy](#heavy-inventory-items) items*: `1` enabled mod only.
+-   *For inventory items*: `4` *simultaneously* enabled mods.
+-   *For [sideboard](#heavy-inventory-items) items*: `4` enabled mods.
 
-These limits are for *total* number of such mods, i.e. – for both:
+These limits are for the *total* number of such mods, i.e. – for both:
 
--   *local mods* that are available from [local `.pak` files][local_pak_files]
--   *published mods* that have been downloaded from mod.io and enabled after that  
+-   *local mods* that are available from [local `.pak` files][local_pak_files];
+-   *published mods* that have been downloaded from mod.io and enabled after that.
 
-For example, if you have `1` enabled mod of an item that is available in Headquarters from mod.io and `1` local mod of the similar item, creating one more local mod with **canTakeInHq** = `true` or enabling one more such mod from mod.io will break this limit. If the limit is broken and the total amount of simultaneously enabled mods of this type exceeds it, some of these mods will not be displayed in lists of inventory items in HQ.
+For example, if you have `2` enabled mods of items that are available in Headquarters from mod.io and `2` local mods of the similar items, creating one more local mod with **canTakeInHq** = `true` or enabling one more such mod from mod.io will break this limit. If the limit is broken and the total amount of simultaneously enabled mods of this type exceeds it, some of these mods will not be displayed in lists of inventory items in HQ.
 
-Currently, to fit in this limit, you can either disable some of such mods in Mod Browser, or, if you are intensively working with local mods of such items, delete their generated `.pak` files after local testing. 
-
-Please note that this limit is temporary and will be fixed in the future versions of the game.
-
+To fit in this limit, you can either disable some of such mods in Mod Browser, or, if you are intensively working with local mods of such items, delete their generated `.pak` files after local testing.
 
 ## Categories of Inventory Items
 
