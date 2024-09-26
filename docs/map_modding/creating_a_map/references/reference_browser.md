@@ -8,9 +8,7 @@ References are external maps that you can reuse by adding them to your map. Read
 
 Before you start using Reference Browser, make sure to generate the previews for the references. To do this:
 
-1. Click the **Create preview for all references** button in the toolbar. The browser will scan all the references and create previews. 
-
-   **NOTE**: It may take some time, depending on the number of references.
+1. Click the **Create preview for all references** button in the toolbar. The browser will scan all the references and create previews Note that it may take some time, depending on the number of references.
 
    ![](./media/ref_create_preview.png)
 
