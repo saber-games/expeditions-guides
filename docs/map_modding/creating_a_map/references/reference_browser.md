@@ -10,11 +10,11 @@ Before you start using Reference Browser, make sure to generate the previews for
 
 1. Click the **Create preview for all references** button in the toolbar. The browser will scan all the references and create previews Note that it may take some time, depending on the number of references.
 
-   ![](./media/ref_create_preview.png)
+    ![](./media/ref_create_preview.png)
 
 2. Once the previews are ready, the following window is displayed:
 
-   ![](./media/screenshots_created.png)
+    ![](./media/screenshots_created.png)
 
 Now the previews are displayed in the **Select Asset** window as you [add references](./adding_references.md) to the map.
 
@@ -25,14 +25,12 @@ Now the previews are displayed in the **Select Asset** window as you [add refere
 You can create **custom** previews for your references. To do this:
 
 1.  [Open](./adding_references.md) the source file of the reference in the Editor by clicking it in the **File View** panel.
-   
-    
 
 2. Adjust the camera position in the [scene window](../../getting_started/ui_overview/ui_overview.md), so all the necessary objects/scenery is displayed properly. 
 
 3. Click the **Create preview for open reference** button.
    
-   ![](./media/ref_create_custom_preview.png)
+    ![](./media/ref_create_custom_preview.png)
 
 4. Once the preview is ready, the following window is displayed:
    
