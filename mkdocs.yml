@@ -89,6 +89,7 @@ nav:
                 - Background Water on Map Edges: map_modding/creating_a_map/rivers_and_water_objects/background_water_on_map_edges.md
             - References:
                 - Adding References: map_modding/creating_a_map/references/adding_references.md
+                - Reference Browser: map_modding/creating_a_map/references/reference_browser.md
                 - Reference Properties: map_modding/creating_a_map/references/reference_properties.md
                 - RefMergeMask Brush: map_modding/creating_a_map/references/ref_merge_mask_brush.md
                 - Usage of Mutators: map_modding/creating_a_map/references/usage_of_mutators.md
