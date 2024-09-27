@@ -22,7 +22,7 @@ Now the previews are displayed in the **Select Asset** window as you [add refere
 
 ## Creating custom previews
 
-You can create **custom** previews for your references. To do this:
+When you save a reference, its preview is generated automatically. However, you can create **custom** previews for your references. To do this:
 
 1.  [Open](./adding_references.md) the source file of the reference in the Editor by clicking it in the **File View** panel.
 
