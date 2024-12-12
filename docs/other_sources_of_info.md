@@ -11,7 +11,7 @@ Stores:
 -   [Epic Games Store (PC)](https://store.epicgames.com/ru/p/expeditions-a-mudrunner-game-e6bda2)
 -   [Microsoft Store (Xbox)](https://www.xbox.com/en-US/games/store/expeditions-a-mudrunner-game/9NP9J3T0JWRL/00104)
 -   [Playstation Store (Playstation)](https://store.playstation.com/en-us/product/UP4133-PPSA17423_00-SNOWRUNNEREXPEDI)
--   [Nintendo eShop (Nintendo Switch](https://www.nintendo.co.uk/Games/Nintendo-Switch-games/Expeditions-A-MudRunner-Game-2521958.html)
+-   [Nintendo eShop (Nintendo Switch)](https://www.nintendo.co.uk/Games/Nintendo-Switch-games/Expeditions-A-MudRunner-Game-2521958.html)
 
 mod.io site:  
 <https://mod.io/g/expeditions>
