@@ -35,12 +35,12 @@ Requirements for a **map**:
 - **Basic playability** — making sure the player can successfully start the session on the map. For example, when starting the map the vehicle does not fall/tip over.
 - **Artifacts** — detecting significant visual glitches.
 
-You can view additional materials on working with mods in the Guides section on the mod.io website:
-
 !!! info
 
-    - SnowRunner — https://mod.io/g/snowrunner/r
-    - Expeditions — https://mod.io/g/expeditions/r 
+    You can view additional materials on working with mods in the Guides section on the mod.io website:
+
+    - SnowRunner — [https://mod.io/g/snowrunner/r](https://mod.io/g/snowrunner/r)
+    - Expeditions — [https://mod.io/g/expeditions/r](https://mod.io/g/expeditions/r)
 
 ## Approval
 
