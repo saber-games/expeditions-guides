@@ -23,7 +23,7 @@ Requirements for a **vehicle**:
 - **Branding** — inspecting the vehicle itself and all its markings: from the main logo to smaller details like nameplates on mudguards, or customizations mentioned in descriptions.
 - **Textures** — in cases of missing or glitchy textures that could cause erratic behavior, leading to loss of control and potential asserts or crashes.
 - **Compatibility with DLC** — verifying that it is impossible to use a mod with a DLC truck without actually having this specific DLC. For SnowRunner the similar verification is carried out for tires.
-- **Localization** — all texts must be in English (translation from Russian to English is acceptable). The exceptions are stickers and textures: they can contain texts in in Russian, but the name of these stickers/textures in the game UI must be in English. Debug text is acceptable.
+- **Localization** — all texts must be in English (translation from Russian to English is acceptable). The exceptions are stickers and textures: they can contain texts in Russian, but the name of these stickers/textures in the game UI must be in English. Debug text is acceptable.
 - **Functional features** — checking that all truck functions operate correctly: cargo loading, crane operations, etc.
 - **Test drive** — driving the vehicle on a test site; inspecting the damage from collisions and falls.
 
