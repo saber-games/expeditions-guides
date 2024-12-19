@@ -1,113 +1,125 @@
 # Creation of Custom Inventory Item
 
-*(NEW) This feature is valid for Expeditions only.*
+*This feature is valid for Expeditions only.*
 
-**NOTE**: In the current version of Expeditions, there is an issue that saving a custom inventory item may not work when the item is created *for the first time*. As the result of this issue, you will see the "*Can’t open file: ...*" message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
+!!! info
+
+    In the current version of Expeditions, there is an issue where saving a custom inventory item may not work when the item is created *for the first time*. As the result, the `Can’t open file: ...` message is displayed. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and [pack](https://expeditions-guides-staging.saber.games/map_modding/packing_and_publishing_maps/packing_maps/) any map. This issue is known and will be fixed in the next versions of the Editor.
 
 ## Overview
-Custom Inventory Items are created similarly to custom FOB Modules and Specialists – in the dialog window that is opened by clicking the **EXP MODs creation** (![](./../../map_modding/creating_a_map/media/exp_mods_creation_button.png)) button on the toolbar of the Editor.
+Custom inventory items are created similarly to custom FOB Modules and Specialists – in the dialog window that is opened by clicking the **EXP MODs creation** (![](./../../map_modding/creating_a_map/media/exp_mods_creation_button.png)) button on the toolbar of the Editor.
 
-At first – after selecting in the main menu that you want to create an Inventory Item – you will need specify the *identifier* of the custom Inventory Item in the game. It is specified in the **name** field.
+1. After selecting the option to create an inventory item from the main menu, you must enter the *identifier* of the custom inventory item in the game. It is specified in the **name** field.
+2. Select the *class* of the inventory item in the **InventoryItemDesc** field and specify the properties of the inventory item. These properties vary depending on the selected class. 
 
-Then – you need to select the *class* of the inventory item in the **InventoryItemDesc** field and specify the properties of the inventory item. These properties vary depending on the selected class. 
+!!! note
 
-**NOTE**: Fuel, Repair parts, and Spare wheels are *not* inventory items from the modding perspective. See [Custom Inventory Items: Overview](./custom_inventory_items_overview.md#note-on-fuel-repair-parts-and-spare-wheels) for details.
+    Fuel, Repair parts, and Spare wheels are *not* inventory items from the modding perspective. See [Custom Inventory Items: Overview](./custom_inventory_items_overview.md#note-on-fuel-repair-parts-and-spare-wheels) for details.
 
 
 ## Classes of Inventory Items
 Classes of inventory items correspond to [abilities][items_with_abilities] that they will use.
 
-Classes that may be selected in the **InventoryItemDesc** field are listed below.
+Classes that can be selected in the **InventoryItemDesc** field are listed below.
 
-**NOTE**: All original in-game items are listed in the [Appendix: Types of Inventory Items][appendix].
+!!! note
+
+    All original in-game items are listed in the [Appendix: Types of Inventory Items][appendix].
 
 ### InventoryItemDesc
 
 -   *Class*: `InventoryItemDesc`
 -   *Description*: This class should be selected for items *without any ability*. For example, for various [Quest Items][quest_items], [Treasure Items][treasure_items], and so on.
 -   *Fields*: No ability-specific fields, only [General Properties][general_properties].
--   *Original in-game items*: Memory Card, Dinosaur bone, Flight Recorder
+-   *Original in-game items*: Memory Card, Dinosaur bone, Flight Recorder.
 
 ### InventoryItemDescAnchor
 
 -   *Class*: `InventoryItemDescAnchor`
 -   *Description*: This class should be selected for custom Anchors.
 -   *Fields*: [General Properties][general_properties] + [Anchor Properties][anchor_properties].
--   *Original in-game items*: Anchor, Removable Anchor  
+-   *Original in-game items*: Anchor, Removable Anchor.
 
 ### InventoryItemDescJackScrew
 
 -   *Class*: `InventoryItemDescJackScrew`
 -   *Description*: This class should be selected for custom Jack-Screws.
 -   *Fields*: [General Properties][general_properties] + [JackScrew Properties][jackscrew_properties].
--   *Original in-game items*: Jack-Screw  
+-   *Original in-game items*: Jack-Screw.
 
 ### InventoryItemDescEcholot
 
 -   *Class*: `InventoryItemDescEcholot`
 -   *Description*: This class should be selected for custom Echo Sounders.
 -   *Fields*: [General Properties][general_properties] + [Echo Sounder Properties][echo_sounder_properties].
--   *Original in-game items*: Echo Sounder  
+-   *Original in-game items*: Echo Sounder.
 
-**WARNING**: The creation of custom *Drone*, *Echo Sounder*, and *Binoculars* items is currently not supported. Please do not create the mods of these items since currently they lead to errors. This issue is known and these items will be supported for sure in the future releases of the game. 
+!!! warning
+
+    The creation of custom *Drone*, *Echo Sounder*, and *Binoculars* items is currently not supported. Please do not create the mods of these items since they currently cause errors. This issue is known and these items will be supported in the future releases of the game. 
 
 ### InventoryItemDescBinocular
 
 -   *Class*: `InventoryItemDescBinocular`
 -   *Description*: This class should be selected for custom Binoculars.
 -   *Fields*: [General Properties][general_properties] + [Binocular Properties][binocular_properties].
--   *Original in-game items*: Binoculars  
+-   *Original in-game items*: Binoculars.
 
-**WARNING**: The creation of custom *Drone*, *Echo Sounder*, and *Binoculars* items is currently not supported. Please do not create the mods of these items since currently they lead to errors. This issue is known and these items will be supported for sure in the future releases of the game. 
+!!! warning
+
+    The creation of custom *Drone*, *Echo Sounder*, and *Binoculars* items is currently not supported. Please do not create the mods of these items since they currently cause errors. This issue is known and these items will be supported in the future releases of the game.
 
 ### InventoryItemDescDrone
 
 -   *Class*: `InventoryItemDescDrone`
 -   *Description*: This class should be selected for custom Drones.
 -   *Fields*: [General Properties][general_properties] + [Drone Properties][drone_properties].
--   *Original in-game items*: Drone 
+-   *Original in-game items*: Drone.
 
-**WARNING**: The creation of custom *Drone*, *Echo Sounder*, and *Binoculars* items is currently not supported. Please do not create the mods of these items since currently they lead to errors. This issue is known and these items will be supported for sure in the future releases of the game. 
+!!! warning
+
+    The creation of custom *Drone*, *Echo Sounder*, and *Binoculars* items is currently not supported. Please do not create the mods of these items since they currently cause errors. This issue is known and these items will be supported in the future releases of the game. 
 
 
 ## Pipelines
 
 ### Creation
 
-To create a new custom inventory item, do the following:
+To create a new custom inventory item:
 
-1.  Open the Editor. 
+1.  Open the [Editor](https://expeditions-guides-staging.saber.games/map_modding/getting_started/ui_overview/ui_overview/).
 
-2.  Click **EXP MODs creation** (![](./../../map_modding/creating_a_map/media/exp_mods_creation_button.png)) on the toolbar.
+2.  Click **EXP MODs creation** (![](./../../map_modding/creating_a_map/media/exp_mods_creation_button.png)) on the toolbar and select **File** \> **New Mod** \> **Inventory Item**.
 
-3.  In the main menu of the appearing dialog, select **File** \> **New Mod** \> **Inventory Item**.
+    ![](./media/custom_inventory_item_1.png)
 
-4.  In the **name** field – specify the identifier of the new Inventory Item. The specified value should contain only Latin characters, digits, and underscores (`_`). It must not contain spaces (` `).
+3.  In the **name** field – enter the identifier of the new inventory item: this name can contain only Latin characters, digits, and underscores (`_`); it must not contain spaces (` `). Later this name can be used in the [`takeInventory`](https://expeditions-guides.saber.games/map_modding/creating_a_map/objectives/objectives_in_expeditions/stages/takeinventory/) substage, for example. To use your custom item instead of the basic one, make sure to reference it by its name (identifier).
 
-5.  In the **InventoryItemDesc** field – specify the class of the new Inventory Item.  
-    *If your inventory item will not use any ability*, select the `InventoryItemDesc` class here.  
-    *If your inventory item will use an ability*, select the corresponding class in the **InventoryItemDesc** field.  
-    See [above](#classes-of-inventory-items) for details.
+    ![](./media/custom_inventory_item_2.png)
 
-6.  Specify [general properties][general_properties] of the inventory item at the top of the dialog.
+4.  In the **InventoryItemDesc** field – specify the class of the new inventory item.  
+    * If your inventory item **should not** use any ability, select the `InventoryItemDesc` class.  
+    * If your inventory item **should** use an ability, select the corresponding class in the **InventoryItemDesc** field. See the details [above](#classes-of-inventory-items).
 
-7.  If your inventory item uses an ability, specify its [ability-specific properties][ability_specific_properties] below them.
+5.  Specify [general properties][general_properties] of the inventory item at the top of the dialog.
 
-8.  To save your changes, select **File** \> **Save** from the main menu.
+6.  If your inventory item uses an ability, specify its [ability-specific properties][ability_specific_properties] below them.
 
-**NOTE**: In the current version of Expeditions, there is an issue that saving a custom inventory item may not work when the item is created *for the first time*. As the result of this issue, you will see the "*Can’t open file: ...*" message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
+7.  Save your changes by selecting **File** \> **Save** from the main menu.
+
+!!! info
+
+    In the current version of Expeditions, there is an issue where saving a custom inventory item may not work when the item is created *for the first time*. As the result, the `Can’t open file: ...` message is displayed. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and [pack](https://expeditions-guides-staging.saber.games/map_modding/packing_and_publishing_maps/packing_maps/) any map. This issue is known and will be fixed in the next versions of the Editor.
 
 After the creation, you can pack this inventory item to make it available in the game and to be able to upload it to mod.io later on.
 
 #### Source Files
-After saving, saved properties of the inventory item can be found in the *folder of this custom inventory item* within `Documents\My Games\Expeditions\Media\Mods\`. 
+After saving, saved properties of the inventory item can be found in the *folder of this custom inventory item* in `Documents\My Games\Expeditions\Media\Mods\`. 
 
-The name of this folder is formed based on the `InventoryItemDesc_<identifier_of_inv_item>` pattern.
-
-For example:  
+The name of this folder is formed based on the `InventoryItemDesc_<identifier_of_inv_item>` pattern. For example:  
 `\Documents\My Games\Expeditions\Media\Mods\InventoryItemDesc_my_custom_anchor\`
 
-The properties themselves are saved in the `InventoryItemDesc` file in this folder, in the JSON format.
+The properties are saved in the `InventoryItemDesc` file in this folder, in the `JSON` format.
 
 
 ### Opening
@@ -137,20 +149,16 @@ During packing, the system generates:
 -   The set of `.pak` files – for local testing of the mod.
 -   The set of `.zip` files – for uploading to mod.io.
 
-The `.zip` files can be found in the [*folder of this custom inventory item*](#source-files) within `Documents\My Games\Expeditions\Media\Mods\`.
+The `.zip` files can be found in the [*folder of this custom inventory item*](#source-files) in `Documents\My Games\Expeditions\Media\Mods\`.
 
-The `.pak` files are stored in the root of the `Documents\My Games\Expeditions\Media\Mods\`. 
+The `.pak` files are stored in the root of `Documents\My Games\Expeditions\Media\Mods\`.
 
 ### Local Testing
-After packing, your custom inventory item will be available in the game. 
-
-The game will use the `.pak` files generated during packing to identify the mod (locally).
-
-However, you will need to restart the game for this identification.
+After packing, your custom inventory item will be available in the game. The game uses the `.pak` files generated during the packing to identify the mod (locally). However, you must restart the game for this identification.
 
 
 ### Uploading to mod.io 
-Uploading to mod.io is performed similarly to uploading of the truck mods. See [Uploading Mod to mod.io][uploading].
+Uploading to [mod.io](https://mod.io/) is performed similarly to uploading of the truck mods. See [Uploading Mod to mod.io][uploading].
 
 
 ### Subscription and Enabling  
