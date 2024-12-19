@@ -4,7 +4,7 @@
 
 !!! info
 
-    In the current version of Expeditions, there is an issue where saving a custom inventory item may not work when the item is created *for the first time*. As the result, the `Can’t open file: ...` message is displayed. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and [pack]](https://expeditions-guides-staging.saber.games/map_modding/packing_and_publishing_maps/packing_maps/) any map. This issue is known and will be fixed in the next versions of the Editor.
+    In the current version of Expeditions, there is an issue where saving a custom inventory item may not work when the item is created *for the first time*. As the result, the `Can’t open file: ...` message is displayed. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and [pack](https://expeditions-guides-staging.saber.games/map_modding/packing_and_publishing_maps/packing_maps/) any map. This issue is known and will be fixed in the next versions of the Editor.
 
 ## Overview
 Custom inventory items are created similarly to custom FOB Modules and Specialists – in the dialog window that is opened by clicking the **EXP MODs creation** (![](./../../map_modding/creating_a_map/media/exp_mods_creation_button.png)) button on the toolbar of the Editor.
