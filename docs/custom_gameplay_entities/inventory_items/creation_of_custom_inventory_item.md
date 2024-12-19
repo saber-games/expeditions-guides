@@ -4,7 +4,7 @@
 
 !!! info
 
-    In the current version of Expeditions, there is an issue where saving a custom inventory item may not work when the item is created *for the first time*. As the result, the `Can’t open file: ...` message is displayed. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
+    In the current version of Expeditions, there is an issue where saving a custom inventory item may not work when the item is created *for the first time*. As the result, the `Can’t open file: ...` message is displayed. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and [pack]](https://expeditions-guides-staging.saber.games/map_modding/packing_and_publishing_maps/packing_maps/) any map. This issue is known and will be fixed in the next versions of the Editor.
 
 ## Overview
 Custom inventory items are created similarly to custom FOB Modules and Specialists – in the dialog window that is opened by clicking the **EXP MODs creation** (![](./../../map_modding/creating_a_map/media/exp_mods_creation_button.png)) button on the toolbar of the Editor.
@@ -31,28 +31,28 @@ Classes that can be selected in the **InventoryItemDesc** field are listed below
 -   *Class*: `InventoryItemDesc`
 -   *Description*: This class should be selected for items *without any ability*. For example, for various [Quest Items][quest_items], [Treasure Items][treasure_items], and so on.
 -   *Fields*: No ability-specific fields, only [General Properties][general_properties].
--   *Original in-game items*: Memory Card, Dinosaur bone, Flight Recorder
+-   *Original in-game items*: Memory Card, Dinosaur bone, Flight Recorder.
 
 ### InventoryItemDescAnchor
 
 -   *Class*: `InventoryItemDescAnchor`
 -   *Description*: This class should be selected for custom Anchors.
 -   *Fields*: [General Properties][general_properties] + [Anchor Properties][anchor_properties].
--   *Original in-game items*: Anchor, Removable Anchor  
+-   *Original in-game items*: Anchor, Removable Anchor.
 
 ### InventoryItemDescJackScrew
 
 -   *Class*: `InventoryItemDescJackScrew`
 -   *Description*: This class should be selected for custom Jack-Screws.
 -   *Fields*: [General Properties][general_properties] + [JackScrew Properties][jackscrew_properties].
--   *Original in-game items*: Jack-Screw  
+-   *Original in-game items*: Jack-Screw.
 
 ### InventoryItemDescEcholot
 
 -   *Class*: `InventoryItemDescEcholot`
 -   *Description*: This class should be selected for custom Echo Sounders.
 -   *Fields*: [General Properties][general_properties] + [Echo Sounder Properties][echo_sounder_properties].
--   *Original in-game items*: Echo Sounder  
+-   *Original in-game items*: Echo Sounder.
 
 !!! warning
 
@@ -63,18 +63,18 @@ Classes that can be selected in the **InventoryItemDesc** field are listed below
 -   *Class*: `InventoryItemDescBinocular`
 -   *Description*: This class should be selected for custom Binoculars.
 -   *Fields*: [General Properties][general_properties] + [Binocular Properties][binocular_properties].
--   *Original in-game items*: Binoculars  
+-   *Original in-game items*: Binoculars.
 
 !!! warning
 
-    The creation of custom *Drone*, *Echo Sounder*, and *Binoculars* items is currently not supported. Please do not create the mods of these items since they currently cause errors. This issue is known and these items will be supported in the future releases of the game. 
+    The creation of custom *Drone*, *Echo Sounder*, and *Binoculars* items is currently not supported. Please do not create the mods of these items since they currently cause errors. This issue is known and these items will be supported in the future releases of the game.
 
 ### InventoryItemDescDrone
 
 -   *Class*: `InventoryItemDescDrone`
 -   *Description*: This class should be selected for custom Drones.
 -   *Fields*: [General Properties][general_properties] + [Drone Properties][drone_properties].
--   *Original in-game items*: Drone 
+-   *Original in-game items*: Drone.
 
 !!! warning
 
@@ -93,7 +93,7 @@ To create a new custom inventory item:
 
     ![](./media/custom_inventory_item_1.png)
 
-3.  In the **name** field – enter the identifier of the new inventory Item: this name can contain only Latin characters, digits, and underscores (`_`); it must not contain spaces (` `). Later this name can be used in the [`takeInventory`](https://expeditions-guides.saber.games/map_modding/creating_a_map/objectives/objectives_in_expeditions/stages/takeinventory/) substage, for example. To use your custom item instead of the basic one, make sure to reference it by its name (identifier).
+3.  In the **name** field – enter the identifier of the new inventory item: this name can contain only Latin characters, digits, and underscores (`_`); it must not contain spaces (` `). Later this name can be used in the [`takeInventory`](https://expeditions-guides.saber.games/map_modding/creating_a_map/objectives/objectives_in_expeditions/stages/takeinventory/) substage, for example. To use your custom item instead of the basic one, make sure to reference it by its name (identifier).
 
     ![](./media/custom_inventory_item_2.png)
 
@@ -109,7 +109,7 @@ To create a new custom inventory item:
 
 !!! info
 
-    In the current version of Expeditions, there is an issue where saving a custom inventory item may not work when the item is created *for the first time*. As the result, the `Can’t open file: ...` message is displayed. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
+    In the current version of Expeditions, there is an issue where saving a custom inventory item may not work when the item is created *for the first time*. As the result, the `Can’t open file: ...` message is displayed. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and [pack](https://expeditions-guides-staging.saber.games/map_modding/packing_and_publishing_maps/packing_maps/) any map. This issue is known and will be fixed in the next versions of the Editor.
 
 After the creation, you can pack this inventory item to make it available in the game and to be able to upload it to mod.io later on.
 
@@ -154,11 +154,11 @@ The `.zip` files can be found in the [*folder of this custom inventory item*](#s
 The `.pak` files are stored in the root of `Documents\My Games\Expeditions\Media\Mods\`.
 
 ### Local Testing
-After packing, your custom inventory item will be available in the game. The game uses the `.pak` files generated during the packing to identify the mod (locally). However, you will need to restart the game for this identification.
+After packing, your custom inventory item will be available in the game. The game uses the `.pak` files generated during the packing to identify the mod (locally). However, you must restart the game for this identification.
 
 
 ### Uploading to mod.io 
-Uploading to mod.io is performed similarly to uploading of the truck mods. See [Uploading Mod to mod.io][uploading].
+Uploading to [mod.io](https://mod.io/) is performed similarly to uploading of the truck mods. See [Uploading Mod to mod.io][uploading].
 
 
 ### Subscription and Enabling  
