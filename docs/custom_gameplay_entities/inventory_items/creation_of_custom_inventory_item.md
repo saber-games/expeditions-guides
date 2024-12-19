@@ -1,8 +1,10 @@
 # Creation of Custom Inventory Item
 
-*(NEW) This feature is valid for Expeditions only.*
+*This feature is valid for Expeditions only.*
 
-**NOTE**: In the current version of Expeditions, there is an issue that saving a custom inventory item may not work when the item is created *for the first time*. As the result of this issue, you will see the "*Can’t open file: ...*" message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
+!!! info
+
+    In the current version of Expeditions, there is an issue that saving a custom inventory item may not work when the item is created *for the first time*. As the result of this issue, you will see the `Can’t open file: ...` message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
 
 ## Overview
 Custom Inventory Items are created similarly to custom FOB Modules and Specialists – in the dialog window that is opened by clicking the **EXP MODs creation** (![](./../../map_modding/creating_a_map/media/exp_mods_creation_button.png)) button on the toolbar of the Editor.
@@ -78,22 +80,23 @@ To create a new custom inventory item, do the following:
 
 1.  Open the Editor. 
 
-2.  Click **EXP MODs creation** (![](./../../map_modding/creating_a_map/media/exp_mods_creation_button.png)) on the toolbar.
+2.  Click **EXP MODs creation** (![](./../../map_modding/creating_a_map/media/exp_mods_creation_button.png)) on the toolbar and select **File** \> **New Mod** \> **Inventory Item**.
 
-3.  In the main menu of the appearing dialog, select **File** \> **New Mod** \> **Inventory Item**.
+    ![](./media/custom_inventory_item_1.png)
 
-4.  In the **name** field – specify the identifier of the new Inventory Item. The specified value should contain only Latin characters, digits, and underscores (`_`). It must not contain spaces (` `).
+3.  In the **name** field – enter the identifier of the new inventory Item: this name can contain only Latin characters, digits, and underscores (`_`); it must not contain spaces (` `). Later this name can be used in the [`takeInventory`](https://expeditions-guides.saber.games/map_modding/creating_a_map/objectives/objectives_in_expeditions/stages/takeinventory/) substage, for example. To use your custom item instead of the basic one, make sure to reference it by its name (identifier).
 
-5.  In the **InventoryItemDesc** field – specify the class of the new Inventory Item.  
-    *If your inventory item will not use any ability*, select the `InventoryItemDesc` class here.  
-    *If your inventory item will use an ability*, select the corresponding class in the **InventoryItemDesc** field.  
-    See [above](#classes-of-inventory-items) for details.
+    ![](./media/custom_inventory_item_2.png)
 
-6.  Specify [general properties][general_properties] of the inventory item at the top of the dialog.
+4.  In the **InventoryItemDesc** field – specify the class of the new inventory item.  
+    * If your inventory item **should not** use any ability, select the `InventoryItemDesc` class.  
+    * If your inventory item **should** use an ability, select the corresponding class in the **InventoryItemDesc** field. See the details [above](#classes-of-inventory-items).
 
-7.  If your inventory item uses an ability, specify its [ability-specific properties][ability_specific_properties] below them.
+5.  Specify [general properties][general_properties] of the inventory item at the top of the dialog.
 
-8.  To save your changes, select **File** \> **Save** from the main menu.
+6.  If your inventory item uses an ability, specify its [ability-specific properties][ability_specific_properties] below them.
+
+7.  To save your changes, select **File** \> **Save** from the main menu.
 
 **NOTE**: In the current version of Expeditions, there is an issue that saving a custom inventory item may not work when the item is created *for the first time*. As the result of this issue, you will see the "*Can’t open file: ...*" message. This issue occurs because the `Media\Mods` folder is not created automatically. The temporary solution for this is to create this folder manually. Or, as an alternative, create and *pack* any map. This issue is known and will be fixed in the next versions of the Editor.
 
