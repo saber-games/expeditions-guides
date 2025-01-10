@@ -1,27 +1,22 @@
 # Zone Icons in SnowRunner
 
-*This topic is valid for SnowRunner only.*  
-*For info on zone icons for Expeditions, see [Zone Icons in Expeditions](./zone_icons_expeditions.md).*  
+!!! note
 
-Below you can find the list of in-game icons that can be used for zones in SnowRunner.
+    This topic is valid only for SnowRunner. For info on Expeditions zone icons, see [Zone Icons in Expeditions](./zone_icons_expeditions.md).  
 
-They correspond to the **Icon 30x30** and **Icon 40x40** fields in the [zone locator][zone_locator] properties:
+This article contains the list of in-game icons that you can use for zones in SnowRunner. They correspond to the **Icon 30x30** and **Icon 40x40** fields in the [zone locator][zone_locator] properties:
 
--   **Icon 40x40** is used for displaying a zone on the navigation map.
--   **Icon 30x30** is used for displaying it in the left panel of the navigation map.
+-   **Icon 40x40** is used to display a zone on the navigation map.
+-   **Icon 30x30** is used to display a zone in the left panel of the navigation map.
 
-The `30x30` and `40x40` icons are similar, so the table displays one preview for both of them. 
+The `30x30` and `40x40` icons are similar, so the table displays one preview for both of them.
 
-For some icons, there are two names in a cell: the second name is displayed after the slash (`/`) and the new line. In this case, the name without the `40` suffix corresponds to an icon without an outline.
+For some icons, there are two names in a cell: the second name is displayed after the slash (`/`). In this case, the name without the `40` suffix corresponds to an icon without an outline. For example,the "`fuelStationImg` / `fuelStationImg40`" value in the cell corresponds to two icons:
 
-For example,the "`fuelStationImg` / `fuelStationImg40`" value in the cell corresponds to two icons:
-
--   `fuelStationImg` (40x40, *without* an outline)
--   `fuelStationImg40` (40x40, *with* an outline)
+-   `fuelStationImg` — 40x40, *without* an outline
+-   `fuelStationImg40` — 40x40, *with* an outline
 
 Names of these icons should be used separately.
-
-**NOTE**: Previews of some icons do not have outline. These icons can be seen when on hovering mouse over them. 
 
 
 |  **Preview**                | **Icon 30x30**                | **Icon 40x40**               |
