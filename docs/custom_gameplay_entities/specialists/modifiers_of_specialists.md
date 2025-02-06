@@ -107,11 +107,18 @@ Increases the controllability of the *Drone*.
 -   **droneControllabilityForceRotationIncreasedPercent** – the increase of the rotation speed of the *Drone*, in percents. 
 
 ### DroneScoutRadius
-Increases the exploration radius of the *Drone*. (`TBD`)
+Increases the exploration radius of the *Drone*.
 
--   **droneFullScoutRadiusIncreasedMeters** – the increase of the radius of *full* exploration for the *Drone*, in meters. Full exploration fully identifies POI.  (`TBD`)
+-   **droneFullScoutRadiusIncreasedMeters** – the increase of the radius of *full* exploration for the *Drone*, in meters. Full exploration fully identifies POI.
 
--   **dronePartScoutRadiusIncreasedMeters** – the increase of the radius of *partial* exploration for the *Drone*, in meters. Partial exploration locates new POI, but does not identify them (shows them as "question" marks).  (`TBD`)
+-   **dronePartScoutRadiusIncreasedMeters** – the increase of the radius of *partial* exploration for the *Drone*, in meters. Partial exploration locates new POI, but does not identify them (shows them as "question" marks). 
+  
+The *full* and *partial* exploration areas are displayed as follows:
+
+- Full — the map is fully colored, objects are identified.
+- Partial — the map is colored gray, objects are displayed as question marks.
+
+![](./media/drone_scout.png)
 
 ### EcholotModeAura
 Changes the mechanics of the *Echo Sounder* operation.
@@ -123,20 +130,24 @@ If this modifier is active, the zone of the *Echo Sounder* operation becomes per
 
 -   **echolotStepCountOverride** – the density of *Echo Sounder* visualization marks on the surface of water in the "aura" mode.
 
--   **echolotApplicationAdditionalTime** – `TBD`
+-   **echolotApplicationAdditionalTime** – increase to the duration of *Echo Sounder*, in seconds.
 
 ### EmergencyStockSupplies
-Increases the amount of resources in *Essentials Storage* (`DOUBLE_STOCK`) FOB Module. (`TBD`)
+Increases the amount of resources in *Emergency Stock*, an additional supply of resources that is stored in the track.
 
--   **emergencyStockFuel** – the increase of the *Fuel* in this FOB Module. 
--   **emergencyStockRepairs** – the increase of the *Repair parts* in this FOB Module. 
--   **emergencyStockWheels** – the increase of the *Wheels* in this FOB Module. 
+-   **emergencyStockFuel** – the increase of the *Fuel* in Emergency Stock.. 
+-   **emergencyStockRepairs** – the increase of the number of *Repair parts* in Emergency Stock.
+    -   Specify an integer non-negative value.
+    -   If there are several specialists with this ability, the values ​​are summed up.
+-   **emergencyStockWheels** – the increase of the *Wheels* in Emergency Stock.
+    -   Specify an integer non-negative value.
+    -   If there are several specialists with this ability, the values ​​are summed up. 
 
 ### FogOfWarTranspRadius
 Increases the radius of full exploration around the truck.
 
 -   **fogOfWarRadiusInceasedMeters** – (`TBD`).
--   **fogOfWarTranspRadiusInceasedMeters** – the increase of the full exploration radius around the truck, in meters. 
+-   **fogOfWarTranspRadiusInceasedMeters** – the increase of the partial exploration radius around the truck, in meters.
 
 ### MayDiscoverZones
 Allows the player to discover zones (POI) marked as [discoverable][discoverable] for this [class][class] of the Specialist.
@@ -150,7 +161,7 @@ These zones are discovered within the radius of the *full* exploration of *Binoc
 -   **mayDiscoverZonesByDrone** – option; when enabled, allows the player to identify these zones in the radius of *full* exploration of the *Drone*.
 
 ### TruckDamage
-Reduces damage to various components of the truck. (`TBD`)
+Reduces damage to various components of the truck.
 
 -   **truckDamageEngineReducedPercent** – the decrease of the damage to *Engine*, in percents. Positive integer value.
 -   **truckDamageGearboxReducedPercent** – the decrease of the damage to *Gearbox*, in percents. Positive integer value.
@@ -194,11 +205,11 @@ I.e., the values of these parameters will *not* be summarized.
 
 -   **echolotConeAngle** – the angle of the displayed "cone". 
 
--   **echolotApplicationAdditionalTime** – `TBD`
+-   **echolotApplicationAdditionalTime** – increase to the duration of *Echo Sounder*, in seconds.
 
 
 ### To be described
-Other modifiers exist in the game and in the Editor, but are not described here yet. (`TBD`)
+Other modifiers exist in the game and in the Editor, but are not described here yet.
 
 
 [overview_modifiers]: ./custom_specialists_overview.md#modifiers
