@@ -130,7 +130,7 @@ If this modifier is active, the zone of the *Echo Sounder* operation becomes per
 
 -   **echolotStepCountOverride** – the density of *Echo Sounder* visualization marks on the surface of water in the "aura" mode.
 
--   **echolotApplicationAdditionalTime** – increase to the duration of *Echo Sounder*, in seconds.
+-   **echolotApplicationAdditionalTime** – the increase of the duration of *Echo Sounder*, in seconds.
 
 ### EmergencyStockSupplies
 Increases the amount of resources in *Emergency Stock*, an additional supply of resources that is stored in the track.
@@ -146,7 +146,7 @@ Increases the amount of resources in *Emergency Stock*, an additional supply of 
 ### FogOfWarTranspRadius
 Increases the radius of full exploration around the truck.
 
--   **fogOfWarRadiusInceasedMeters** – (`TBD`).
+-   **fogOfWarRadiusInceasedMeters** – the increase of the full exploration radius around the truck, in meters.
 -   **fogOfWarTranspRadiusInceasedMeters** – the increase of the partial exploration radius around the truck, in meters.
 
 ### MayDiscoverZones
@@ -205,7 +205,7 @@ I.e., the values of these parameters will *not* be summarized.
 
 -   **echolotConeAngle** – the angle of the displayed "cone". 
 
--   **echolotApplicationAdditionalTime** – increase to the duration of *Echo Sounder*, in seconds.
+-   **echolotApplicationAdditionalTime** – the increase of the duration of *Echo Sounder*, in seconds.
 
 
 ### To be described
