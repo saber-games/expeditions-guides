@@ -320,6 +320,7 @@ nav:
             - Consumables: truck_modding/new_features/consumables.md
             - Inventory Slots: truck_modding/new_features/inventory_slots.md
             - Cargo Slots: truck_modding/new_features/cargo_slots.md
+            - Wheeled Drones: truck_modding/new_features/wheeled_drones.md
         - General Info:
             - Organization of Files:
                 - File Naming: truck_modding/general_info/organization_of_files/file_naming.md
