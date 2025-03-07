@@ -36,3 +36,4 @@ You can add battery charge to:
 
     ![addons root bone](./media/electricity_img_3.png)
 
+- The metal detector's configuration — the `MudRunner2\prebuild\PS\game\addon_mechanics\metal_detector_controller_exp.sso` file, parameter **electricityConsumption**.
