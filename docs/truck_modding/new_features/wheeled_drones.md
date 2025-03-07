@@ -1,6 +1,8 @@
 # Wheeled Drones
 
-*(NEW) This feature is valid for Expeditions only.*
+!!! info
+
+    This feature is valid for Expeditions only.
 
 **Wheeled drones** (Unmanned Ground Vehicle or UGV) are a type of transport available in Expeditions starting from Season 2.
 
