@@ -39,8 +39,8 @@ The horn addon’s functionality is similar to other addons in terms of content.
 
 ![Horn base addon](./media/honk_addon_structure_1.png)
 
-1. w
-2. w
-    1. w
-    2. w
-3. w
+ 1. List item  
+  1.1 List item  
+  1.2. List item
+  3. s
+ 2. s
