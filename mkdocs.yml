@@ -322,6 +322,7 @@ nav:
             - Cargo Slots: truck_modding/new_features/cargo_slots.md
             - Wheeled Drones: truck_modding/new_features/wheeled_drones.md
             - Electricity: truck_modding/new_features/electricity.md
+            - Horns: truck_modding/new_features/horns.md
         - General Info:
             - Organization of Files:
                 - File Naming: truck_modding/general_info/organization_of_files/file_naming.md
