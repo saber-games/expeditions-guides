@@ -30,17 +30,12 @@ Note that **the base addon itself does not contain any references to sound files
 
 The horn addon’s functionality is similar to other addons in terms of content. The key differences include:
 
-- **1** `Category="honk"` — the value that assigns the addon to the **Horns** section within the **Decorations** menu in **Garage**.
-- **2** `<Honk ...>` — the field for specifying the horn's sound path and parameters. It includes the following:
-    - **2.1** `Name="..."` — the path to the sound file stored in the `\MudRunner2\Media\sounds\...` directory. **Important:** The required sound file must be stored somewhere within the `\Media\sounds` folder, but it can be located in any subdirectory inside it.
-    - **2.2** `Range="..."` — the radius of the horn sound signal (in meters from center of the vehicle's coordinates). Only applicable in *cooperative mode*.
-    - **2.3** `Volume="..."` — the volume at which the horn sound is played to other players. Only applicable in *cooperative mode*.
-- **3** `InstallSocket` — the horn addon socket to which the addon is "attached" in the vehicle's XML file.
+ 1. `Category="honk"` — the value that assigns the addon to the **Horns** section within the **Decorations** menu in **Garage**.  
+ 2. `<Honk ...>` — the field for specifying the horn's sound path and parameters. It includes the following:  
+   2.1 `Name="..."` — the path to the sound file stored in the `\MudRunner2\Media\sounds\...` directory. **Important:** The required sound file must be stored somewhere within the `\Media\sounds` folder, but it can be located in any subdirectory inside it.  
+   2.2 `Range="..."` — the radius of the horn sound signal (in meters from center of the vehicle's coordinates). Only applicable in *cooperative mode*.  
+   2.3 `Volume="..."` — the volume at which the horn sound is played to other players. Only applicable in *cooperative mode*.
+ 3. `InstallSocket` — the horn addon socket to which the addon is "attached" in the vehicle's XML file.
 
 ![Horn base addon](./media/honk_addon_structure_1.png)
 
- 1. List item  
-  1.1 List item  
-  1.2. List item
-  3. s
- 2. s
