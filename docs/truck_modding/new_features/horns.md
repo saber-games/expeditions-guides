@@ -38,3 +38,9 @@ The horn addon’s functionality is similar to other addons in terms of content.
 - **3** `InstallSocket` — the horn addon socket to which the addon is "attached" in the vehicle's XML file.
 
 ![Horn base addon](./media/honk_addon_structure_1.png)
+
+1. w
+2. w
+      1. w
+      2. w
+3. w
