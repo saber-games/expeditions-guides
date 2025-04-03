@@ -108,6 +108,14 @@ The final set of settings here will look like the following:
 
 **NOTE 2**: The MBS properties linked to obtaining items in the [`takeInventory`][takeinventory] stage are specified in a similar way. And, in SnowRunner, [Model Building Settings for CargoLoading zones][mbs_for_cargo_loading_zones] work similarly.
 
+### Triggering Model Stage Changes
+
+`ZonePropertyModelAnimationTrigger` is a prop that allows triggering model stage changes independently from quests. Thus, a script zone on the map can activate animations, construction, and FX effects without requiring a quest. 
+
+The setup of this prop is similar to [`objectConstruction`][objectconstruction].
+
+![](./media/ZonePropertyModelAnimationTrigger_1.png)
+
 
 [initial_pak]: ./../../../getting_started/file_paths_and_naming/file_paths.md#source-of-info-initialpak-archive
 [inventory_item]: ./../../../../custom_gameplay_entities/inventory_items/custom_inventory_items_overview.md
