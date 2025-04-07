@@ -43,7 +43,7 @@ Types of rewards that can be added to this list are the following:
 
             **NOTE**: The zone with the specified identifier (**zoneId**) should exist on the map.
 
-    -   **zoneSettingsToRemove** – The list of zone records where the props will be *removed*. Every record in this list corresponds to the particular zone and contains settings of the **ZonePropertiesSettingsObjectiveReward** type. If multiple records are added to this list, props will be removed from multiple zones.  
+    -   **zoneSettingsToRemove** <a id="remove_props"></a>– The list of zone records where the props will be *removed*. Every record in this list corresponds to the particular zone and contains settings of the **ZonePropertiesSettingsObjectiveReward** type. If multiple records are added to this list, props will be removed from multiple zones.  
     For every zone record, you need to specify:
 
         -   **zoneId** – The identifier of the existing zone, in the short form, without the name of the map and without `||` as a delimiter. For example, `my_zone_01`.
@@ -135,7 +135,9 @@ The types of bonus rewards themselves are the following:
 
 ## Stage Rewards
 
-You can open gates as rewards, see details [above](#open_zone).
+You can **open** the particular zone to the player **as a reward**. It is possible to specify the properties of this new zone, see the details [above](#open_zone).
+
+Also you can **remove** properties from the particular zone, with all the settings within these properties. See the details [above](#remove_props).
 
 
 [objectives_overview]: ./../objectives_overview.md
