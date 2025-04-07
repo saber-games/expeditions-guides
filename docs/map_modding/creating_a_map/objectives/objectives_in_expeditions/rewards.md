@@ -17,7 +17,7 @@ Types of rewards that can be added to this list are the following:
 
 -   **ObjectveRewardAddItemsToZone** – *(Not used in Expeditions; To be deleted)* Should not be used in *Expeditions*, will be removed. In *SnowRunner*, as a reward, adds some Cargo to the particular zone. (`TBD`)
 
--   **ObjectiveRewardOpenZonePropertes** – As a reward, opens the particular zone to the player, allowing you to specify the properties of this new zone. The zone locator for this zone needs to be created for this zone beforehand.  
+-   **ObjectiveRewardOpenZonePropertes** <a id="open_zone"></a> – As a reward, opens the particular zone to the player, allowing you to specify the properties of this new zone. The zone locator for this zone needs to be created for this zone beforehand.  
     This reward has the following settings: 
     
     -   **ZoneSettings** – The list of zone records that will be opened as a reward. Every record in this list corresponds to the particular zone and contains settings of the **ZonePropertiesSettingsObjectiveReward** type. If multiple records are added to this list, multiple zones will be opened as a reward. For every zone record, you need to specify:
@@ -132,6 +132,10 @@ The types of bonus rewards themselves are the following:
 -   **BonusConditionNoRecovery** – This reward is given when the number of times the player recovers their truck is less than the specified **limit**.
 
 -   **BonusConditionTireInflation** – This reward is given when the *amount of damage* taken due to the usage of [*Tire Inflation System*][tire_inflation_system] is less than the specified **limit**.
+
+## Stage Rewards
+
+You can open gates as rewards, see details [above](#open_zone).
 
 
 [objectives_overview]: ./../objectives_overview.md
