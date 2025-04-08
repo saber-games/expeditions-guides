@@ -17,7 +17,7 @@ Types of rewards that can be added to this list are the following:
 
 -   **ObjectveRewardAddItemsToZone** – *(Not used in Expeditions; To be deleted)* Should not be used in *Expeditions*, will be removed. In *SnowRunner*, as a reward, adds some Cargo to the particular zone. (`TBD`)
 
--   **ObjectiveRewardOpenZonePropertes** – As a reward, opens the particular zone to the player, allowing you to specify the properties of this new zone. The zone locator for this zone needs to be created for this zone beforehand.  
+-   **ObjectiveRewardOpenZonePropertes** <a id="open_zone"></a>– As a reward, opens the particular zone to the player, allowing you to specify the properties of this new zone. The zone locator for this zone needs to be created for this zone beforehand.  
     This reward has the following settings: 
     
     -   **ZoneSettings** – The list of zone records that will be opened as a reward. Every record in this list corresponds to the particular zone and contains settings of the **ZonePropertiesSettingsObjectiveReward** type. If multiple records are added to this list, multiple zones will be opened as a reward. For every zone record, you need to specify:
@@ -30,7 +30,7 @@ Types of rewards that can be added to this list are the following:
 
             **NOTE**: You need to create a *zone locator* with the specified identifier (**zoneId**) for this zone in the Editor beforehand.
 
--   **ObjectiveRewardUpdateZoneProperties** – As a reward, dynamically changes the properties of the particular zone(s). 
+-   **ObjectiveRewardUpdateZoneProperties** <a id="update_zone"></a>– As a reward, dynamically changes the properties of the particular zone(s). 
 
     -   **ZoneSettings** – The list of zone records where the props will be *added*. Every record in this list corresponds to the particular zone and contains settings of the **ZonePropertiesSettingsObjectiveReward** type. If multiple records are added to this list, props will be added to multiple zones.  
     For every zone record, you need to specify:
@@ -43,7 +43,7 @@ Types of rewards that can be added to this list are the following:
 
             **NOTE**: The zone with the specified identifier (**zoneId**) should exist on the map.
 
-    -   **zoneSettingsToRemove** – The list of zone records where the props will be *removed*. Every record in this list corresponds to the particular zone and contains settings of the **ZonePropertiesSettingsObjectiveReward** type. If multiple records are added to this list, props will be removed from multiple zones.  
+    -   **zoneSettingsToRemove** <a id="remove_props"></a>– The list of zone records where the props will be *removed*. Every record in this list corresponds to the particular zone and contains settings of the **ZonePropertiesSettingsObjectiveReward** type. If multiple records are added to this list, props will be removed from multiple zones.  
     For every zone record, you need to specify:
 
         -   **zoneId** – The identifier of the existing zone, in the short form, without the name of the map and without `||` as a delimiter. For example, `my_zone_01`.
@@ -132,6 +132,17 @@ The types of bonus rewards themselves are the following:
 -   **BonusConditionNoRecovery** – This reward is given when the number of times the player recovers their truck is less than the specified **limit**.
 
 -   **BonusConditionTireInflation** – This reward is given when the *amount of damage* taken due to the usage of [*Tire Inflation System*][tire_inflation_system] is less than the specified **limit**.
+
+## Stage Rewards
+
+Stage rewards provide the ability to interact with props during the expedition. The stage reward duplicates the list of expedition rewards, but they get available only upon completing the stage.
+
+
+For example, if you want to provide a transition zone during the quest, you can do it with the help of the stage reward.
+
+- You can **open** the particular zone to the player **as a reward** (`ObjectiveRewardOpenZonePropertes`). It is possible to specify the properties of this new zone, see the details [above](#open_zone).
+- You can **change** the properties of the particular zone(s) (`ObjectiveRewardUpdateZoneProperties`). See the details [above](#update_zone).
+- Also you can **remove** properties from the particular zone, with all the settings within these properties (`zoneSettingsToRemove`). See the details [above](#remove_props).
 
 
 [objectives_overview]: ./../objectives_overview.md
