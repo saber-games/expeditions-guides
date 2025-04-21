@@ -6,20 +6,22 @@
 
 **FOB Module Zones** are the areas where players can build modules. Add zones to the scene, so players are able to build any kind of modules: *common* modules (parking zones, service stations, etc.), or *custom* modules with unique parameters.
 
-Each FOB Module Zone requires a *Placement Zone* and an *Interaction Zone*. They are mapped to a [Deploy zone][deploy] in this zone's `ZonePropertyDeploy > fobModulesZones`. This configuration is set in the **Zone settings** menu.
+Each FOB Module Zone requires a **Placement Zone** and an **Interaction Zone**. They are mapped to a [Deploy zone][deploy] in this zone's `ZonePropertyDeploy > fobModulesZones`. This configuration is set in the **Zone settings** menu.
 
 ![](./media/fob_module_1.png)
 
-Custom module zones allow you to set specific parameters of this zone: for example, you can define the items in stock and their amount. A custom module also requires a *Placement Zone* and an *Interaction Zone*. In addition, you need to prepare a custom MOD for players to build in one of the FOB Module Zones. To do so, you must [create a MOD][creation_of_custom_fob_module] from the **EXP MODs creation** menu. The properties of the FOB Modules are assigned in `zoneProperty` of the MOD.
+Custom module zones allow you to set specific parameters of this zone: for example, you can define the items in stock and their amount. A custom module also requires a **Placement Zone** and an **Interaction Zone**. In addition, you need to prepare a custom MOD for players to build in one of the FOB Module Zones. To do so, you must [create a MOD][creation_of_custom_fob_module] from the **EXP MODs creation** menu. The properties of the FOB Modules are assigned in `zoneProperty` of the MOD.
 
 ![](./media/fob_module_2.png) 
 
 **NOTE**: The props of FOB Module Zones (listed below) must be used only for configuring custom FOB Modules. Do not assign these props to common standalone zones. If you do it, this might cause a crash.
 
 ## moduleId field
-Some zones of FOB modules have an addittional field – **moduleId**. In this field, you need to specify the [*identifier*][fob_module_identifier] of the *custom FOB module* to link this zone to this FOB module. 
+Some zones of FOB modules have an addittional field – **moduleId**. In this field, you need to specify the [*identifier*][fob_module_identifier] of the *custom FOB module* to link this zone to this FOB module.
 
-I.e., in the **moduleId** field you need to specify exactely the same value as you have specified in the **name** field in the [general properties][fob_module_identifier] of this custom FOB module.
+To access the **moduleId** field and make it function in the game, add the `ZonePropertyFOBModuleDefault` property to your FOB Module Zone. **Without this property the FOB will not work**.
+
+I.e., in the **moduleId** field you must specify *the same value* as you have specified in the **name** field in the [general properties][fob_module_identifier] of this custom FOB module.
 
 
 ## Identifiers and Zones of Original In-Game FOB Modules
