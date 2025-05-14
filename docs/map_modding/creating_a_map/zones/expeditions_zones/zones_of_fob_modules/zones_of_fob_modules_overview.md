@@ -43,6 +43,7 @@ Below is the list of original in-game FOB modules, their identifiers, and zones 
 | *Service station*     | SERVICE_STATION     | ZonePropertyServiceStation   | [Service Station zones](./service_station_zones.md) |
 | *Cargo drone*         | DRONE_BASE          | ZonePropertyDroneDelivery    | [Drone Delivery zones](./drone_delivery_zones.md) |
 | *Helipad*             | HELICOPTER          | ZonePropertyHelicopter       | [Helicopter zones](./helicopter_zones.md) |
+| *Generator*           | GENERATOR           | ZonePropertyGenerator        | [Generator zones](./generator_zones.md) |
 | *Intelligence center* | ANTENNA             | N/A                          | N/A                |
 
 **NOTE**: The *Intelligence center* FOB Module (`ANTENNA`) is configured without the zone. I.e., for this type of the FOB module the **zoneProperty** field is set to `null` and not specified.
