@@ -11,6 +11,8 @@ This property is used in the *Generator* (GENERATOR) [FOB module zone](./zones_o
 
 The *ZonePropertyGenerator* prop is a wrapper over the [*ZonePropertyInventoryStorage*](./../inventory_storage_zones.md) prop that allows you to configure a storage for fuel, repair parts, spare wheels and various inventory items.
 
+The generator's **radius** (signal range) is set in the module model's XML file. See the `<GameData SignalRadius="100.0"/>` line — in this case `100.0` is the radius, in meters. Refer to the `fob_module_generator_big` file in the project for sample settings.
+
 Settings of the `ZonePropertyGenerator` prop:
 
 - **Exchange rate of a unit of fuel to a unit of electricity** — the number of liters of fuel required to convert into one unit of electricity.
