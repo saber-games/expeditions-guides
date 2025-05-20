@@ -156,7 +156,29 @@ The fields related to all possible abilities can be found below.
 
     **NOTE**: The intermediate depths corresponding to yellow and orange arrows are determined automatically, using **safeHeight** as the upper limit and the **dangerousHeight** as the lower limit. 
 
--   **duration** – the duration of the visual effect of the echo sounder, in seconds. The echo sounder cannot be used again until the visual effect disappears. 
+-   **duration** – the duration of the visual effect of the echo sounder, in seconds. The echo sounder cannot be used again until the visual effect disappears.
 
+## GPS Tracker
+
+A **GPS tracker** can be placed in [Inventory](./../../truck_modding/new_features/inventory_slots.md). When the expedition is completed, all items from the Inventory are sold.
+
+A GPS tracker is based on [`InventoryItemDesc`](./creation_of_custom_inventory_item.md#classes-of-inventory-items). It has no additional settings — this item can use only standard settings that are common to all items (see the properties above).
+
+For proper GPS tracker functioning, make sure to set the appropriate type:
+
+- Type — `GPS_TRACKER`
+
+## Signal Amplifier
+
+A **Signal Amplifier** generates a **signal zone** around itself for [Wheeled Drones](./../../truck_modding/new_features/wheeled_drones.md). An amplifier must be installed on a flat surface.
+
+The signal zone radius is set in the model's XML file, which is used for the item in the line `SignalRadius="100.0"`. Refer to the `signal_amplifier_dlc06.xml` file in the project for sample settings.
+
+A signal amplifier is based on [`InventoryItemDescAnchor`](./creation_of_custom_inventory_item.md#inventoryitemdescanchor). It has no additional settings — this item can use only standard settings that are common to all items (see the properties above).
+
+For proper signal amplifier functioning, make sure to set the following:
+
+- Type — `SIGNAL_AMPLIFIER_SETUP` 
+- Required Ability type — `SIGNAL_AMPLIFIER`
 
 [models_of_fob_modules]: ./../fob_modules/3d_models_of_fob_modules.md#location-of-model-files

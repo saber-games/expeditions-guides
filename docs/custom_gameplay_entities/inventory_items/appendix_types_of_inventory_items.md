@@ -61,6 +61,8 @@ And, also, [identifiers](#identifiers) of some items that have the same **type**
 | Flowers                     | UNIQUE_FLOWERS               | -            | +          | -             | -     |
 | Camcorder                   | VIDEO_CAMERA                 | -            | +          | -             | -     |
 | Water Sample                | WATER_ANALYZIS               | -            | +          | -             | -     |
+| GPS Tracker                 | GPS_TRACKER                  | -            | -          | -             | -     |
+| Signal Amplifier            | SIGNAL_AMPLIFIER_SETUP       | -            | +          | -             | -     |
 
 **NOTE 3**: *Fuel*, *Repair parts*, and *Spare wheels* are not Inventory Items from the modding perspective, see [Custom Inventory Items: Overview](./custom_inventory_items_overview.md#note-on-fuel-repair-parts-and-spare-wheels).
 
