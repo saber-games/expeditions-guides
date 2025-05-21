@@ -207,6 +207,64 @@ I.e., the values of these parameters will *not* be summarized.
 
 -   **echolotApplicationAdditionalTime** – the increase of the duration of *Echo Sounder*, in seconds.
 
+### EmergencyWinch
+
+Allows you to use the winch even when the truck's engine is off but not broken (e.g., if the truck flipped on its side, the engine stalled, etc.)
+
+- **winchFuelPerSecond** — set the fuel consumption (in liters per second) during the winch operation. 
+
+### RepairBuildingConsumption
+
+Reduces the number of spare parts that are required for repairing bridges and clearing debris.
+
+- **repairBuildingConsumptionReducedPercent** — set the percentage reduction in spare parts required for bridge repairs and debris removal.
+
+### droneMaxSpeed 
+
+Increases the speed of flying drones.
+
+- **droneMaxSpeedInceasedPercent** — set the percentage increase of the flying drone's `maxSpeed` value.
+
+### ImproveWinchedTruck
+
+When a player winches a vehicle that has no driver, the towed vehicle becomes more powerful.
+
+- **EngineResponsivenessIncreasedPercent** — increases the parameter that controls engine start delay and acceleration speed.
+- **TorqueIncreasedPercent** — increases engine torque.
+- **FuelConsumptionReducedPercent** — decreases the fuel consumption.
+- **OnModelFrectionIncreasedPercent** — increases the coefficient of resistance for all surfaces that do not have their own separate coefficient of resistance (not higher than 10%).
+- **BodyFrictionAsphaltIncreasedPercent** — increases the coefficient of resistance for stones (not higher than 10%).
+- **SubstanceFrictionIncerasedPercent** — increases the coefficient of resistance for mud (not higher than 10%).
+- **BodyFrictionIncreasedPercent** — increases the coefficient of resistance for terrain (not higher than 10%).
+
+### echolotModeSnow
+
+The echo sounder can measure the depth of snow.
+
+- **echolotModeSnowRadiusOverrideMeters** — set the echo sounder's operational radius in this mode, in meters.
+- **echolotModeSnowStepOverrideCount** — set the density of snow depth measurement points in this echo sounder mode.
+
+### wheelDroneZone
+
+Increases the radius of all coverage zones on the map by the specified percentage.
+
+- **wheelDroneZoneIncreasedPercent** — set the percentage by which the zones should be increased.
+
+### wheelDroneFriction
+
+Increases the coefficient of the [wheeled drone's](./../../truck_modding/new_features/wheeled_drones.md) wheel grip.
+
+- **wheelDroneOnModelFrictionIncrecedPercent** — set the percentage increase of the `OnModelFriction` parameter.
+- **wheelDroneBodyFrictionAsphaltIncrecedPercent** — set the percentage increase of the `BodyFrictionAsphalt` parameter.
+- **wheelDroneSubstanceFrictionIncrecedPercent** — set the percentage increase of the `SubstanceFriction` parameter.
+- **wheelDroneBodyFrictionIncrecedPercent** — set the percentage increase of the `BodyFriction` parameter.
+
+### wheelDroneScoutRadius 
+
+Increases the scouting range (radius) of the wheeled drone.
+
+- **wheelDroneFullScoutRadiusIncreasedMeters** — set the increase (in meters) for the **full** scouting range of the wheeled drone. 
+- **wheelDronePartScoutRadiusIncreasedMeters** — set the increase (in meters) for the **partial** scouting range of the wheeled drone.   
 
 ### To be described
 Other modifiers exist in the game and in the Editor, but are not described here yet.
