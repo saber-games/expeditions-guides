@@ -24,7 +24,7 @@ They are the following:
     -   `OPERATOR`
     -   `MANAGER`
 
-    **WARNING**: You must not select the `NONE` class in the **speciality** field. Specialists with the `NONE` class will crash the game. 
+    **WARNING**: You must not select the `NONE` class in the **speciality** field. Specialists with the `NONE` class will crash the game!
 
 -   **cost** – The cost of hiring this Specialist.
 -   **isLocked** – Whether or not this Specialist is locked. Locked specialists may be unlocked using a special reward granted after accomplishing the particular objective. See [Rewards][rewards] for details.
