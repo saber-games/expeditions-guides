@@ -27,9 +27,6 @@ However, this scheme does not work for all parameters with **...Reduced** suffix
 
 ## List of Possible Modifiers
 
-### Base
-`SpecialistModifierBase` is a base class of modifiers. It will be hidden. (`TBD`)
-
 ### AdditionalTreasureItems
 Increases the amount of [Treasure Items][treasure_items] in the resource zones. 
 
