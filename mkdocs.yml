@@ -325,6 +325,7 @@ nav:
             - Wheeled Drones: truck_modding/new_features/wheeled_drones.md
             - Electricity: truck_modding/new_features/electricity.md
             - Horns: truck_modding/new_features/horns.md
+            - Engine Cut-off on Rollover: truck_modding/new_features/engine_cut_off_on_rollover.md
         - General Info:
             - Organization of Files:
                 - File Naming: truck_modding/general_info/organization_of_files/file_naming.md
