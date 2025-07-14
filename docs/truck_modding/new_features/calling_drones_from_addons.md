@@ -24,6 +24,9 @@ To link modules and add-ons with a specific drone:
 
 1. Set the `HasWheelDrone` parameter in the `<TruckData>` block of the module or add-on.
 2. Add the new `WheelDroneType` parameter with a value matching the required wheeled drone:
-   - **CR-G0** — `drone_cargo`
-   - **4-NCR** — `drone_anchor`
-   - **SCT-6** — `drone_scout`
+
+| Drone | Value |
+|-------------|-------------|
+| **CR-G0** | `drone_cargo` |
+| **4-NCR** | `drone_anchor` |
+| **SCT-6** | `drone_scout` |
