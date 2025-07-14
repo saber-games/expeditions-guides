@@ -326,6 +326,7 @@ nav:
             - Electricity: truck_modding/new_features/electricity.md
             - Horns: truck_modding/new_features/horns.md
             - Engine Cut-off on Rollover: truck_modding/new_features/engine_cut_off_on_rollover.md
+            - Engine Torque Multiplier During Towing: truck_modding/new_features/engine_torque_multiplier_during_towing.md
         - General Info:
             - Organization of Files:
                 - File Naming: truck_modding/general_info/organization_of_files/file_naming.md
