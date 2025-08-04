@@ -263,6 +263,41 @@ Increases the scouting range (radius) of the wheeled drone.
 - **wheelDroneFullScoutRadiusIncreasedMeters** — set the increase (in meters) for the **full** scouting range of the wheeled drone. 
 - **wheelDronePartScoutRadiusIncreasedMeters** — set the increase (in meters) for the **partial** scouting range of the wheeled drone.   
 
+### electricityConsumption
+
+Reduces electricity consumption from various sources.
+
+- **wheelDroneElectricityConsumptionReducedPercent** — specifies the percentage by which the electricity consumption for wheeled drones is reduced.
+- **wheelDroneAbilityElectricityConsumptionReducedPercent** — specifies the percentage by which the electricity cost of activating drone abilities is reduced (the *anchor* mode for the anchor drone and the *radar* mode for the reconnaissance drone).
+- **metaldetectorElectricityConsumptionReducedPercent** — specifies the percentage by which the Metal detector's power consumption is reduced.
+- **radarElectricityConsumptionReducedPercent** — specifies the percentage by which the Radar frame module power consumption is reduced.
+
+### wheelDroneTorque
+
+Increases the drone's torque.
+
+- **wheelDroneTorqueIncreasedPercent** — specifies the percentage by which the wheeled drones' torque value is increased.
+
+### wheelDroneArmor
+
+Increases the durability of wheeled drone components, using the mechanics identical to truck armor.
+
+- **wheelDroneArmorEngineIncreasedPercent** — specifies the percentage of the maximum durability of the wheeled drone's engine.
+- **wheelDroneArmorBatteryIncreasedPercent** — specifies the percentage of the maximum durability of the wheeled drone's battery.
+- **wheelDroneArmorSuspencionIncreasedPercent** — specifies the percentage of the maximum durability of the wheeled drone's suspension.
+
+### wheelDroneArmorRestoreEverywhere
+
+Allows to repair drone armor anywhere.
+
+### AdditionalTreasureItems 
+
+Spawns a special valuable item in one of the airdrops on the map. A player can sell this item later.
+
+- **additionalItem** — specifies parameters for the item to be spawned in an airdrop.
+  - **type** — item type
+  - **itemName** — item ID
+
 ### To be described
 Other modifiers exist in the game and in the Editor, but are not described here yet.
 
