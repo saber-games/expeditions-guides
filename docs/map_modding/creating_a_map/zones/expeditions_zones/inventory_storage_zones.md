@@ -1,6 +1,6 @@
 # Inventory Storage zones
 
-*(NEW) This feature is valid for Expeditions only.*
+*This feature is valid for Expeditions only.*
 
 **NOTE**: In the current version of the game, Inventory Storage zones are not shown, even when **alwaysSpawn** option is set to `true`. This is a known issue that will be fixed.
 
@@ -26,7 +26,9 @@ These zones are used in all locations where storage and trading of inventory ite
 ## ZonePropertyInventoryStorage Prop Settings
 Settings of the *ZonePropertyInventoryStorage* prop themself (without wrappers) are the following:
 
--   **capacity** – the maximum amount of slots for *regular (not heavy)* inventory items in this zone. If **capacity** is greater than the actual amount of slots with *regular* inventory items (the number of records with *regular* inventory items in the **slotsSettings** list), the remaining slots will remain empty, allowing the player to use them to transfer items from the truck. 
+-   **capacity** – the maximum amount of slots for *regular (not heavy)* inventory items in this zone. If **capacity** is greater than the actual amount of slots with *regular* inventory items (the number of records with *regular* inventory items in the **slotsSettings** list), the remaining slots will remain empty, allowing the player to use them to transfer items from the truck.
+
+    **NOTE**: When adding an inventory zone, make sure to change the default capacity, which is set to `0`. If the capacity is set to `0`, the inventory will not be displayed in the zone even if the items are properly configured.
 
 -   **heavylnvCapacity** – the maximum amount of slots for *heavy* inventory items in this zone. If **heavylnvCapacity** is greater than the actual amount of slots with *heavy* inventory items (the number of records with *heavy* inventory items in the **slotsSettings** list), the remaining slots will remain empty, allowing the player to use them to transfer items from the truck.
 
@@ -60,6 +62,7 @@ Settings of the *ZonePropertyInventoryStorage* prop themself (without wrappers) 
             -   *[every possible item]*:
                 -   **type** – the type of the possible item to be spawned. See [Custom Inventory Items: Overview](./../../../../custom_gameplay_entities/inventory_items/custom_inventory_items_overview.md#type) and [Appendix: Types of Inventory Items](./../../../../custom_gameplay_entities/inventory_items/appendix_types_of_inventory_items.md).
                 -   **chance** – the probability of spawning of this inventory item. Possible values: from `0` to `1`. For example, `0.75` corresponds to `75%` probability of spawning.
+                **NOTE**: By default, the chance of spawning an item is set to `0`.
                 -   **itemName** – *(Optional)* the identifier of the inventory item. For example, *Anchor* and *Removable Anchor* have the same **type** and can be distinguished only by their [identifiers](./../../../../custom_gameplay_entities/inventory_items/appendix_types_of_inventory_items.md#identifiers). The identifier of the *custom* inventory item can be also specified here, if you want to use it as a [linked mod][linked_mods]. If this identifier is not specified, the game will use any item with the specified **type** instead.
 
                 **NOTE 1**: If the total number of slots with regular/heavy items in **slotsSettings** will be greater than corresponding values of **capacity** and **heavylnvCapacity**, then the list of slots will be automatically cut to match these values.
