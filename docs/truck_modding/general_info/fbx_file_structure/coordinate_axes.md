@@ -35,6 +35,3 @@ Moreover, after exporting, when you will be specifying truck properties in XML, 
 
 **TIP**: For details on the recommended process of exporting from Blender, see [Step 2: Exporting to FBX](./../../getting_started/simple_truck_mod_from_scratch/step_2_exporting_to_fbx.md) of the [Simple Truck Mod from Scratch](./../../getting_started/simple_truck_mod_from_scratch/overview.md) tutorial.
 
-
-
-
